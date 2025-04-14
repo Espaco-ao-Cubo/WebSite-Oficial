@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TEXT" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 792">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #5a8797;
+      }
+
+      .cls-2 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-4 {
+        font-family: FuturaBT-Medium, 'Futura Md BT';
+        font-size: 148.69px;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="288.75" y1="466.73" x2="675.77" y2="466.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".97" stop-color="#5a8797"/>
+    </linearGradient>
+  </defs>
+  <text class="cls-4" transform="translate(111.64 442.22)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan class="cls-1" x="60.7" y="0">ejo</tspan><tspan class="cls-3" x="269.8" y="0">One</tspan></text>
+  <rect class="cls-1" x="249.54" y="458.87" width="32.78" height="15.72"/>
+  <rect class="cls-5" x="299.91" y="458.87" width="375.85" height="15.72"/>
+</svg>
