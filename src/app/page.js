@@ -12,7 +12,7 @@ export default function Home() {
       <MissionSection />
       <ProjectsPreview />
       <BlogPreview />
-      {/* <SponsorGrid /> */}
+      <SponsorGrid />
     </>
   )
 }

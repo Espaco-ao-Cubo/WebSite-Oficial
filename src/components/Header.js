@@ -5,9 +5,10 @@ export default function Header({ className = '' }) {
     <header
       className={`fixed top-0 left-0 w-full z-50 bg-black bg-opacity-90 text-white p-4 shadow-md ${className}`}
     >
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <img src="/images/logo.png" alt="Logo" className="h-14 w-auto" />
-
+      <div className="max-w-8xl mx-auto flex justify-between items-center">
+        <Link href="/" className="flex items-center">
+          <img src="/images/logo.png" alt="Logo" className="h-14 w-auto" />
+        </Link>
         <nav className="flex gap-6 text-sm md:text-base">
           <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
           <Link href="/tejoone" className="hover:text-blue-400 transition-colors">TejoOne</Link>
