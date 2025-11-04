@@ -1,73 +1,90 @@
 'use client'
 
-import ProfileCard from '../../reactbits/ProfileCard'
+import { useState, useEffect } from 'react'
+import ProfileCard from '@/components/ProfileCard'
+import teamData from '@/data/teamMembers.json'
 
 export default function TeamSection() {
-  const teamMembers = [
-    {
-      name: 'João Silva',
-      role: 'Project Lead',
-      bio: 'Engenheiro Aeroespacial com paixão por satélites',
-      image: '/images/team/sherek.png', // Add your image
-      email: 'joao@espacoaocubo.pt',
-      linkedin: 'https://linkedin.com/in/joaosilva',
-      github: 'https://github.com/joaosilva',
-    },
-    {
-      name: 'Maria Santos',
-      role: 'Communications Subsystem',
-      bio: 'Especialista em sistemas de comunicação espacial',
-      image: '/images/team/sherek.png',
-      email: 'maria@espacoaocubo.pt',
-      linkedin: 'https://linkedin.com/in/mariasantos',
-    },
-    {
-      name: 'Pedro Costa',
-      role: 'Power Systems',
-      bio: 'Responsável pelos sistemas de energia e baterias',
-      image: '/images/team/sherek.png',
-      email: 'pedro@espacoaocubo.pt',
-      linkedin: 'https://linkedin.com/in/pedrocosta',
-      github: 'https://github.com/pedrocosta',
-    },
-    {
-      name: 'Ana Rodrigues',
-      role: 'ADCS Engineer',
-      bio: 'Engenheira de controlo de atitude e órbita',
-      image: '/images/team/sherek.png',
-      email: 'ana@espacoaocubo.pt',
-      linkedin: 'https://linkedin.com/in/anarodrigues',
-    },
-  ]
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
+
+  // Contador global para o index dos cards
+  let globalCardIndex = 0
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
-      <div className="container mx-auto px-6 lg:px-16 xl:px-24">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            A Nossa Equipa
+    <section className="min-h-screen pt-32 pb-20 px-4 bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a]">
+      <div className="max-w-7xl mx-auto w-full">
+        {/* Header */}
+        <div className={`text-center mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <div className="inline-block mb-4">
+            <span className="text-[#9cc5ad] text-sm font-semibold tracking-wider uppercase bg-[#9cc5ad]/10 px-4 py-2 rounded-full border border-[#9cc5ad]/30">
+              A Nossa Equipa
+            </span>
+          </div>
+          <h2 className="text-6xl md:text-7xl font-bold text-white mb-4 bg-gradient-to-r from-white via-[#9cc5ad] to-white bg-clip-text text-transparent">
+            Conhece a Equipa
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Conheça os estudantes e investigadores que estão a tornar o TejoOne uma realidade
-          </p>
         </div>
 
-        {/* Team Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <ProfileCard
-  name="Javi A. Torres"
-  title="Software Engineer"
-  handle="javicodes"
-  status="Online"
-  contactText="Contact Me"
-  avatarUrl="/images/team/sherek.jpg"
-  showUserInfo={true}
-  enableTilt={true}
-  enableMobileTilt={false}
-  onContactClick={() => console.log('Contact clicked')}
-/>
-        </div>
+        {/* Teams */}
+        {teamData.teams.map((team, teamIndex) => (
+          <div key={team.id}>
+            <div 
+              className={`mb-24 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: `${teamIndex * 200}ms` }}
+            >
+              {/* Team Header */}
+              <div className="mb-12">
+                <h3 className="text-4xl md:text-5xl font-bold text-white mb-3">
+                  {team.name}
+                </h3>
+                <p className="text-[#9cc5ad]/70 text-lg">
+                  {team.description}
+                </p>
+                <div className="h-1 w-32 bg-gradient-to-r from-[#9cc5ad] to-transparent mt-4"></div>
+              </div>
+
+              {/* Departments */}
+              {team.departments.map((department) => (
+                <div key={department.id} className="mb-16">
+                  {/* Department Header */}
+                  <div className="mb-8">
+                    <h4 className="text-2xl md:text-3xl font-bold text-[#9cc5ad] mb-2">
+                      {department.name}
+                    </h4>
+                  </div>
+
+                  {/* Members Grid */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {department.members.map((member, memberIndex) => {
+                      const currentIndex = globalCardIndex++
+                      return (
+                        <ProfileCard 
+                          key={currentIndex} 
+                          member={member} 
+                          index={currentIndex}
+                          positionInRow={memberIndex}
+                        />
+                      )
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Divisor entre equipas (exceto na última) */}
+            {teamIndex < teamData.teams.length - 1 && (
+              <div className="mb-32 flex items-center justify-center">
+                <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#9cc5ad]/30 to-transparent"></div>
+                <div className="mx-8">
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </section>
   )

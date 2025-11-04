@@ -1,0 +1,327 @@
+{
+  "teams": [
+    {
+      "id": "leadership",
+      "name": "Liderança",
+      "description": "Equipa responsável pela gestão e direção estratégica do projeto",
+      "departments": [
+        {
+          "id": "executive",
+          "name": "Direção Executiva",
+          "members": [
+            {
+              "name": "João Silva",
+              "role": "Project Manager",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Maria Santos",
+              "role": "Deputy Project Manager",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Pedro Costa",
+              "role": "Technical Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "coordination",
+          "name": "Coordenação",
+          "members": [
+            {
+              "name": "Ana Rodrigues",
+              "role": "Systems Coordinator",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Carlos Mendes",
+              "role": "Operations Coordinator",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Engenharia",
+      "description": "Equipa técnica responsável pelo desenvolvimento do CubeSat",
+      "departments": [
+        {
+          "id": "control",
+          "name": "Controle",
+          "members": [
+            {
+              "name": "Sofia Alves",
+              "role": "ADCS Lead Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Ricardo Ferreira",
+              "role": "Attitude Control Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Beatriz Lima",
+              "role": "Sensor Systems Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "communications",
+          "name": "Comunicações",
+          "members": [
+            {
+              "name": "Miguel Santos",
+              "role": "Communications Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Inês Carvalho",
+              "role": "RF Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Tiago Oliveira",
+              "role": "Antenna Design Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "power",
+          "name": "Sistemas de Energia",
+          "members": [
+            {
+              "name": "Diana Ribeiro",
+              "role": "Power Systems Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "André Martins",
+              "role": "Battery Systems Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Catarina Sousa",
+              "role": "Solar Panel Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "structure",
+          "name": "Estrutura e Materiais",
+          "members": [
+            {
+              "name": "Francisco Gomes",
+              "role": "Structures Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Laura Pereira",
+              "role": "Thermal Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Rui Fonseca",
+              "role": "Mechanical Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "payload",
+          "name": "Payload",
+          "members": [
+            {
+              "name": "Helena Costa",
+              "role": "Payload Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Gonçalo Dias",
+              "role": "Payload Integration Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "name": "Software",
+      "description": "Equipa responsável pelo desenvolvimento de software de bordo e sistemas terrestres",
+      "departments": [
+        {
+          "id": "onboard",
+          "name": "Software de Bordo",
+          "members": [
+            {
+              "name": "Vasco Silva",
+              "role": "Flight Software Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Mariana Lopes",
+              "role": "Embedded Systems Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Bruno Teixeira",
+              "role": "RTOS Developer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "ground",
+          "name": "Ground Segment",
+          "members": [
+            {
+              "name": "Rita Nunes",
+              "role": "Ground Station Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Diogo Ferreira",
+              "role": "Ground Software Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Sara Monteiro",
+              "role": "Mission Control Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "Operações",
+      "description": "Equipa responsável por testes, integração e garantia de qualidade",
+      "departments": [
+        {
+          "id": "testing",
+          "name": "Testes e Integração",
+          "members": [
+            {
+              "name": "Nuno Almeida",
+              "role": "Test & Integration Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Joana Rodrigues",
+              "role": "Integration Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Paulo Santos",
+              "role": "Test Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "quality",
+          "name": "Garantia de Qualidade",
+          "members": [
+            {
+              "name": "Marta Correia",
+              "role": "Quality Assurance Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Eduardo Pinto",
+              "role": "Quality Engineer",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outreach",
+      "name": "Comunicação e Divulgação",
+      "description": "Equipa responsável pela comunicação externa e divulgação do projeto",
+      "departments": [
+        {
+          "id": "media",
+          "name": "Media e Comunicação",
+          "members": [
+            {
+              "name": "Teresa Moura",
+              "role": "Communications Lead",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Luís Costa",
+              "role": "Social Media Manager",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Cláudia Ferreira",
+              "role": "Content Creator",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        },
+        {
+          "id": "events",
+          "name": "Eventos e Parcerias",
+          "members": [
+            {
+              "name": "António Silva",
+              "role": "Outreach Coordinator",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            },
+            {
+              "name": "Patrícia Dias",
+              "role": "Partnerships Manager",
+              "image": "/images/team/profile_placeholder2.jpg",
+              "linkedin": "https://linkedin.com/in/manuelmcruz"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
