@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import ProfileCard from '@/components/ProfileCard'
+import ProfileCard from '@/app/[locale]/components/ProfileCard'
 import teamData from '@/data/teamMembers.json'
 
 export default function TeamSection() {

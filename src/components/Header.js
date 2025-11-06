@@ -11,7 +11,7 @@ export default function Header({ className = '' }) {
         </Link>
         <nav className="flex gap-6 text-sm md:text-base">
           <Link href="/" className="hover:text-blue-400 transition-colors">Home</Link>
-          <Link href="/tejoone" className="hover:text-blue-400 transition-colors">TejoOne</Link>
+          <Link href="/tejoOne" className="hover:text-blue-400 transition-colors">TejoOne</Link>
           <Link href="/associacao" className="hover:text-blue-400 transition-colors">Associação</Link>
           <Link href="/projetos" className="hover:text-blue-400 transition-colors">Projetos</Link>
           <Link href="/blog" className="hover:text-blue-400 transition-colors">Blog</Link>

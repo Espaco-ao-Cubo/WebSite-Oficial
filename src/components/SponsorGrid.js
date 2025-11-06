@@ -1,6 +1,6 @@
 'use client'
 
-import LogoLoop from '../reactbits/LogoLoop'
+import LogoLoop from '../app/reactbits/LogoLoop'
 
 export default function SponsorGrid() {
   // Add your sponsor logos here
@@ -18,22 +18,6 @@ export default function SponsorGrid() {
         
         {/* Logo Loop Animation */}
         <LogoLoop logos={sponsors} speed={40} logoHeight={48} gap={40} pauseOnHover scaleOnHover className="py-8" />
-
-        {/* Optional: Manual grid for smaller screens */}
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 lg:hidden">
-          {sponsors.map((sponsor, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-all duration-300"
-            >
-              <img
-                src={sponsor.src}
-                alt={sponsor.alt}
-                className="max-w-full max-h-16 object-contain grayscale hover:grayscale-0 transition-all"
-              />
-            </div>
-          ))}
-        </div>
     </section>
   )
 }
