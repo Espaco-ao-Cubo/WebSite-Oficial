@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }) {
-  const { locale } = await params; // ✅ notice the await here
+  const { locale } = await params;
 
   if (!locales.includes(locale)) {
     notFound();

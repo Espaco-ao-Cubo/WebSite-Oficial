@@ -43,12 +43,13 @@ export default function Header({ className = '' }) {
         <div className="flex justify-between items-center h-20">
           
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center z-50">~
+          <Link href={`/${locale}`} className="flex items-center z-50">
             <Image
               src="/images/logo.png"
               alt="Espaço ao Cubo Logo"
-              width={56}
-              height={56}
+              width={224}    
+              height={224}
+              quality={100}
               className="h-14 w-auto hover:scale-110 transition-transform duration-300"
               priority
             />
