@@ -56,7 +56,7 @@
     },
     "footer": {
       "allRights": "All rights reserved",
-      "copyright": "Intellectual property of Espaço ao Cubo",
+      "credits": "Developed by:",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     },
@@ -70,18 +70,11 @@
       "sending": "Sending...",
       "sent": "Message Sent!",
       "thankyou": "Thank you for reaching out. We’ll reply as soon as possible."
-    }
-        ,"legal": {
-      "privacyTitle": "Privacy Policy",
-      "privacyIntro": "We respect your privacy. This page explains what data we collect and how we use it.",
-      "privacyParagraph1": "We collect only the minimum personal data necessary to provide and improve our services (for example contact details when you reach out). We never sell your personal data.",
-      "privacyParagraph2": "We may use cookies and similar technologies for analytics and to improve the site experience. You can control cookies via your browser settings.",
-      "privacyContact": "If you have questions about privacy, contact us via the Contact page.",
-
-      "termsTitle": "Terms of Service",
-      "termsIntro": "These terms govern your use of the Espaço ao Cubo website.",
-      "termsParagraph1": "By using this site you agree to follow these terms. Content is provided for informational purposes only and may change without notice.",
-      "termsParagraph2": "We strive to keep information accurate but make no warranties as to completeness or suitability. We are not liable for indirect or consequential damages.",
-      "termsContact": "If you have questions about these terms, please contact us."
+    },
+    "legal": {
+      "termsTitle": "Termos de Serviço",
+      "privacyTitle": "Política de Privacidade",
+      "lastUpdated": "Última atualização",
+      "effectiveDate": "Data de entrada em vigor"
     }
 }

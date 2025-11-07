@@ -29,60 +29,53 @@
     "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas.",
     "btnLearnMore": "Conhecer a Associação"
   },
-    "blog": {
-      "title": "Últimas Notícias",
-      "subtitle": "Acompanhe o progresso do TejoOne e as nossas atividades",
-      "readMore": "Ler mais",
-      "viewAll": "Ver Todos os Posts",
-      "categories": {
-        "milestone": "Marco",
-        "event": "Evento",
-        "news": "Notícia"
-      }
-    },
-    "projects": {
-      "title": "Projetos Educativos",
-      "subtitle": "Levamos a engenharia espacial às escolas e universidades através de iniciativas que inspiram e formam as próximas gerações",
-      "workshops": {
-        "title": "Workshops nas Escolas",
-        "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário."
-      },
-      "winterSchool": {
-        "title": "Winter School",
-        "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários."
-      },
-      "learnMore": "Saber mais",
-      "viewAll": "Ver Todos os Projetos"
-    },
-    "footer": {
-      "allRights": "Todos os direitos reservados",
-      "copyright": "Propriedade intelectual do Espaço ao Cubo",
-      "privacy": "Política de Privacidade",
-      "terms": "Termos de Serviço"
-    },
-    "contact": {
-      "title": "Entre em Contacto",
-      "subtitle": "Adoraríamos ouvir de si! Envie-nos uma mensagem e responderemos em breve.",
-      "name": "O seu nome",
-      "email": "O seu email",
-      "message": "Mensagem",
-      "send": "Enviar mensagem",
-      "sending": "A enviar...",
-      "sent": "Mensagem enviada!",
-      "thankyou": "Obrigado por entrar em contacto. Responderemos o mais breve possível."
+  "blog": {
+    "title": "Últimas Notícias",
+    "subtitle": "Acompanhe o progresso do TejoOne e as nossas atividades",
+    "readMore": "Ler mais",
+    "viewAll": "Ver Todos os Posts",
+    "categories": {
+      "milestone": "Marco",
+      "event": "Evento",
+      "news": "Notícia"
     }
-    ,"legal": {
-      "privacyTitle": "Política de Privacidade",
-      "privacyIntro": "Respeitamos a sua privacidade. Esta página explica quais os dados que recolhemos e como os utilizamos.",
-      "privacyParagraph1": "Recolhemos apenas os dados pessoais mínimos necessários para fornecer e melhorar os nossos serviços (por exemplo dados de contacto quando nos contactar). Nunca vendemos os seus dados pessoais.",
-      "privacyParagraph2": "Podemos utilizar cookies e tecnologias semelhantes para análise e para melhorar a experiência no site. Pode controlar os cookies através das definições do seu navegador.",
-      "privacyContact": "Se tiver questões sobre privacidade, contacte-nos através da página de Contacto.",
-
-      "termsTitle": "Termos de Serviço",
-      "termsIntro": "Estes termos regulam a utilização do website do Espaço ao Cubo.",
-      "termsParagraph1": "Ao utilizar este site concorda em cumprir estes termos. O conteúdo é apenas para fins informativos e pode ser alterado sem aviso prévio.",
-      "termsParagraph2": "Esforçamo-nos por manter a informação correta, mas não garantimos a completude ou adequação. Não nos responsabilizamos por danos indiretos ou consequenciais.",
-      "termsContact": "Se tiver questões sobre estes termos, por favor contacte-nos."
-    }
+  },
+  "projects": {
+    "title": "Projetos Educativos",
+    "subtitle": "Levamos a engenharia espacial às escolas e universidades através de iniciativas que inspiram e formam as próximas gerações",
+    "workshops": {
+      "title": "Workshops nas Escolas",
+      "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário."
+    },
+    "winterSchool": {
+      "title": "Winter School",
+      "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários."
+    },
+    "learnMore": "Saber mais",
+    "viewAll": "Ver Todos os Projetos"
+  },
+  "footer": {
+    "allRights": "Todos os direitos reservados",
+    "credits": "Desenvolvido por:",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+  "contact": {
+    "title": "Entre em Contacto",
+    "subtitle": "Adoraríamos ouvir de si! Envie-nos uma mensagem e responderemos em breve.",
+    "name": "O seu nome",
+    "email": "O seu email",
+    "message": "Mensagem",
+    "send": "Enviar mensagem",
+    "sending": "A enviar...",
+    "sent": "Mensagem enviada!",
+    "thankyou": "Obrigado por entrar em contacto. Responderemos o mais breve possível."
+  },
+  "legal": {
+    "termsTitle": "Termos de Serviço",
+    "privacyTitle": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "effectiveDate": "Data de entrada em vigor"
+  }
 
 }
