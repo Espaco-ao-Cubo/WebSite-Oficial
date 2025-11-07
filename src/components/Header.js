@@ -49,7 +49,6 @@ export default function Header({ className = '' }) {
               alt="Espaço ao Cubo Logo"
               width={224}    
               height={224}
-              quality={100}
               className="h-14 w-auto hover:scale-110 transition-transform duration-300"
               priority
             />

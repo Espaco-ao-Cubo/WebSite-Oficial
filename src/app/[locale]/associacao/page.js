@@ -1,18 +1,45 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import ProfileCard from '@/app/[locale]/components/ProfileCard'
-import teamData from '@/data/teamMembers.json'
+import { useLocale } from 'next-intl'
+import ProfileCard from '@/components/ProfileCard'
 
 export default function TeamSection() {
   const [isVisible, setIsVisible] = useState(false)
+  const [teamData, setTeamData] = useState(null)
+  const locale = useLocale()
 
   useEffect(() => {
     setIsVisible(true)
-  }, [])
+    
+    // Importar o JSON correto baseado no locale
+    const loadTeamData = async () => {
+      try {
+        const data = await import(`@/data/teamMembers_${locale}.json`)
+        setTeamData(data.default)
+      } catch (error) {
+        console.error('Error loading team data:', error)
+        // Fallback para português se houver erro
+        const fallbackData = await import('@/data/teamMembers_pt.json')
+        setTeamData(fallbackData.default)
+      }
+    }
+    
+    loadTeamData()
+  }, [locale])
 
   // Contador global para o index dos cards
   let globalCardIndex = 0
+
+  if (!teamData) {
+    return (
+      <section className="min-h-screen pt-32 pb-20 px-4 bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a]">
+        <div className="max-w-7xl mx-auto w-full flex items-center justify-center">
+          <div className="text-[#9cc5ad] text-xl">Loading...</div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className="min-h-screen pt-32 pb-20 px-4 bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a]">
@@ -21,11 +48,11 @@ export default function TeamSection() {
         <div className={`text-center mb-20 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="inline-block mb-4">
             <span className="text-[#9cc5ad] text-sm font-semibold tracking-wider uppercase bg-[#9cc5ad]/10 px-4 py-2 rounded-full border border-[#9cc5ad]/30">
-              A Nossa Equipa
+              {locale === 'en' ? 'Our Team' : 'A Nossa Equipa'}
             </span>
           </div>
           <h2 className="text-6xl md:text-7xl font-bold text-white mb-4 bg-gradient-to-r from-white via-[#9cc5ad] to-white bg-clip-text text-transparent">
-            Conhece a Equipa
+            {locale === 'en' ? 'Meet the Team' : 'Conhece a Equipa'}
           </h2>
         </div>
 

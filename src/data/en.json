@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "tejoone": "TejoOne",
+    "association": "Association",
+    "projects": "Educational Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "An Espaço ao Cubo initiative",
+    "title": "TejoOne",
+    "subtitle": "The first Portuguese CubeSat developed by students",
+    "description": "A pioneering mission to demonstrate national technological capabilities and inspire the next generation of aerospace engineers.",
+    "btnDiscover": "Discover the Project",
+    "btnAbout": "About Us",
+    "statCubesat": "CubeSat",
+    "statStudents": "Students",
+    "statLaunch": "Launch"
+  },
+  "mission": {
+    "title": "Espaço ao Cubo",
+    "description": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
+    "objective": "Objective",
+    "objectiveDesc": "Develop technical skills in space engineering through practical and challenging projects.",
+    "missionTitle": "Mission",
+    "missionDesc": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities.",
+    "education": "Education",
+    "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools.",
+    "btnLearnMore": "Learn More About Us"
+  },
+    "blog": {
+      "title": "Latest News",
+      "subtitle": "Follow TejoOne's progress and our activities",
+      "readMore": "Read more",
+      "viewAll": "View All Posts",
+      "categories": {
+        "milestone": "Milestone",
+        "event": "Event",
+        "news": "News"
+      }
+    },
+    "projects": {
+      "title": "Educational Projects",
+      "subtitle": "We bring space engineering to schools and universities through initiatives that inspire and train the next generations",
+      "workshops": {
+        "title": "School Workshops",
+        "description": "Practical sessions about satellites, orbits, and space technology for primary and secondary school students."
+      },
+      "winterSchool": {
+        "title": "Winter School",
+        "description": "One-week intensive program on satellite engineering for university students."
+      },
+      "learnMore": "Learn more",
+      "viewAll": "View All Projects"
+    },
+    "footer": {
+      "allRights": "All rights reserved",
+      "copyright": "Intellectual property of Espaço ao Cubo",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "We’d love to hear from you! Send us a message and we’ll get back soon.",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "sent": "Message Sent!",
+      "thankyou": "Thank you for reaching out. We’ll reply as soon as possible."
+    }
+        ,"legal": {
+      "privacyTitle": "Privacy Policy",
+      "privacyIntro": "We respect your privacy. This page explains what data we collect and how we use it.",
+      "privacyParagraph1": "We collect only the minimum personal data necessary to provide and improve our services (for example contact details when you reach out). We never sell your personal data.",
+      "privacyParagraph2": "We may use cookies and similar technologies for analytics and to improve the site experience. You can control cookies via your browser settings.",
+      "privacyContact": "If you have questions about privacy, contact us via the Contact page.",
+
+      "termsTitle": "Terms of Service",
+      "termsIntro": "These terms govern your use of the Espaço ao Cubo website.",
+      "termsParagraph1": "By using this site you agree to follow these terms. Content is provided for informational purposes only and may change without notice.",
+      "termsParagraph2": "We strive to keep information accurate but make no warranties as to completeness or suitability. We are not liable for indirect or consequential damages.",
+      "termsContact": "If you have questions about these terms, please contact us."
+    }
+}

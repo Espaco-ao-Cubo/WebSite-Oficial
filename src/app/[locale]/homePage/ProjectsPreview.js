@@ -3,20 +3,22 @@
 import { BookOpen, School } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function ProjectsPreview() {
+  const t = useTranslations('projects')
   const projects = [
     {
       icon: School,
-      title: 'Workshops nas Escolas',
-      description: 'Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário.',
+      title: t('workshops.title'),
+      description: t('workshops.description'),
       image: '/images/workshop.jpg', // Add your image
       link: '/projetos',
     },
     {
       icon: BookOpen,
-      title: 'Winter School',
-      description: 'Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários.',
+      title: t('winterSchool.title'),
+      description: t('winterSchool.description'),
       image: '/images/winter-school.jpg', // Add your image
       link: '/projetos',
     },
@@ -28,11 +30,10 @@ export default function ProjectsPreview() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Projetos Educativos
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Levamos a engenharia espacial às escolas e universidades através de 
-            iniciativas que inspiram e formam as próximas gerações
+            {t('subtitle')}
           </p>
         </div>
 
@@ -59,7 +60,7 @@ export default function ProjectsPreview() {
                   {project.description}
                 </p>
                 <span className="inline-flex items-center text-[#9cc5ad] font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  Saber mais →
+                  {t('learnMore')} →
                 </span>
               </div>
             </Link>
@@ -70,7 +71,7 @@ export default function ProjectsPreview() {
         <div className="text-center">
           <Link href="/projetos">
             <button className="bg-[#7ba591] hover:bg-[#9cc5ad] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-[#9cc5ad]/50">
-              Ver Todos os Projetos
+              {t('viewAll')}
             </button>
           </Link>
         </div>

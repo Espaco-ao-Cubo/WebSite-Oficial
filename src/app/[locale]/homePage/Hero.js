@@ -3,8 +3,10 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Rocket, Satellite, ChevronDown } from 'lucide-react'
+import { useTranslations } from 'next-intl'
 
 export default function Hero() {
+  const t = useTranslations('hero')
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState(false)
 
@@ -61,40 +63,39 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-block bg-[#9cc5ad]/20 backdrop-blur-sm px-6 py-3 rounded-full border border-[#9cc5ad]/30">
               <span className="text-[#9cc5ad] text-sm md:text-base font-medium">
-                Uma iniciativa do Espaço ao Cubo
+                {t('badge')}
               </span>
             </div>
             
             {/* Main title */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold leading-none">
               <span className="bg-gradient-to-r from-white via-[#9cc5ad] to-white bg-clip-text text-transparent">
-                TejoOne
+                {t('title')}
               </span>
             </h1>
             
             {/* Subtitle */}
             <p className="text-xl sm:text-2xl lg:text-3xl text-[#9cc5ad] font-light leading-relaxed">
-              O primeiro CubeSat português desenvolvido por estudantes
+              {t('subtitle')}
             </p>
             
             {/* Description */}
             <p className="text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed">
-              Uma missão pioneira para demonstrar capacidades tecnológicas nacionais 
-              e inspirar a próxima geração de engenheiros aeroespaciais.
+              {t('description')}
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/tejoOne" className="inline-block">
                 <button className="w-full sm:w-auto group relative bg-[#7ba591] hover:bg-[#9cc5ad] text-white px-8 py-4 rounded-lg text-base font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-[#9cc5ad]/50 flex items-center justify-center gap-3">
-                  <span>Descobrir o Projeto</span>
+                  <span>{t('btnDiscover')}</span>
                   <Rocket className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </button>
               </Link>
               
               <Link href="/associacao" className="inline-block">
                 <button className="w-full sm:w-auto relative bg-transparent border-2 border-[#9cc5ad] text-[#9cc5ad] hover:bg-[#9cc5ad] hover:text-[#1a3a2e] px-8 py-4 rounded-lg text-base font-semibold transition-all duration-300 transform hover:scale-105">
-                  Sobre Nós
+                  {t('btnAbout')}
                 </button>
               </Link>
             </div>
@@ -105,21 +106,21 @@ export default function Hero() {
                 <div className="text-4xl md:text-5xl font-bold text-[#9cc5ad] mb-2 group-hover:scale-110 transition-transform">
                   1U
                 </div>
-                <div className="text-sm md:text-base text-gray-400">CubeSat</div>
+                <div className="text-sm md:text-base text-gray-400">{t('statCubesat')}</div>
               </div>
               
               <div className="text-center p-4 rounded-lg hover:bg-white/5 transition-all duration-300 group">
                 <div className="text-4xl md:text-5xl font-bold text-[#9cc5ad] mb-2 group-hover:scale-110 transition-transform">
                   50+
                 </div>
-                <div className="text-sm md:text-base text-gray-400">Estudantes</div>
+                <div className="text-sm md:text-base text-gray-400">{t('statStudents')}</div>
               </div>
               
               <div className="text-center p-4 rounded-lg hover:bg-white/5 transition-all duration-300 group">
                 <div className="text-4xl md:text-5xl font-bold text-[#9cc5ad] mb-2 group-hover:scale-110 transition-transform">
                   2025
                 </div>
-                <div className="text-sm md:text-base text-gray-400">Lançamento</div>
+                <div className="text-sm md:text-base text-gray-400">{t('statLaunch')}</div>
               </div>
             </div>
           </div>

@@ -2,8 +2,10 @@
 
 import { Calendar, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function BlogPreview() {
+  const t = useTranslations('blog')
   // Mock blog posts - replace with real data later
   const posts = [
     {
@@ -44,10 +46,10 @@ export default function BlogPreview() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Últimas Notícias
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Acompanhe o progresso do TejoOne e as nossas atividades
+            {t('subtitle')}
           </p>
         </div>
 
@@ -87,7 +89,7 @@ export default function BlogPreview() {
                     <span>{new Date(post.date).toLocaleDateString('pt-PT')}</span>
                   </div>
                   <span className="flex items-center gap-1 text-[#9cc5ad] font-semibold group-hover:gap-2 transition-all">
-                    Ler mais
+                    {t('readMore')}
                     <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
@@ -100,7 +102,7 @@ export default function BlogPreview() {
         <div className="text-center">
           <Link href="/blog">
             <button className="bg-transparent border-2 border-[#9cc5ad] text-[#9cc5ad] hover:bg-[#9cc5ad] hover:text-[#1a3a2e] px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              Ver Todos os Posts
+              {t('viewAll')}
             </button>
           </Link>
         </div>

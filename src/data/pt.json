@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "tejoone": "TejoOne",
+    "association": "Associação",
+    "projects": "Projetos Educativos",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Uma iniciativa do Espaço ao Cubo",
+    "title": "TejoOne",
+    "subtitle": "O primeiro CubeSat português desenvolvido por estudantes",
+    "description": "Uma missão pioneira para demonstrar capacidades tecnológicas nacionais e inspirar a próxima geração de engenheiros aeroespaciais.",
+    "btnDiscover": "Descobrir o Projeto",
+    "btnAbout": "Sobre Nós",
+    "statCubesat": "CubeSat",
+    "statStudents": "Estudantes",
+    "statLaunch": "Lançamento"
+  },
+  "mission": {
+    "title": "Espaço ao Cubo",
+    "description": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
+    "objective": "Objetivo",
+    "objectiveDesc": "Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes.",
+    "missionTitle": "Missão",
+    "missionDesc": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais.",
+    "education": "Educação",
+    "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas.",
+    "btnLearnMore": "Conhecer a Associação"
+  },
+    "blog": {
+      "title": "Últimas Notícias",
+      "subtitle": "Acompanhe o progresso do TejoOne e as nossas atividades",
+      "readMore": "Ler mais",
+      "viewAll": "Ver Todos os Posts",
+      "categories": {
+        "milestone": "Marco",
+        "event": "Evento",
+        "news": "Notícia"
+      }
+    },
+    "projects": {
+      "title": "Projetos Educativos",
+      "subtitle": "Levamos a engenharia espacial às escolas e universidades através de iniciativas que inspiram e formam as próximas gerações",
+      "workshops": {
+        "title": "Workshops nas Escolas",
+        "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário."
+      },
+      "winterSchool": {
+        "title": "Winter School",
+        "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários."
+      },
+      "learnMore": "Saber mais",
+      "viewAll": "Ver Todos os Projetos"
+    },
+    "footer": {
+      "allRights": "Todos os direitos reservados",
+      "copyright": "Propriedade intelectual do Espaço ao Cubo",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
+    },
+    "contact": {
+      "title": "Entre em Contacto",
+      "subtitle": "Adoraríamos ouvir de si! Envie-nos uma mensagem e responderemos em breve.",
+      "name": "O seu nome",
+      "email": "O seu email",
+      "message": "Mensagem",
+      "send": "Enviar mensagem",
+      "sending": "A enviar...",
+      "sent": "Mensagem enviada!",
+      "thankyou": "Obrigado por entrar em contacto. Responderemos o mais breve possível."
+    }
+    ,"legal": {
+      "privacyTitle": "Política de Privacidade",
+      "privacyIntro": "Respeitamos a sua privacidade. Esta página explica quais os dados que recolhemos e como os utilizamos.",
+      "privacyParagraph1": "Recolhemos apenas os dados pessoais mínimos necessários para fornecer e melhorar os nossos serviços (por exemplo dados de contacto quando nos contactar). Nunca vendemos os seus dados pessoais.",
+      "privacyParagraph2": "Podemos utilizar cookies e tecnologias semelhantes para análise e para melhorar a experiência no site. Pode controlar os cookies através das definições do seu navegador.",
+      "privacyContact": "Se tiver questões sobre privacidade, contacte-nos através da página de Contacto.",
+
+      "termsTitle": "Termos de Serviço",
+      "termsIntro": "Estes termos regulam a utilização do website do Espaço ao Cubo.",
+      "termsParagraph1": "Ao utilizar este site concorda em cumprir estes termos. O conteúdo é apenas para fins informativos e pode ser alterado sem aviso prévio.",
+      "termsParagraph2": "Esforçamo-nos por manter a informação correta, mas não garantimos a completude ou adequação. Não nos responsabilizamos por danos indiretos ou consequenciais.",
+      "termsContact": "Se tiver questões sobre estes termos, por favor contacte-nos."
+    }
+
+}

@@ -2,23 +2,26 @@
 
 import { Target, Rocket, GraduationCap } from 'lucide-react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 
 export default function MissionSection() {
+  const t = useTranslations('mission')
+  
   const missions = [
     {
       icon: Target,
-      title: 'Objetivo',
-      description: 'Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes como o TejoOne CubeSat.',
+      title: t('objective'),
+      description: t('objectiveDesc'),
     },
     {
       icon: Rocket,
-      title: 'Missão',
-      description: 'Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais.',
+      title: t('missionTitle'),
+      description: t('missionDesc'),
     },
     {
       icon: GraduationCap,
-      title: 'Educação',
-      description: 'Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas e universidades.',
+      title: t('education'),
+      description: t('educationDesc'),
     },
   ]
 
@@ -35,12 +38,11 @@ export default function MissionSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             <span className="bg-gradient-to-r from-white to-[#9cc5ad] bg-clip-text text-transparent">
-              Espaço ao Cubo
+              {t('title')}
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Associação estudantil dedicada ao desenvolvimento de tecnologia espacial 
-            e à promoção da educação em engenharia aeroespacial
+            {t('description')}
           </p>
         </div>
 
@@ -74,7 +76,7 @@ export default function MissionSection() {
         <div className="text-center">
           <Link href="/associacao">
             <button className="bg-transparent border-2 border-[#9cc5ad] text-[#9cc5ad] hover:bg-[#9cc5ad] hover:text-[#1a3a2e] px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              Conhecer a Associação
+              {t('btnLearnMore')}
             </button>
           </Link>
         </div>
