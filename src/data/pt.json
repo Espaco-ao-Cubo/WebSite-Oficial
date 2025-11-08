@@ -76,6 +76,34 @@
     "privacyTitle": "Política de Privacidade",
     "lastUpdated": "Última atualização",
     "effectiveDate": "Data de entrada em vigor"
+  },
+  "association": {
+    "badge": "Sobre Nós",
+    "title": "Espaço ao Cubo",
+    "subtitle": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
+    "intro1": "Somos um grupo apaixonado de estudantes unidos pelo sonho de chegar ao espaço. A nossa equipa reúne estudantes de engenharia de várias áreas, trabalhando colaborativamente para desenvolver o primeiro CubeSat português inteiramente projetado e construído por estudantes.",
+    "intro2": "Além do desafio técnico, acreditamos no poder da educação e inspiração. Realizamos workshops em escolas, participamos em eventos e partilhamos a nossa paixão pelo espaço com a comunidade, mostrando que o céu não é o limite.",
+    "valuesTitle": "Os Nossos Valores",
+    "teamTitle": "Conhece a Equipa",
+    "photoPlaceholder": "Foto da Equipa em Breve",
+    "photoSubtext": "Adiciona a foto da equipa aqui",
+    "values": {
+      "mission": {
+        "title": "Missão",
+        "description": "Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes."
+      },
+      "vision": {
+        "title": "Visão",
+        "description": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais."
+      },
+      "education": {
+        "title": "Educação",
+        "description": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas."
+      },
+      "coreValues": {
+        "title": "Valores",
+        "description": "Inovação, trabalho em equipa, excelência e paixão pela exploração espacial."
+      }
+    }
   }
-
 }

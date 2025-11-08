@@ -4,16 +4,36 @@ import { useState } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Calendar, User, Tag, ArrowRight } from 'lucide-react'
+import { Calendar, User, Tag, ArrowRight, Search, X } from 'lucide-react'
 
 export default function BlogList({ posts, categories }) {
   const params = useParams()
   const locale = params.locale || 'pt'
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [searchQuery, setSearchQuery] = useState('')
 
-  const filteredPosts = selectedCategory === 'all' 
+  // Filtrar por categoria
+  const categoryFiltered = selectedCategory === 'all' 
     ? posts 
     : posts.filter(post => post.category === selectedCategory)
+
+  // Filtrar por pesquisa
+  const filteredPosts = categoryFiltered.filter(post => {
+    if (!searchQuery) return true
+    
+    const query = searchQuery.toLowerCase()
+    const titleMatch = post.title?.toLowerCase().includes(query)
+    const excerptMatch = post.excerpt?.toLowerCase().includes(query)
+    const authorMatch = post.author?.toLowerCase().includes(query)
+    const tagsMatch = post.tags?.some(tag => tag.toLowerCase().includes(query))
+    const categoryMatch = post.category?.toLowerCase().includes(query)
+    
+    return titleMatch || excerptMatch || authorMatch || tagsMatch || categoryMatch
+  })
+
+  const clearSearch = () => {
+    setSearchQuery('')
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a] pt-32 pb-20">
@@ -34,6 +54,35 @@ export default function BlogList({ posts, categories }) {
               ? 'Follow our journey developing the first Portuguese student CubeSat' 
               : 'Acompanha a nossa jornada a desenvolver o primeiro CubeSat estudantil português'}
           </p>
+        </div>
+
+        {/* Search Bar */}
+        <div className="mb-8 max-w-2xl mx-auto">
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#9cc5ad]/50" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder={locale === 'en' ? 'Search posts...' : 'Pesquisar posts...'}
+              className="w-full pl-12 pr-12 py-4 bg-white/5 border border-[#9cc5ad]/20 rounded-xl text-white placeholder-[#9cc5ad]/50 focus:outline-none focus:border-[#9cc5ad]/50 focus:bg-white/10 transition-all"
+            />
+            {searchQuery && (
+              <button
+                onClick={clearSearch}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 text-[#9cc5ad]/50 hover:text-[#9cc5ad] transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            )}
+          </div>
+          
+          {/* Search Results Count */}
+          {searchQuery && (
+            <div className="mt-3 text-center text-sm text-[#9cc5ad]/70">
+              {filteredPosts.length} {locale === 'en' ? 'post(s) found' : 'post(s) encontrado(s)'}
+            </div>
+          )}
         </div>
 
         {/* Categories Filter */}
@@ -155,9 +204,26 @@ export default function BlogList({ posts, categories }) {
         {/* Empty State */}
         {filteredPosts.length === 0 && (
           <div className="text-center py-20">
-            <p className="text-[#9cc5ad]/60 text-xl">
-              {locale === 'en' ? 'No posts found.' : 'Nenhum post encontrado.'}
-            </p>
+            {searchQuery ? (
+              <>
+                <Search className="w-16 h-16 text-[#9cc5ad]/30 mx-auto mb-4" />
+                <p className="text-[#9cc5ad]/60 text-xl mb-4">
+                  {locale === 'en' 
+                    ? `No posts found for "${searchQuery}"` 
+                    : `Nenhum post encontrado para "${searchQuery}"`}
+                </p>
+                <button
+                  onClick={clearSearch}
+                  className="text-[#9cc5ad] hover:text-white underline"
+                >
+                  {locale === 'en' ? 'Clear search' : 'Limpar pesquisa'}
+                </button>
+              </>
+            ) : (
+              <p className="text-[#9cc5ad]/60 text-xl">
+                {locale === 'en' ? 'No posts found.' : 'Nenhum post encontrado.'}
+              </p>
+            )}
           </div>
         )}
       </div>

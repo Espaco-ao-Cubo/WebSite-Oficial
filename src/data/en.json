@@ -62,19 +62,48 @@
     },
     "contact": {
       "title": "Get in Touch",
-      "subtitle": "We’d love to hear from you! Send us a message and we’ll get back soon.",
+      "subtitle": "We'd love to hear from you! Send us a message and we'll get back soon.",
       "name": "Your Name",
       "email": "Your Email",
       "message": "Message",
       "send": "Send Message",
       "sending": "Sending...",
       "sent": "Message Sent!",
-      "thankyou": "Thank you for reaching out. We’ll reply as soon as possible."
+      "thankyou": "Thank you for reaching out. We'll reply as soon as possible."
     },
     "legal": {
-      "termsTitle": "Termos de Serviço",
-      "privacyTitle": "Política de Privacidade",
-      "lastUpdated": "Última atualização",
-      "effectiveDate": "Data de entrada em vigor"
+      "termsTitle": "Terms of Service",
+      "privacyTitle": "Privacy Policy",
+      "lastUpdated": "Last updated",
+      "effectiveDate": "Effective date"
+    },
+    "association": {
+      "badge": "About Us",
+      "title": "Espaço ao Cubo",
+      "subtitle": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
+      "intro1": "We are a passionate group of students united by the dream of reaching space. Our team brings together engineering students from various fields, working collaboratively to develop the first Portuguese CubeSat entirely designed and built by students.",
+      "intro2": "Beyond the technical challenge, we believe in the power of education and inspiration. We conduct workshops in schools, participate in events, and share our passion for space with the community, showing that the sky is not the limit.",
+      "valuesTitle": "Our Values",
+      "teamTitle": "Meet the Team",
+      "photoPlaceholder": "Team Photo Coming Soon",
+      "photoSubtext": "Add your team photo here",
+      "values": {
+        "mission": {
+          "title": "Mission",
+          "description": "Develop technical skills in space engineering through practical and challenging projects."
+        },
+        "vision": {
+          "title": "Vision",
+          "description": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities."
+        },
+        "education": {
+          "title": "Education",
+          "description": "Promote space literacy through workshops, lectures and educational projects in schools."
+        },
+        "coreValues": {
+          "title": "Values",
+          "description": "Innovation, teamwork, excellence and passion for space exploration."
+        }
+      }
     }
 }

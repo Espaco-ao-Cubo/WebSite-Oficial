@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Rocket, Satellite, ChevronDown } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import CubeSatClient from "@/components/CubeSatClient"
+
 
 export default function Hero() {
   const t = useTranslations('hero')
@@ -136,19 +138,29 @@ export default function Hero() {
               <div className="absolute inset-0 border-2 border-[#9cc5ad]/20 rounded-full animate-spin-slow" />
               <div className="absolute inset-8 border-2 border-[#7ba591]/30 rounded-full animate-spin-reverse" />
               
-              {/* Center satellite */}
+              {/* Center satellite - OTIMIZADO PARA EVITAR FLICKER */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative animate-float">
+                <div 
+                  className="relative animate-float"
+                  style={{
+                    willChange: 'transform',
+                    transform: 'translateZ(0)',
+                    backfaceVisibility: 'hidden',
+                    perspective: 1000
+                  }}
+                >
                   {/* Glow effect */}
                   <div className="absolute inset-0 bg-[#9cc5ad]/30 blur-3xl rounded-full animate-pulse" />
                   
-                  {/* Satellite cube */}
-                  <div className="relative w-48 h-48 md:w-64 md:h-64 perspective-1000">
-                    <div className="satellite-cube w-full h-full">
-                      <div className="w-full h-full bg-gradient-to-br from-[#2d5a4a] to-[#1a3a2e] rounded-xl border-2 border-[#9cc5ad] shadow-2xl flex items-center justify-center hover:border-white hover:shadow-[#9cc5ad]/50 transition-all duration-300">
-                        <Satellite className="w-24 h-24 md:w-32 md:h-32 text-[#9cc5ad]" />
-                      </div>
-                    </div>
+                  {/* Satellite cube - com estabilização */}
+                  <div 
+                    className="inline-flex items-center gap-4"
+                    style={{
+                      willChange: 'transform',
+                      transform: 'translateZ(0)'
+                    }}
+                  >
+                    <CubeSatClient />
                   </div>
                 </div>
               </div>
