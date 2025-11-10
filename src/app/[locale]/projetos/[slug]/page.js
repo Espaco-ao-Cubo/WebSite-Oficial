@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
 
 export async function generateStaticParams() {
   const locales = ['pt', 'en']
@@ -24,6 +25,7 @@ export async function generateStaticParams() {
 
 export default async function ProjectDetailPage({ params }) {
   const { locale, slug } = await params
+  const t = await getTranslations('projects_page')
   const project = getProjectBySlug(slug, locale)
 
   if (!project) {
@@ -39,7 +41,7 @@ export default async function ProjectDetailPage({ params }) {
           className="inline-flex items-center gap-2 text-[#9cc5ad] hover:text-[#b8dbc4] mb-8 transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
-          {locale === 'pt' ? 'Voltar aos Projetos' : 'Back to Projects'}
+          {t('back_to_projects')}
         </Link>
 
         {/* Header */}

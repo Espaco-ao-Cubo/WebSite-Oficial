@@ -8,60 +8,105 @@
     "contact": "Contact",
     "sponsors": "Sponsors"
   },
-  "hero": {
-    "badge": "An Espaço ao Cubo initiative",
-    "title": "TejoOne",
-    "subtitle": "The first Portuguese CubeSat developed by students",
-    "description": "A pioneering mission to demonstrate national technological capabilities and inspire the next generation of aerospace engineers.",
-    "btnDiscover": "Discover the Project",
-    "btnAbout": "About Us",
-    "statCubesat": "CubeSat",
-    "statStudents": "Students",
-    "statLaunch": "Launch"
-  },
-  "mission": {
-    "title": "Espaço ao Cubo",
-    "description": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
-    "objective": "Objective",
-    "objectiveDesc": "Develop technical skills in space engineering through practical and challenging projects.",
-    "missionTitle": "Mission",
-    "missionDesc": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities.",
-    "education": "Education",
-    "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools.",
-    "btnLearnMore": "Learn More About Us"
-  },
-  "blog": {
-    "title": "Latest News",
-    "subtitle": "Follow TejoOne's progress and our activities",
-    "readMore": "Read more",
-    "viewAll": "View All Posts",
-    "categories": {
-      "milestone": "Milestone",
-      "event": "Event",
-      "news": "News"
-    }
-  },
-  "projects": {
-    "title": "Educational Projects",
-    "subtitle": "We bring space engineering to schools and universities through initiatives that inspire and train the next generations",
-    "workshops": {
-      "title": "School Workshops",
-      "description": "Practical sessions about satellites, orbits, and space technology for primary and secondary school students.",
-      "image": "/images/workshop.jpg"
-    },
-    "winterSchool": {
-      "title": "Winter School",
-      "description": "One-week intensive program on satellite engineering for university students.",
-      "image": "/images/winter-school.jpg"
-    },
-    "learnMore": "Learn more",
-    "viewAll": "View All Projects"
-  },
   "footer": {
     "allRights": "All rights reserved",
     "credits": "Developed by:",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
+  },
+  "mainPage": {
+    "hero": {
+      "badge": "An Espaço ao Cubo initiative",
+      "title": "TejoOne",
+      "subtitle": "The first Portuguese CubeSat developed by students",
+      "description": "A pioneering mission to demonstrate national technological capabilities and inspire the next generation of aerospace engineers.",
+      "btnDiscover": "Discover the Project",
+      "btnAbout": "About Us",
+      "statCubesat": "CubeSat",
+      "statStudents": "Students",
+      "statLaunch": "Launch"
+    },
+    "mission": {
+      "title": "Espaço ao Cubo",
+      "description": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
+      "objective": "Objective",
+      "objectiveDesc": "Develop technical skills in space engineering through practical and challenging projects.",
+      "missionTitle": "Mission",
+      "missionDesc": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities.",
+      "education": "Education",
+      "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools.",
+      "btnLearnMore": "Learn More About Us"
+    },
+    "blog": {
+      "title": "Latest News",
+      "subtitle": "Follow TejoOne's progress and our activities",
+      "readMore": "Read more",
+      "viewAll": "View All Posts",
+      "categories": {
+        "milestone": "Milestone",
+        "event": "Event",
+        "news": "News"
+      }
+    },
+    "TejoOneHighlights": {
+      "badge": "TejoOne Highlights",
+      "title": "Key Features of the TejoOne Mission",
+      "subtitle": "Discover the innovative aspects that make TejoOne a pioneering CubeSat mission",
+      "description": "A 1U CubeSat developed entirely by Portuguese students to demonstrate national technological capabilities and inspire future generations.",
+      "cta": "Explore TejoOne",
+      "projectLabel": "TejoOne Project",
+      "highlights": {
+        "h1": {
+          "icon": "Rocket",
+          "stat": "10×10×10",
+          "unit": "cm",
+          "label": "Dimensions"
+        },
+        "h2": {
+          "icon": "Gauge",
+          "stat": "1.3",
+          "unit": "kg",
+          "label": "Mass"
+        },
+        "h3": {
+          "icon": "Calendar",
+          "stat": "2025",
+          "unit": "Q4",
+          "label": "Launch"
+        },
+        "h4": {
+          "icon": "Trophy",
+          "stat": "100%",
+          "unit": "PT",
+          "label": "Portuguese"
+        }
+      }
+    },
+    "projectPreview": {
+      "title": "Our Projects",
+      "subtitle": "Educational and outreach initiatives from TejoOne that promote scientific and technological knowledge",
+      "learnMore": "Learn more",
+      "viewAll": "View All Projects"
+    },
+    "cta": {
+      "title": "Join the Mission",
+      "subtitle": "There are many ways to be part of this space adventure",
+      "joinTeam": {
+        "title": "Join the Team",
+        "description": "We are looking for students passionate about space engineering",
+        "button": "Learn More"
+      },
+      "workshops": {
+        "title": "Workshops & Events",
+        "description": "Participate in our educational activities",
+        "button": "View Projects"
+      },
+      "sponsor": {
+        "title": "Become a Sponsor",
+        "description": "Support TejoOne development",
+        "button": "Contact Us"
+      }
+    }
   },
   "contact": {
     "title": "Get in Touch",
@@ -104,40 +149,6 @@
       }
     }
   },
-  "TejoOneHighlights": {
-    "badge": "TejoOne Highlights",
-    "title": "Key Features of the TejoOne Mission",
-    "subtitle": "Discover the innovative aspects that make TejoOne a pioneering CubeSat mission",
-    "description": "A 1U CubeSat developed entirely by Portuguese students to demonstrate national technological capabilities and inspire future generations.",
-    "cta": "Explore TejoOne",
-    "projectLabel": "TejoOne Project",
-    "highlights": {
-      "h1": {
-        "icon": "Rocket",
-        "stat": "10×10×10",
-        "unit": "cm",
-        "label": "Dimensions"
-      },
-      "h2": {
-        "icon": "Gauge",
-        "stat": "1.3",
-        "unit": "kg",
-        "label": "Mass"
-      },
-      "h3": {
-        "icon": "Calendar",
-        "stat": "2025",
-        "unit": "Q4",
-        "label": "Launch"
-      },
-      "h4": {
-        "icon": "Trophy",
-        "stat": "100%",
-        "unit": "PT",
-        "label": "Portuguese"
-      }
-    }
-  },
   "association": {
     "badge": "About Us",
     "title": "Espaço ao Cubo",
@@ -165,25 +176,6 @@
         "title": "Values",
         "description": "Innovation, teamwork, excellence and passion for space exploration."
       }
-    }
-  },
-  "cta": {
-    "title": "Join the Mission",
-    "subtitle": "There are many ways to be part of this space adventure",
-    "joinTeam": {
-      "title": "Join the Team",
-      "description": "We are looking for students passionate about space engineering",
-      "button": "Learn More"
-    },
-    "workshops": {
-      "title": "Workshops & Events",
-      "description": "Participate in our educational activities",
-      "button": "View Projects"
-    },
-    "sponsor": {
-      "title": "Become a Sponsor",
-      "description": "Support TejoOne development",
-      "button": "Contact Us"
     }
   },
   "tejoone_page": {
@@ -432,5 +424,11 @@
     "cta_title": "Interested in supporting TejoOne?",
     "cta_description": "Get in touch to discuss sponsorship and partnership opportunities",
     "cta_button": "Contact Us"
+  },
+  "projects_page": {
+    "title": "Projects",
+    "subtitle": "Educational and outreach initiatives of TejoOne",
+    "empty_state": "No projects available at the moment.",
+    "back_to_projects": "Back to Projects"
   }
 }

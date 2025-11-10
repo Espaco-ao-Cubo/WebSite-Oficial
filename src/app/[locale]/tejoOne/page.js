@@ -6,7 +6,7 @@ import Timeline from './components/Timeline'
 import SponsorGrid from '@/components/SponsorGrid'
 
 export const metadata = {
-  title: 'TejoOne - Espaço ao Cubo',
+  title: 'TejoOne',
   description: 'O primeiro CubeSat português desenvolvido por estudantes',
 }
 

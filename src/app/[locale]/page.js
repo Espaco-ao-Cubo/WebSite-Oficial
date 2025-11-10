@@ -6,14 +6,17 @@ import BlogPreview from '@/app/[locale]/homePage/BlogPreview'
 import CTASection from '@/app/[locale]/homePage/CTASection'
 import SponsorGrid from '@/components/SponsorGrid'
 
-export default function Home() {
+export default async function Home({ params }) {
+  // Extrair o locale dos params
+  const { locale } = await params
+
   return (
     <>
       <Hero />
       <TejoOneHighlights />        
       <MissionSection />         
-      <ProjectsPreview />
-      <BlogPreview />
+      <ProjectsPreview locale={locale} />
+      <BlogPreview locale={locale}/>
       <CTASection />                
       <SponsorGrid />
     </>

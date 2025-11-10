@@ -4,10 +4,10 @@ import { Canvas } from "@react-three/fiber"
 import { OrbitControls, useGLTF } from "@react-three/drei"
 import { Suspense } from "react"
 
-useGLTF.preload("/cubesat.glb")
+useGLTF.preload("/cubesat-render/cubesat.glb")
 
 function CubeSatMesh() {
-  const { scene } = useGLTF("/cubesat.glb")
+  const { scene } = useGLTF("/cubesat-render/cubesat.glb")
   return <primitive object={scene} scale={1} />
 }
 

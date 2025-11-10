@@ -8,61 +8,106 @@
     "contact": "Contacto",
     "sponsors": "Patrocinadores"
   },
-  "hero": {
-    "badge": "Uma iniciativa do Espaço ao Cubo",
-    "title": "TejoOne",
-    "subtitle": "O primeiro CubeSat português desenvolvido por estudantes",
-    "description": "Uma missão pioneira para demonstrar capacidades tecnológicas nacionais e inspirar a próxima geração de engenheiros aeroespaciais.",
-    "btnDiscover": "Descobrir o Projeto",
-    "btnAbout": "Sobre Nós",
-    "statCubesat": "CubeSat",
-    "statStudents": "Estudantes",
-    "statLaunch": "Lançamento"
-  },
-  "mission": {
-    "title": "Espaço ao Cubo",
-    "description": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
-    "objective": "Objetivo",
-    "objectiveDesc": "Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes.",
-    "missionTitle": "Missão",
-    "missionDesc": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais.",
-    "education": "Educação",
-    "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas.",
-    "btnLearnMore": "Conhecer a Associação"
-  },
-  "blog": {
-    "title": "Últimas Notícias",
-    "subtitle": "Acompanhe o progresso do TejoOne e as nossas atividades",
-    "readMore": "Ler mais",
-    "viewAll": "Ver Todos os Posts",
-    "categories": {
-      "milestone": "Marco",
-      "event": "Evento",
-      "news": "Notícia"
-    }
-  },
-  "projects": {
-    "title": "Projetos Educativos",
-    "subtitle": "Levamos a engenharia espacial às escolas e universidades através de iniciativas que inspiram e formam as próximas gerações",
-    "workshops": {
-      "title": "Workshops nas Escolas",
-      "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário.",
-      "image": "/images/workshop.jpg"
-    },
-    "winterSchool": {
-      "title": "Winter School",
-      "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários.",
-      "image": "/images/winter-school.jpg"
-    },
-    "learnMore": "Saber mais",
-    "viewAll": "Ver Todos os Projetos"
-  },
   "footer": {
     "allRights": "Todos os direitos reservados",
     "credits": "Desenvolvido por:",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço"
   },
+  "mainPage": {
+    "hero": {
+      "badge": "Uma iniciativa do Espaço ao Cubo",
+      "title": "TejoOne",
+      "subtitle": "O primeiro CubeSat português desenvolvido por estudantes",
+      "description": "Uma missão pioneira para demonstrar capacidades tecnológicas nacionais e inspirar a próxima geração de engenheiros aeroespaciais.",
+      "btnDiscover": "Descobrir o Projeto",
+      "btnAbout": "Sobre Nós",
+      "statCubesat": "CubeSat",
+      "statStudents": "Estudantes",
+      "statLaunch": "Lançamento"
+    },
+    "mission": {
+      "title": "Espaço ao Cubo",
+      "description": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
+      "objective": "Objetivo",
+      "objectiveDesc": "Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes.",
+      "missionTitle": "Missão",
+      "missionDesc": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais.",
+      "education": "Educação",
+      "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas.",
+      "btnLearnMore": "Conhecer a Associação"
+    },
+    "blog": {
+      "title": "Últimas Notícias",
+      "subtitle": "Acompanhe o progresso do TejoOne e as nossas atividades",
+      "readMore": "Ler mais",
+      "viewAll": "Ver Todos os Posts",
+      "categories": {
+        "milestone": "Marco",
+        "event": "Evento",
+        "news": "Notícia"
+      }
+    },
+    "TejoOneHighlights": {
+      "badge": "Destaques do TejoOne",
+      "title": "Principais Características da Missão TejoOne",
+      "subtitle": "Descobre os aspetos inovadores que fazem do TejoOne uma missão CubeSat pioneira",
+      "description": "Um CubeSat 1U desenvolvido inteiramente por estudantes portugueses para demonstrar capacidades tecnológicas nacionais e inspirar futuras gerações.",
+      "cta": "Explorar TejoOne",
+      "projectLabel": "Projeto TejoOne",
+      "highlights": {
+        "h1": {
+          "icon": "Rocket",
+          "stat": "10×10×10",
+          "unit": "cm",
+          "label": "Dimensões"
+        },
+        "h2": {
+          "icon": "Gauge",
+          "stat": "1.3",
+          "unit": "kg",
+          "label": "Massa"
+        },
+        "h3": {
+          "icon": "Calendar",
+          "stat": "2025",
+          "unit": "Q4",
+          "label": "Lançamento"
+        },
+        "h4": {
+          "icon": "Trophy",
+          "stat": "100%",
+          "unit": "PT",
+          "label": "Português"
+        }
+      }
+    },
+    "projectPreview": {
+      "title": "Os nossos Projetos",
+      "subtitle": "Iniciativas educativas e de divulgação do TejoOne que promovem o conhecimento científico e tecnológico",
+      "learnMore": "Saber mais",
+      "viewAll": "Ver Todos os Projetos"
+    },
+    "cta": {
+      "title": "Junta-te à Missão",
+      "subtitle": "Há várias formas de fazer parte desta aventura espacial",
+      "joinTeam": {
+        "title": "Junta-te à Equipa",
+        "description": "Procuramos estudantes apaixonados por engenharia espacial",
+        "button": "Saber Mais"
+      },
+      "workshops": {
+        "title": "Workshops e Eventos",
+        "description": "Participa nas nossas atividades educativas",
+        "button": "Ver Projetos"
+      },
+      "sponsor": {
+        "title": "Torna-te Patrocinador",
+        "description": "Apoia o desenvolvimento do TejoOne",
+        "button": "Contactar"
+      }
+    }
+  },  
   "contact": {
     "title": "Entre em Contacto",
     "subtitle": "Adoraríamos ouvir de si! Envie-nos uma mensagem e responderemos em breve.",
@@ -104,40 +149,6 @@
       }
     }
   },
-  "TejoOneHighlights": {
-    "badge": "Destaques do TejoOne",
-    "title": "Principais Características da Missão TejoOne",
-    "subtitle": "Descobre os aspetos inovadores que fazem do TejoOne uma missão CubeSat pioneira",
-    "description": "Um CubeSat 1U desenvolvido inteiramente por estudantes portugueses para demonstrar capacidades tecnológicas nacionais e inspirar futuras gerações.",
-    "cta": "Explorar TejoOne",
-    "projectLabel": "Projeto TejoOne",
-    "highlights": {
-      "h1": {
-        "icon": "Rocket",
-        "stat": "10×10×10",
-        "unit": "cm",
-        "label": "Dimensões"
-      },
-      "h2": {
-        "icon": "Gauge",
-        "stat": "1.3",
-        "unit": "kg",
-        "label": "Massa"
-      },
-      "h3": {
-        "icon": "Calendar",
-        "stat": "2025",
-        "unit": "Q4",
-        "label": "Lançamento"
-      },
-      "h4": {
-        "icon": "Trophy",
-        "stat": "100%",
-        "unit": "PT",
-        "label": "Português"
-      }
-    }
-  },
   "association": {
     "badge": "Sobre Nós",
     "title": "Espaço ao Cubo",
@@ -165,25 +176,6 @@
         "title": "Valores",
         "description": "Inovação, trabalho em equipa, excelência e paixão pela exploração espacial."
       }
-    }
-  },
-  "cta": {
-    "title": "Junta-te à Missão",
-    "subtitle": "Há várias formas de fazer parte desta aventura espacial",
-    "joinTeam": {
-      "title": "Junta-te à Equipa",
-      "description": "Procuramos estudantes apaixonados por engenharia espacial",
-      "button": "Saber Mais"
-    },
-    "workshops": {
-      "title": "Workshops e Eventos",
-      "description": "Participa nas nossas atividades educativas",
-      "button": "Ver Projetos"
-    },
-    "sponsor": {
-      "title": "Torna-te Patrocinador",
-      "description": "Apoia o desenvolvimento do TejoOne",
-      "button": "Contactar"
     }
   },
   "tejoone_page": {
@@ -432,5 +424,11 @@
     "cta_title": "Interesse em apoiar o TejoOne?",
     "cta_description": "Entre em contacto para discutir oportunidades de patrocínio e parceria",
     "cta_button": "Contactar"
+  },
+  "projects_page": {
+    "title": "Projetos",
+    "subtitle": "Iniciativas educativas e de divulgação do TejoOne",
+    "empty_state": "Nenhum projeto disponível no momento.",
+    "back_to_projects": "Voltar aos Projetos"
   }
 }

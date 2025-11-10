@@ -1,6 +1,6 @@
 ---
 title: "Winter School"
-description: "Programa intensivo de uma semana sobre desenvolvimento de satélites e tecnologias espaciais"
+description: "An intensive one-week program on satellite development and space technologies"
 date: "2024-02-10"
 image: "/images/projects/winter-school.jpg"
 icon: "BookOpen"
@@ -9,39 +9,39 @@ featured: true
 
 # Winter School TejoOne
 
-A Winter School é um programa intensivo de uma semana dedicado ao desenvolvimento de satélites e tecnologias espaciais.
+The Winter School is an intensive one-week program dedicated to satellite development and space technologies.
 
-## Sobre o Programa
+## About the Program
 
-Durante uma semana, participantes terão a oportunidade de trabalhar em projetos reais relacionados com o TejoOne, aprender com especialistas da indústria e desenvolver competências práticas em engenharia espacial.
+During one week, participants will have the opportunity to work on real projects related to TejoOne, learn from industry experts, and develop practical skills in space engineering.
 
-## Estrutura do Programa
+## Program Structure
 
-### Dia 1-2: Fundamentos
-- Introdução à engenharia de sistemas espaciais
-- Física orbital e dinâmica de satélites
-- Requisitos e design de missões
+### Day 1–2: Fundamentals
+- Introduction to space systems engineering  
+- Orbital physics and satellite dynamics  
+- Mission requirements and design  
 
-### Dia 3-4: Desenvolvimento Técnico
-- Programação de sistemas embebidos
-- Comunicações via satélite
-- Gestão de energia e térmicos
+### Day 3–4: Technical Development
+- Embedded systems programming  
+- Satellite communications  
+- Power and thermal management  
 
-### Dia 5: Projeto Final
-- Trabalho em equipa num desafio de design
-- Apresentações finais
-- Networking com profissionais da indústria
+### Day 5: Final Project
+- Teamwork on a design challenge  
+- Final presentations  
+- Networking with industry professionals  
 
-## Requisitos
+## Requirements
 
-- Estudantes universitários de engenharia, física ou áreas relacionadas
-- Conhecimentos básicos de programação
-- Paixão por exploração espacial
+- University students in engineering, physics, or related fields  
+- Basic programming knowledge  
+- Passion for space exploration  
 
-## Candidaturas
+## Applications
 
-As candidaturas para a próxima edição abrirão em breve. Mantém-te atento às nossas redes sociais para mais informações.
+Applications for the next edition will open soon. Stay tuned to our social media for more information.
 
-## Edições Anteriores
+## Previous Editions
 
-Já realizámos X edições da Winter School com mais de Y participantes de Z universidades diferentes.
+We have already held X editions of the Winter School with more than Y participants from Z different universities.

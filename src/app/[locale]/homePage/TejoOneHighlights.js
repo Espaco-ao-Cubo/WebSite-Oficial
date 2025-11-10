@@ -5,12 +5,12 @@ import Link from 'next/link'
 import { Rocket, Gauge, Calendar, Trophy } from 'lucide-react'
 
 export default function TejoOneHighlights() {
-  const t = useTranslations('TejoOneHighlights')
+  const t = useTranslations('mainPage.TejoOneHighlights')
   const messages = useMessages()
   const icons = { Rocket, Gauge, Calendar, Trophy }
 
   // Access raw object safely from messages
-  const highlights = Object.values(messages.TejoOneHighlights.highlights)
+  const highlights = Object.values(messages.mainPage.TejoOneHighlights.highlights)
 
   return (
     <section className="relative py-20 bg-gradient-to-b from-[#2d5a4a] to-[#1a3a2e] overflow-hidden">

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import { useTranslations, useLocale } from 'next-intl'
 import { Menu, X } from 'lucide-react'
 import LanguageSwitcher from './LanguageSwitcher'
@@ -12,6 +13,7 @@ export default function Header({ className = '' }) {
   const [isScrolled, setIsScrolled] = useState(false)
   const t = useTranslations('nav')
   const locale = useLocale()
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +33,21 @@ export default function Header({ className = '' }) {
     { href: `/${locale}/blog`, label: t('blog') },
     { href: `/${locale}/contactos`, label: t('contact') },
   ]
+
+  const isActive = (href) => {
+    if (!pathname) return false
+    
+    // Remove locale prefix from href for comparison
+    // href is like "/pt/tejoOne", we need to compare with pathname which might be "/tejoOne"
+    const hrefWithoutLocale = href.replace(`/${locale}`, '') || '/'
+    
+    // Normalize paths by removing trailing slashes
+    const normalizedPath = pathname === '/' ? '/' : pathname.replace(/\/$/, '')
+    const normalizedHref = hrefWithoutLocale === '/' ? '/' : hrefWithoutLocale.replace(/\/$/, '')
+    
+    // Exact match
+    return normalizedPath === normalizedHref
+  }
 
   return (
     <header
@@ -57,16 +74,29 @@ export default function Header({ className = '' }) {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex gap-8 text-base items-center">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="relative text-white hover:text-[#9cc5ad] transition-colors duration-200 font-medium group py-2"
-              >
-                {link.label}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#9cc5ad] transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const active = isActive(link.href)
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`relative transition-colors duration-200 font-medium group py-2 ${
+                    active 
+                      ? 'text-[#9cc5ad]' 
+                      : 'text-white hover:text-[#9cc5ad]'
+                  }`}
+                >
+                  {link.label}
+                  <span 
+                    className={`absolute bottom-0 left-0 h-0.5 bg-[#9cc5ad] transition-all duration-300 ${
+                      active 
+                        ? 'w-full' 
+                        : 'w-0 group-hover:w-full'
+                    }`} 
+                  />
+                </Link>
+              )
+            })}
             <LanguageSwitcher />
           </nav>
 
@@ -87,16 +117,23 @@ export default function Header({ className = '' }) {
           }`}
         >
           <nav className="py-6 space-y-4 border-t border-[#2d5a4a]">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setIsMenuOpen(false)}
-                className="block text-white hover:text-[#9cc5ad] hover:translate-x-2 transition-all duration-200 font-medium text-lg py-2"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const active = isActive(link.href)
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`block hover:translate-x-2 transition-all duration-200 font-medium text-lg py-2 ${
+                    active 
+                      ? 'text-[#9cc5ad]' 
+                      : 'text-white hover:text-[#9cc5ad]'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
+            })}
             <div className="pt-4">
               <LanguageSwitcher />
             </div>

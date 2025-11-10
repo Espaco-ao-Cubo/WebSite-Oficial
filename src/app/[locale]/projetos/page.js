@@ -2,6 +2,7 @@ import { getAllProjects } from '@/utils/projects'
 import { BookOpen, School, Rocket, Users, Lightbulb, Globe } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { getTranslations } from 'next-intl/server'
 
 const iconMap = {
   BookOpen,
@@ -13,7 +14,8 @@ const iconMap = {
 }
 
 export default async function ProjectsPage({ params }) {
-  const locale = await params.locale || 'pt'
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'projects_page' })
   const projects = getAllProjects(locale)
 
   const getIcon = (iconName) => {
@@ -26,18 +28,15 @@ export default async function ProjectsPage({ params }) {
         {/* Header */}
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            {locale === 'pt' ? 'Projetos' : 'Projects'}
+            {t('title')}
           </h1>
           <p className="text-white/60 text-base max-w-3xl mx-auto mt-6">
-            {locale === 'pt' 
-              ? 'Iniciativas educativas e de divulgação do TejoOne'
-              : 'Educational and outreach initiatives of TejoOne'
-            }
+            {t('subtitle')}
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => {
             const IconComponent = getIcon(project.icon)
             
@@ -48,7 +47,7 @@ export default async function ProjectsPage({ params }) {
                 className="group relative bg-white/5 backdrop-blur-sm border border-[#9cc5ad]/20 rounded-2xl overflow-hidden hover:border-[#9cc5ad]/40 transition-all duration-500 hover:transform hover:scale-105"
               >
                 {/* Image or Icon */}
-                <div className="relative h-48 bg-gradient-to-br from-[#2d5a4a] to-[#1a3a2e] flex items-center justify-center overflow-hidden">
+                <div className="relative h-70 bg-gradient-to-br from-[#2d5a4a] to-[#1a3a2e] flex items-center justify-center overflow-hidden">
                   {project.image ? (
                     <>
                       <Image
@@ -85,10 +84,7 @@ export default async function ProjectsPage({ params }) {
         {projects.length === 0 && (
           <div className="text-center py-20">
             <p className="text-white/60 text-lg">
-              {locale === 'pt' 
-                ? 'Nenhum projeto disponível no momento.'
-                : 'No projects available at the moment.'
-              }
+              {t('empty_state')}
             </p>
           </div>
         )}

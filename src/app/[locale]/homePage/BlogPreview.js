@@ -1,11 +1,10 @@
 import { Calendar, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import { useTranslations, useLocale } from 'next-intl'
 import { getAllPosts } from '@/utils/mdToBlog'
+import { getLocale, getTranslations } from 'next-intl/server'
 
-export default function BlogPreview() {
-  const t = useTranslations('blog')
-  const locale = useLocale()
+export default async function BlogPreview({locale}) {
+  const t = await getTranslations({ locale, namespace: 'mainPage.blog' })
   
   // Get the last 3 posts for current locale
   const allPosts = getAllPosts(locale)
@@ -23,7 +22,7 @@ export default function BlogPreview() {
   // If no posts, show placeholder
   if (posts.length === 0) {
     return (
-      <section className="py-20 lg:py-32 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
+      <section className="py-12 lg:py-16 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
         <div className="container mx-auto px-6 lg:px-16 xl:px-24">
           <div className="text-center">
             <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -41,7 +40,7 @@ export default function BlogPreview() {
   }
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
+    <section className="py-12 lg:py-16 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
       <div className="container mx-auto px-6 lg:px-16 xl:px-24">
         {/* Section Header */}
         <div className="text-center mb-16">

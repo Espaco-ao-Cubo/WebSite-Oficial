@@ -1,38 +1,38 @@
 ---
-title: "Workshops Educativos"
-description: "Sessões práticas sobre tecnologia espacial e desenvolvimento de CubeSats para estudantes"
+title: "Educational Workshops"
+description: "Hands-on sessions on space technology and CubeSat development for students"
 date: "2024-01-15"
 image: "/images/projects/workshops.jpg"
 icon: "School"
 featured: true
 ---
 
-# Workshops Educativos
+# Educational Workshops
 
-Os nossos workshops educativos têm como objetivo inspirar e educar estudantes sobre tecnologia espacial e o desenvolvimento de CubeSats.
+Our educational workshops aim to inspire and educate students about space technology and CubeSat development.
 
-## Objetivos
+## Objectives
 
-- Introduzir conceitos de engenharia espacial
-- Proporcionar experiências práticas
-- Fomentar o interesse em STEM
-- Criar uma comunidade de estudantes apaixonados por espaço
+- Introduce concepts of space engineering  
+- Provide hands-on experiences  
+- Foster interest in STEM  
+- Build a community of students passionate about space  
 
-## Conteúdo dos Workshops
+## Workshop Content
 
-### Módulo 1: Introdução aos CubeSats
-Aprende os fundamentos dos pequenos satélites e a sua importância na exploração espacial moderna.
+### Module 1: Introduction to CubeSats
+Learn the fundamentals of small satellites and their importance in modern space exploration.
 
-### Módulo 2: Subsistemas de Satélites
-Exploração detalhada dos diferentes subsistemas: energia, comunicações, controlo de atitude e carga útil.
+### Module 2: Satellite Subsystems
+A detailed exploration of different subsystems: power, communications, attitude control, and payload.
 
-### Módulo 3: Hands-on
-Sessões práticas onde os participantes podem trabalhar com componentes reais e simuladores.
+### Module 3: Hands-on
+Practical sessions where participants can work with real components and simulators.
 
-## Público-Alvo
+## Target Audience
 
-Estudantes do ensino secundário e universitário interessados em engenharia, física e tecnologia espacial.
+High school and university students interested in engineering, physics, and space technology.
 
-## Como Participar
+## How to Participate
 
-Para saber mais sobre os próximos workshops, contacta-nos através da página de contactos.
+To learn more about upcoming workshops, contact us through the contact page.

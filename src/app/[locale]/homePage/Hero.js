@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl'
 import CubeSatClient from '@/components/CubeSatClient'
 
 export default function Hero() {
-  const t = useTranslations('hero')
+  const t = useTranslations('mainPage.hero')
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isVisible, setIsVisible] = useState(false)
   const [isDesktop, setIsDesktop] = useState(false)

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 
 export default function MissionSection() {
-  const t = useTranslations('mission')
+  const t = useTranslations('mainPage.mission')
   
   const missions = [
     {
@@ -26,7 +26,7 @@ export default function MissionSection() {
   ]
 
   return (
-    <section className="relative py-20 lg:py-32 bg-gradient-to-b from-[#0a1f1a] to-[#1a3a2e] overflow-hidden">
+    <section className="relative py-12 lg:py-16 bg-gradient-to-b from-[#0a1f1a] to-[#1a3a2e] overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-72 h-72 bg-[#9cc5ad] rounded-full blur-3xl" />

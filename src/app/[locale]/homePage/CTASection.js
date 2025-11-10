@@ -6,7 +6,7 @@ import { Mail, Users, BookOpen } from 'lucide-react'
 
 export default function CTASection() {
   const locale = useLocale()
-  const t = useTranslations('cta')
+  const t = useTranslations('mainPage.cta')
 
   const ctas = [
     {
@@ -36,7 +36,7 @@ export default function CTASection() {
   ]
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#0a1f1a] to-[#1a3a2e]">
+    <section className="py-12 lg:py-16 bg-gradient-to-b from-[#0a1f1a] to-[#1a3a2e]">
       <div className="container mx-auto px-6 lg:px-16 xl:px-24">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
