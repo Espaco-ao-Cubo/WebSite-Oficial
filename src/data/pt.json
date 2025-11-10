@@ -5,7 +5,8 @@
     "association": "Associação",
     "projects": "Projetos Educativos",
     "blog": "Blog",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "sponsors": "Patrocinadores"
   },
   "hero": {
     "badge": "Uma iniciativa do Espaço ao Cubo",
@@ -45,11 +46,13 @@
     "subtitle": "Levamos a engenharia espacial às escolas e universidades através de iniciativas que inspiram e formam as próximas gerações",
     "workshops": {
       "title": "Workshops nas Escolas",
-      "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário."
+      "description": "Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário.",
+      "image": "/images/workshop.jpg"
     },
     "winterSchool": {
       "title": "Winter School",
-      "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários."
+      "description": "Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários.",
+      "image": "/images/winter-school.jpg"
     },
     "learnMore": "Saber mais",
     "viewAll": "Ver Todos os Projetos"
@@ -76,6 +79,64 @@
     "privacyTitle": "Política de Privacidade",
     "lastUpdated": "Última atualização",
     "effectiveDate": "Data de entrada em vigor"
+  },
+  "missionObjectives": {
+    "badge": "Consciência Orbital",
+    "title": "A Ameaça Oculta em Órbita Terrestre",
+    "description": "A órbita terrestre está cheia — com mais de 100 milhões fragmentos de detritos viajando a velocidades extremas. Estes fragmentos, frequentemente menores que uma bola de gude, podem causar danos catastróficos a satélites ativos.",
+    "subDescription": "Enquanto a maioria dos sistemas de detecção apenas identifica detritos maiores que 3-5cm, o TejoOne visa ultrapassar este limite usando uma plataforma compacta e acessível. Nossa missão: ajudar a construir um catálogo público de detritos e tornar a órbita mais limpa e segura.",
+    "stats": {
+      "debrisPieces": {
+        "label": "Fragmentos de detritos",
+        "value": "100M+"
+      },
+      "trackedObjects": {
+        "label": "Objetos rastreados",
+        "value": "28.000"
+      },
+      "averageSpeed": {
+        "label": "Velocidade média",
+        "value": "7 km/s"
+      },
+      "detectionTarget": {
+        "label": "Nossa meta de detecção",
+        "value": "<5 cm"
+      }
+    }
+  },
+  "TejoOneHighlights": {
+    "badge": "Destaques do TejoOne",
+    "title": "Principais Características da Missão TejoOne",
+    "subtitle": "Descobre os aspetos inovadores que fazem do TejoOne uma missão CubeSat pioneira",
+    "description": "Um CubeSat 1U desenvolvido inteiramente por estudantes portugueses para demonstrar capacidades tecnológicas nacionais e inspirar futuras gerações.",
+    "cta": "Explorar TejoOne",
+    "projectLabel": "Projeto TejoOne",
+    "highlights": {
+      "h1": {
+        "icon": "Rocket",
+        "stat": "10×10×10",
+        "unit": "cm",
+        "label": "Dimensões"
+      },
+      "h2": {
+        "icon": "Gauge",
+        "stat": "1.3",
+        "unit": "kg",
+        "label": "Massa"
+      },
+      "h3": {
+        "icon": "Calendar",
+        "stat": "2025",
+        "unit": "Q4",
+        "label": "Lançamento"
+      },
+      "h4": {
+        "icon": "Trophy",
+        "stat": "100%",
+        "unit": "PT",
+        "label": "Português"
+      }
+    }
   },
   "association": {
     "badge": "Sobre Nós",
@@ -105,5 +166,271 @@
         "description": "Inovação, trabalho em equipa, excelência e paixão pela exploração espacial."
       }
     }
+  },
+  "cta": {
+    "title": "Junta-te à Missão",
+    "subtitle": "Há várias formas de fazer parte desta aventura espacial",
+    "joinTeam": {
+      "title": "Junta-te à Equipa",
+      "description": "Procuramos estudantes apaixonados por engenharia espacial",
+      "button": "Saber Mais"
+    },
+    "workshops": {
+      "title": "Workshops e Eventos",
+      "description": "Participa nas nossas atividades educativas",
+      "button": "Ver Projetos"
+    },
+    "sponsor": {
+      "title": "Torna-te Patrocinador",
+      "description": "Apoia o desenvolvimento do TejoOne",
+      "button": "Contactar"
+    }
+  },
+  "tejoone_page": {
+    "missionObjectives": {
+      "title": "Objetivos da Missão",
+      "subtitle": "Uma missão com múltiplos objetivos científicos e educacionais",
+      "objectives": {
+        "techDemo": {
+          "title": "Demonstração Tecnológica",
+          "description": "Validar tecnologias desenvolvidas em Portugal para operação em ambiente espacial"
+        },
+        "national": {
+          "title": "Capacidades Nacionais",
+          "description": "Demonstrar competências portuguesas no desenvolvimento de sistemas espaciais"
+        },
+        "research": {
+          "title": "Investigação",
+          "description": "Estudar o comportamento de componentes COTS em ambiente espacial"
+        },
+        "education": {
+          "title": "Educação",
+          "description": "Formar estudantes e inspirar futuras gerações de engenheiros espaciais"
+        }
+      }
+    },
+    "timeline": {
+      "title": "Da Ideia à Órbita",
+      "subtitle": "Acompanhe a jornada do TejoOne desde o conceito até ao lançamento",
+      "cta": "Ver Timeline Completa",
+      "phases": {
+        "concept": {
+          "title": "Fase de Conceito",
+          "date": "2023",
+          "description": "Definição da missão, requisitos e arquitetura do satélite",
+          "completed": true
+        },
+        "preliminary": {
+          "title": "Design Preliminar",
+          "date": "2024 Q1-Q2",
+          "description": "Desenvolvimento dos subsistemas e seleção de componentes",
+          "completed": true
+        },
+        "critical": {
+          "title": "Design Crítico",
+          "date": "2024 Q3-Q4",
+          "description": "Finalização do design e preparação para fabricação",
+          "completed": true
+        },
+        "integration": {
+          "title": "Integração e Testes",
+          "date": "2025 Q1-Q2",
+          "description": "Montagem do satélite e testes ambientais",
+          "completed": false
+        },
+        "campaign": {
+          "title": "Campanha de Lançamento",
+          "date": "2025 Q3",
+          "description": "Preparação final e integração no lançador",
+          "completed": false
+        },
+        "launch": {
+          "title": "Lançamento",
+          "date": "2025 Q4",
+          "description": "Lançamento para órbita terrestre baixa",
+          "completed": false
+        }
+      }
+    },
+    "hero": {
+      "badge": "Projeto",
+      "title": "TEJOONE",
+      "subtitle": "CubeSat 1U de Demonstração Tecnológica",
+      "description": "O primeiro satélite português desenvolvido inteiramente por estudantes. Uma missão para validar tecnologia nacional e inspirar a próxima geração de engenheiros espaciais.",
+      "specs": {
+        "volume": {
+          "value": "10³",
+          "unit": "cm³"
+        },
+        "mass": {
+          "value": "1.3",
+          "unit": "kg"
+        },
+        "altitude": {
+          "value": "400",
+          "unit": "km altitude"
+        }
+      },
+      "cta": "Explorar Especificações"
+    },
+    "subsystems": {
+      "title": "Subsistemas",
+      "subtitle": "O TejoOne é composto por diversos subsistemas que trabalham em conjunto para garantir o sucesso da missão",
+      "items": {
+        "obdh": {
+          "name": "OBDH",
+          "fullName": "On-Board Data Handling",
+          "description": "Computador de bordo responsável pelo processamento de dados e controlo geral do satélite."
+        },
+        "comms": {
+          "name": "COMMS",
+          "fullName": "Communications",
+          "description": "Sistema de comunicações por rádio para envio de telemetria e receção de comandos."
+        },
+        "eps": {
+          "name": "EPS",
+          "fullName": "Electrical Power System",
+          "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite."
+        },
+        "adcs": {
+          "name": "ADCS",
+          "fullName": "Attitude Determination and Control",
+          "description": "Sistema de determinação e controlo de atitude para orientação do satélite."
+        },
+        "payload": {
+          "name": "Payload",
+          "fullName": "Câmara",
+          "description": "Câmara para captura de imagens da Terra e do espaço."
+        },
+        "structure": {
+          "name": "Estrutura",
+          "fullName": "Estrutura",
+          "description": "Estrutura mecânica 1U compatível com o padrão CubeSat."
+        },
+        "thermal": {
+          "name": "Térmica",
+          "fullName": "Controlo Térmico",
+          "description": "Sistema de controlo térmico para manter a temperatura operacional."
+        }
+      }
+    },
+    "technicalSpecs": {
+      "badge": "Especificações Técnicas",
+      "title": "Arquitectura do Sistema",
+      "subtitle": "Especificações detalhadas do satélite TejoOne",
+      "categories": {
+        "dimensions": {
+          "title": "Dimensões",
+          "items": {
+            "formFactor": {
+              "label": "Formato",
+              "value": "1U CubeSat"
+            },
+            "size": {
+              "label": "Dimensões",
+              "value": "10 × 10 × 10 cm"
+            },
+            "mass": {
+              "label": "Massa",
+              "value": "1.3 kg"
+            },
+            "volume": {
+              "label": "Volume",
+              "value": "1000 cm³"
+            }
+          }
+        },
+        "power": {
+          "title": "Energia",
+          "items": {
+            "solarPanels": {
+              "label": "Painéis Solares",
+              "value": "4 × GaAs"
+            },
+            "avgPower": {
+              "label": "Potência Média",
+              "value": "2W"
+            },
+            "battery": {
+              "label": "Bateria",
+              "value": "Li-ion 5.2Wh"
+            },
+            "voltage": {
+              "label": "Tensão",
+              "value": "3.7V"
+            }
+          }
+        },
+        "communications": {
+          "title": "Comunicações",
+          "items": {
+            "band": {
+              "label": "Banda",
+              "value": "UHF/VHF"
+            },
+            "txFreq": {
+              "label": "Frequência TX",
+              "value": "437 MHz"
+            },
+            "rxFreq": {
+              "label": "Frequência RX",
+              "value": "145 MHz"
+            },
+            "dataRate": {
+              "label": "Data Rate",
+              "value": "1200 bps"
+            }
+          }
+        },
+        "orbit": {
+          "title": "Órbita",
+          "items": {
+            "altitude": {
+              "label": "Altitude",
+              "value": "400 km"
+            },
+            "inclination": {
+              "label": "Inclinação",
+              "value": "~51°"
+            },
+            "type": {
+              "label": "Tipo",
+              "value": "LEO"
+            },
+            "period": {
+              "label": "Período",
+              "value": "~92 min"
+            }
+          }
+        },
+        "thermal": {
+          "title": "Térmica",
+          "items": {
+            "operating": {
+              "label": "Operacional",
+              "value": "-10°C a +50°C"
+            },
+            "survival": {
+              "label": "Sobrevivência",
+              "value": "-20°C a +60°C"
+            },
+            "control": {
+              "label": "Controlo",
+              "value": "Passive"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sponsors_page": {
+    "title": "Patrocinadores e Parceiros",
+    "subtitle": "Organizações que apoiam e tornam possível o desenvolvimento do TejoOne",
+    "parceiro": "Parceiro",
+    "patrocinio": "Patrocínio",
+    "apoio": "Apoio",
+    "cta_title": "Interesse em apoiar o TejoOne?",
+    "cta_description": "Entre em contacto para discutir oportunidades de patrocínio e parceria",
+    "cta_button": "Contactar"
   }
 }

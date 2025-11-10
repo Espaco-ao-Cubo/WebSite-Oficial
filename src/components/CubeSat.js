@@ -13,23 +13,30 @@ function CubeSatMesh() {
 
 export default function CubeSatViewer() {
   return (
-    <div className="w-full h-full" style={{ transform: 'translateZ(0)' }}>
+    <div 
+      className="w-full h-full" 
+      style={{ 
+        transform: 'translate3d(0, 0, 0)',
+        WebkitTransform: 'translate3d(0, 0, 0)',
+        position: 'relative'
+      }}
+    >
       <Canvas
         style={{ 
           width: "100%", 
           height: "100%",
-          position: 'relative'
+          position: 'absolute',
+          top: 0,
+          left: 0
         }}
-        camera={{ position: [2.5, 1.6, 2.5], fov: 40 }}
+        camera={{ position: [2, 1.2, 2], fov: 35 }}
         shadows
         gl={{ 
           antialias: true,
           alpha: true,
           powerPreference: "high-performance",
-          // Prevenir re-renders desnecessários
           preserveDrawingBuffer: false
         }}
-        // Desativar eventos que possam causar re-renders
         frameloop="always"
         dpr={[1, 2]}
       >
@@ -46,8 +53,8 @@ export default function CubeSatViewer() {
           enableZoom={false}
           autoRotate
           autoRotateSpeed={1}
-          // Importante: desabilitar damping que pode causar jitter
           enableDamping={false}
+          makeDefault
         />
       </Canvas>
     </div>

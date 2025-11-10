@@ -15,7 +15,6 @@ export default function TeamSection() {
   useEffect(() => {
     setIsVisible(true)
     
-    // Importar o JSON correto baseado no locale
     const loadTeamData = async () => {
       try {
         const data = await import(`@/data/teamMembers_${locale}.json`)

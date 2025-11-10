@@ -1,7 +1,8 @@
-import TejoOneHero from './components/tejoone/TejoOneHero'
-import MissionObjectives from './components/tejoone/MissionObjectives'
-import Timeline from './components/tejoone/Timeline'
-import Subsystems from './components/tejoone/Subsystems'
+import TejoOneHero from './components/TejoOneHero'
+import TechnicalSpecs from './components/TechnicalSpecs'
+import MissionObjectives from './components/MissionObjectives'
+import Subsystems from './components/Subsystems'
+import Timeline from './components/Timeline'
 import SponsorGrid from '@/components/SponsorGrid'
 
 export const metadata = {
@@ -13,8 +14,9 @@ export default function TejoOnePage() {
   return (
     <>
       <TejoOneHero />
-      <MissionObjectives />
       <Timeline />
+      <TechnicalSpecs />
+      <MissionObjectives />
       <Subsystems />
       <SponsorGrid />
     </>

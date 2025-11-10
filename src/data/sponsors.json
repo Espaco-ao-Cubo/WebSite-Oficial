@@ -1,0 +1,118 @@
+{
+  "parceiros": [
+    {
+      "name": "FCUL - Faculdade de Ciências da Universidade de Lisboa",
+      "logo": "/images/sponsors/FCUL.png",
+      "website": "https://ciencias.ulisboa.pt"
+    },
+    {
+      "name": "CTI Aeroespacial",
+      "logo": "/images/sponsors/CTIaero.svg",
+      "website": "https://ctiaeroespacial.pt/"
+    },
+    {
+      "name": "VORAGO Technologies",
+      "logo": "/images/sponsors/vorago.png",
+      "website": "https://voragotech.com"
+    },
+    {
+      "name": "IST - Instituto Superior Técnico",
+      "logo": "/images/sponsors/IST.png",
+      "website": "https://tecnico.ulisboa.pt"
+    },
+    {
+      "name": "Thales Edisoft",
+      "logo": "/images/sponsors/Thales.png",
+      "website": "https://thalesgroup.com"
+    },
+    {
+      "name": "Synopsis Planet",
+      "logo": "/images/sponsors/Synopsis.png",
+      "website": "https://www.synopsisplanet.com/"
+    }
+  ],
+  "patrocinios": [
+    {
+      "name": "ISCTE",
+      "logo": "/images/sponsors/iscte.png",
+      "website": "https://iscte-iul.pt"
+    },
+    {
+      "name": "DEEC-IST",
+      "logo": "/images/sponsors/DEEC.png",
+      "website": "https://deec.tecnico.ulisboa.pt"
+    },
+    {
+      "name": "Critical Software",
+      "logo": "/images/sponsors/Critical.png",
+      "website": "https://criticalsoftware.com"
+    },
+    {
+      "name": "Space Manic",
+      "logo": "/images/sponsors/spacemanic.png",
+      "website": "https://spacemanic.com"
+    },
+    {
+      "name": "DF-FCUL",
+      "logo": "/images/sponsors/DF-FCUL.png",
+      "website": "https://ciencias.ulisboa.pt/pt/df"
+    }
+  ],
+  "apoios": [
+    {
+      "name": "Exatronic",
+      "logo": "/images/sponsors/Exatronic.webp",
+      "website": "https://exatronic.pt"
+    },
+    {
+      "name": "Cubotonic",
+      "logo": "/images/sponsors/cubotonic.webp",
+      "website": "https://www.cubotonic.pt/"
+    },
+    {
+      "name": "IA - Instituto de Astrofísica e Ciências do Espaço",
+      "logo": "/images/sponsors/IA.png",
+      "website": "https://www.iastro.pt"
+    },
+    {
+      "name": "IT - Instituto de Telecomunicações",
+      "logo": "/images/sponsors/IT.png",
+      "website": "https://www.it.pt"
+    },
+    {
+      "name": "MAUSER Apoio",
+      "logo": "/images/sponsors/mauser.svg",
+      "website": "https://mauser.pt"
+    },
+    {
+      "name": "Força Aérea Portuguesa",
+      "logo": "/images/sponsors/FAP.png",
+      "website": "https://www.emfa.pt"
+    },
+    {
+      "name": "Tu Delft",
+      "logo": "/images/sponsors/tudelft.png",
+      "website": "https://tudelft.nl"
+    },
+    {
+      "name": "Vyoma",
+      "logo": "/images/sponsors/Vyoma.svg",
+      "website": "https://vyoma.space"
+    },
+    {
+      "name": "UNITE!",
+      "logo": "/images/sponsors/Unite.png",
+      "website": "https://www.unite-university.eu/"
+    },
+    {
+      "name": "AFAP",
+      "logo": "/images/sponsors/afap.png",
+      "website": "https://afap.emfa.pt/"
+    },
+    {
+      "name": "IADE",
+      "logo": "/images/sponsors/IADE.png",
+      "website": "https://www.iade.europeia.pt/"
+    }
+  ]
+}

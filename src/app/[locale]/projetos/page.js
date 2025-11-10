@@ -1,80 +1,98 @@
-'use client'
-
-import { BookOpen, School } from 'lucide-react'
+import { getAllProjects } from '@/utils/projects'
+import { BookOpen, School, Rocket, Users, Lightbulb, Globe } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function ProjectsPreview() {
-  const projects = [
-    {
-      icon: School,
-      title: 'Workshops nas Escolas',
-      description: 'Sessões práticas sobre satélites, órbitas e tecnologia espacial para estudantes do ensino básico e secundário.',
-      image: '/images/workshop.jpg', // Add your image
-      link: '/projetos',
-    },
-    {
-      icon: BookOpen,
-      title: 'Winter School',
-      description: 'Programa intensivo de uma semana sobre engenharia de satélites para estudantes universitários.',
-      image: '/images/winter-school.jpg', // Add your image
-      link: '/projetos',
-    },
-  ]
+const iconMap = {
+  BookOpen,
+  School,
+  Rocket,
+  Users,
+  Lightbulb,
+  Globe,
+}
+
+export default async function ProjectsPage({ params }) {
+  const locale = await params.locale || 'pt'
+  const projects = getAllProjects(locale)
+
+  const getIcon = (iconName) => {
+    return iconMap[iconName] || BookOpen
+  }
 
   return (
-    <section className="py-20 lg:py-32 bg-[#1a3a2e]">
-      <div className="container mx-auto px-6 lg:px-16 xl:px-24">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Projetos Educativos
-          </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Levamos a engenharia espacial às escolas e universidades através de 
-            iniciativas que inspiram e formam as próximas gerações
+    <main className="min-h-screen pt-32 pb-20 px-4 bg-[#0a1f1a]">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-20">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            {locale === 'pt' ? 'Projetos' : 'Projects'}
+          </h1>
+          <p className="text-white/60 text-base max-w-3xl mx-auto mt-6">
+            {locale === 'pt' 
+              ? 'Iniciativas educativas e de divulgação do TejoOne'
+              : 'Educational and outreach initiatives of TejoOne'
+            }
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-12">
-          {projects.map((project, index) => (
-            <Link
-              key={index}
-              href={project.link}
-              className="group relative bg-white/5 backdrop-blur-sm border border-[#9cc5ad]/20 rounded-2xl overflow-hidden hover:border-[#9cc5ad]/40 transition-all duration-500 hover:transform hover:scale-105"
-            >
-              {/* Image placeholder */}
-              <div className="relative h-64 bg-gradient-to-br from-[#2d5a4a] to-[#1a3a2e] flex items-center justify-center overflow-hidden">
-                <project.icon className="w-24 h-24 text-[#9cc5ad]/30" />
-                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
-              </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project) => {
+            const IconComponent = getIcon(project.icon)
+            
+            return (
+              <Link
+                key={project.slug}
+                href={`/${locale}/projetos/${project.slug}`}
+                className="group relative bg-white/5 backdrop-blur-sm border border-[#9cc5ad]/20 rounded-2xl overflow-hidden hover:border-[#9cc5ad]/40 transition-all duration-500 hover:transform hover:scale-105"
+              >
+                {/* Image or Icon */}
+                <div className="relative h-48 bg-gradient-to-br from-[#2d5a4a] to-[#1a3a2e] flex items-center justify-center overflow-hidden">
+                  {project.image ? (
+                    <>
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        fill
+                        className="object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
+                    </>
+                  ) : (
+                    <>
+                      <IconComponent className="w-16 h-16 text-[#9cc5ad]/30" />
+                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
+                    </>
+                  )}
+                </div>
 
-              {/* Content */}
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#9cc5ad] transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  {project.description}
-                </p>
-                <span className="inline-flex items-center text-[#9cc5ad] font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  Saber mais →
-                </span>
-              </div>
-            </Link>
-          ))}
+                {/* Content */}
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#9cc5ad] transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    {project.description}
+                  </p>
+                </div>
+              </Link>
+            )
+          })}
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center">
-          <Link href="/projetos">
-            <button className="bg-[#7ba591] hover:bg-[#9cc5ad] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-[#9cc5ad]/50">
-              Ver Todos os Projetos
-            </button>
-          </Link>
-        </div>
+        {/* Empty State */}
+        {projects.length === 0 && (
+          <div className="text-center py-20">
+            <p className="text-white/60 text-lg">
+              {locale === 'pt' 
+                ? 'Nenhum projeto disponível no momento.'
+                : 'No projects available at the moment.'
+              }
+            </p>
+          </div>
+        )}
       </div>
-    </section>
+    </main>
   )
 }

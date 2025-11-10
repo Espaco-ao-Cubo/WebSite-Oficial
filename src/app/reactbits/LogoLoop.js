@@ -237,7 +237,11 @@ export const LogoLoop = memo(
       );
 
       return (
-        <li className="logoloop__item" key={key} role="listitem">
+        <li
+          className="logoloop__item bg-white rounded-xl flex items-center justify-center p-6 shadow-md"
+          key={key}
+          role="listitem"
+        >
           {itemContent}
         </li>
       );

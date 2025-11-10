@@ -5,7 +5,8 @@
     "association": "Association",
     "projects": "Educational Projects",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "sponsors": "Sponsors"
   },
   "hero": {
     "badge": "An Espaço ao Cubo initiative",
@@ -29,81 +30,407 @@
     "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools.",
     "btnLearnMore": "Learn More About Us"
   },
-    "blog": {
-      "title": "Latest News",
-      "subtitle": "Follow TejoOne's progress and our activities",
-      "readMore": "Read more",
-      "viewAll": "View All Posts",
-      "categories": {
-        "milestone": "Milestone",
-        "event": "Event",
-        "news": "News"
+  "blog": {
+    "title": "Latest News",
+    "subtitle": "Follow TejoOne's progress and our activities",
+    "readMore": "Read more",
+    "viewAll": "View All Posts",
+    "categories": {
+      "milestone": "Milestone",
+      "event": "Event",
+      "news": "News"
+    }
+  },
+  "projects": {
+    "title": "Educational Projects",
+    "subtitle": "We bring space engineering to schools and universities through initiatives that inspire and train the next generations",
+    "workshops": {
+      "title": "School Workshops",
+      "description": "Practical sessions about satellites, orbits, and space technology for primary and secondary school students.",
+      "image": "/images/workshop.jpg"
+    },
+    "winterSchool": {
+      "title": "Winter School",
+      "description": "One-week intensive program on satellite engineering for university students.",
+      "image": "/images/winter-school.jpg"
+    },
+    "learnMore": "Learn more",
+    "viewAll": "View All Projects"
+  },
+  "footer": {
+    "allRights": "All rights reserved",
+    "credits": "Developed by:",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you! Send us a message and we'll get back soon.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message Sent!",
+    "thankyou": "Thank you for reaching out. We'll reply as soon as possible."
+  },
+  "legal": {
+    "termsTitle": "Terms of Service",
+    "privacyTitle": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "effectiveDate": "Effective date"
+  },
+  "missionObjectives": {
+    "badge": "Orbital Awareness",
+    "title": "The Hidden Threat in Earth Orbit",
+    "description": "Earth's orbit is crowded — with over 100 million pieces of debris traveling at extreme speeds. These fragments, often smaller than a marble, can cause catastrophic damage to active satellites.",
+    "subDescription": "While most detection systems only identify debris larger than 3-5cm, TejoOne aims to push this boundary by using a compact, affordable platform. Our mission: to help build a public debris catalog and make orbit cleaner and safer.",
+    "stats": {
+      "debrisPieces": {
+        "label": "Debris pieces",
+        "value": "100M+"
+      },
+      "trackedObjects": {
+        "label": "Tracked objects",
+        "value": "28,000"
+      },
+      "averageSpeed": {
+        "label": "Average speed",
+        "value": "7 km/s"
+      },
+      "detectionTarget": {
+        "label": "Our detection target",
+        "value": "<5 cm"
+      }
+    }
+  },
+  "TejoOneHighlights": {
+    "badge": "TejoOne Highlights",
+    "title": "Key Features of the TejoOne Mission",
+    "subtitle": "Discover the innovative aspects that make TejoOne a pioneering CubeSat mission",
+    "description": "A 1U CubeSat developed entirely by Portuguese students to demonstrate national technological capabilities and inspire future generations.",
+    "cta": "Explore TejoOne",
+    "projectLabel": "TejoOne Project",
+    "highlights": {
+      "h1": {
+        "icon": "Rocket",
+        "stat": "10×10×10",
+        "unit": "cm",
+        "label": "Dimensions"
+      },
+      "h2": {
+        "icon": "Gauge",
+        "stat": "1.3",
+        "unit": "kg",
+        "label": "Mass"
+      },
+      "h3": {
+        "icon": "Calendar",
+        "stat": "2025",
+        "unit": "Q4",
+        "label": "Launch"
+      },
+      "h4": {
+        "icon": "Trophy",
+        "stat": "100%",
+        "unit": "PT",
+        "label": "Portuguese"
+      }
+    }
+  },
+  "association": {
+    "badge": "About Us",
+    "title": "Espaço ao Cubo",
+    "subtitle": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
+    "intro1": "We are a passionate group of students united by the dream of reaching space. Our team brings together engineering students from various fields, working collaboratively to develop the first Portuguese CubeSat entirely designed and built by students.",
+    "intro2": "Beyond the technical challenge, we believe in the power of education and inspiration. We conduct workshops in schools, participate in events, and share our passion for space with the community, showing that the sky is not the limit.",
+    "valuesTitle": "Our Values",
+    "teamTitle": "Meet the Team",
+    "photoPlaceholder": "Team Photo Coming Soon",
+    "photoSubtext": "Add your team photo here",
+    "values": {
+      "mission": {
+        "title": "Mission",
+        "description": "Develop technical skills in space engineering through practical and challenging projects."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities."
+      },
+      "education": {
+        "title": "Education",
+        "description": "Promote space literacy through workshops, lectures and educational projects in schools."
+      },
+      "coreValues": {
+        "title": "Values",
+        "description": "Innovation, teamwork, excellence and passion for space exploration."
+      }
+    }
+  },
+  "cta": {
+    "title": "Join the Mission",
+    "subtitle": "There are many ways to be part of this space adventure",
+    "joinTeam": {
+      "title": "Join the Team",
+      "description": "We are looking for students passionate about space engineering",
+      "button": "Learn More"
+    },
+    "workshops": {
+      "title": "Workshops & Events",
+      "description": "Participate in our educational activities",
+      "button": "View Projects"
+    },
+    "sponsor": {
+      "title": "Become a Sponsor",
+      "description": "Support TejoOne development",
+      "button": "Contact Us"
+    }
+  },
+  "tejoone_page": {
+    "timeline": {
+      "title": "From Idea to Orbit",
+      "subtitle": "Follow TejoOne's journey from concept to launch",
+      "cta": "View Full Timeline",
+      "phases": {
+        "concept": {
+          "title": "Concept Phase",
+          "date": "2023",
+          "description": "Defining the mission, requirements, and satellite architecture",
+          "completed": true
+        },
+        "preliminary": {
+          "title": "Preliminary Design",
+          "date": "2024 Q1-Q2",
+          "description": "Subsystem development and component selection",
+          "completed": true
+        },
+        "critical": {
+          "title": "Critical Design",
+          "date": "2024 Q3-Q4",
+          "description": "Design finalization and preparation for manufacturing",
+          "completed": true
+        },
+        "integration": {
+          "title": "Integration and Testing",
+          "date": "2025 Q1-Q2",
+          "description": "Satellite assembly and environmental testing",
+          "completed": false
+        },
+        "campaign": {
+          "title": "Launch Campaign",
+          "date": "2025 Q3",
+          "description": "Final preparation and integration on the launcher",
+          "completed": false
+        },
+        "launch": {
+          "title": "Launch",
+          "date": "2025 Q4",
+          "description": "Launch to low Earth orbit",
+          "completed": false
+        }
       }
     },
-    "projects": {
-      "title": "Educational Projects",
-      "subtitle": "We bring space engineering to schools and universities through initiatives that inspire and train the next generations",
-      "workshops": {
-        "title": "School Workshops",
-        "description": "Practical sessions about satellites, orbits, and space technology for primary and secondary school students."
-      },
-      "winterSchool": {
-        "title": "Winter School",
-        "description": "One-week intensive program on satellite engineering for university students."
-      },
-      "learnMore": "Learn more",
-      "viewAll": "View All Projects"
-    },
-    "footer": {
-      "allRights": "All rights reserved",
-      "credits": "Developed by:",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "subtitle": "We'd love to hear from you! Send us a message and we'll get back soon.",
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "sent": "Message Sent!",
-      "thankyou": "Thank you for reaching out. We'll reply as soon as possible."
-    },
-    "legal": {
-      "termsTitle": "Terms of Service",
-      "privacyTitle": "Privacy Policy",
-      "lastUpdated": "Last updated",
-      "effectiveDate": "Effective date"
-    },
-    "association": {
-      "badge": "About Us",
-      "title": "Espaço ao Cubo",
-      "subtitle": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
-      "intro1": "We are a passionate group of students united by the dream of reaching space. Our team brings together engineering students from various fields, working collaboratively to develop the first Portuguese CubeSat entirely designed and built by students.",
-      "intro2": "Beyond the technical challenge, we believe in the power of education and inspiration. We conduct workshops in schools, participate in events, and share our passion for space with the community, showing that the sky is not the limit.",
-      "valuesTitle": "Our Values",
-      "teamTitle": "Meet the Team",
-      "photoPlaceholder": "Team Photo Coming Soon",
-      "photoSubtext": "Add your team photo here",
-      "values": {
-        "mission": {
-          "title": "Mission",
-          "description": "Develop technical skills in space engineering through practical and challenging projects."
+    "hero": {
+      "badge": "Project",
+      "title": "TEJOONE",
+      "subtitle": "1U CubeSat Technology Demonstration",
+      "description": "The first Portuguese satellite developed entirely by students. A mission to validate national technology and inspire the next generation of space engineers.",
+      "specs": {
+        "volume": {
+          "value": "10³",
+          "unit": "cm³"
         },
-        "vision": {
-          "title": "Vision",
-          "description": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities."
+        "mass": {
+          "value": "1.3",
+          "unit": "kg"
+        },
+        "altitude": {
+          "value": "400",
+          "unit": "km altitude"
+        }
+      },
+      "cta": "Explore Specifications"
+    },
+    "missionObjectives": {
+      "title": "Mission Objectives",
+      "subtitle": "A mission with multiple scientific and educational objectives",
+      "objectives": {
+        "techDemo": {
+          "title": "Technology Demonstration",
+          "description": "Validate technologies developed in Portugal for space environment operation"
+        },
+        "national": {
+          "title": "National Capabilities",
+          "description": "Demonstrate Portuguese competencies in space systems development"
+        },
+        "research": {
+          "title": "Research",
+          "description": "Study the behavior of COTS components in space environment"
         },
         "education": {
           "title": "Education",
-          "description": "Promote space literacy through workshops, lectures and educational projects in schools."
+          "description": "Train students and inspire future generations of space engineers"
+        }
+      }
+    },
+    "subsystems": {
+      "title": "Subsystems",
+      "subtitle": "TejoOne consists of several subsystems working together to ensure mission success",
+      "items": {
+        "obdh": {
+          "name": "OBDH",
+          "fullName": "On-Board Data Handling",
+          "description": "On-board computer responsible for data processing and general satellite control."
         },
-        "coreValues": {
-          "title": "Values",
-          "description": "Innovation, teamwork, excellence and passion for space exploration."
+        "comms": {
+          "name": "COMMS",
+          "fullName": "Communications",
+          "description": "Radio communications system for sending telemetry and receiving commands."
+        },
+        "eps": {
+          "name": "EPS",
+          "fullName": "Electrical Power System",
+          "description": "Power system with solar panels and batteries for satellite power supply."
+        },
+        "adcs": {
+          "name": "ADCS",
+          "fullName": "Attitude Determination and Control",
+          "description": "Attitude determination and control system for satellite orientation."
+        },
+        "payload": {
+          "name": "Payload",
+          "fullName": "Camera",
+          "description": "Camera for capturing images of Earth and space."
+        },
+        "structure": {
+          "name": "Structure",
+          "fullName": "Structure",
+          "description": "1U mechanical structure compatible with CubeSat standard."
+        },
+        "thermal": {
+          "name": "Thermal",
+          "fullName": "Thermal Control",
+          "description": "Thermal control system to maintain operational temperature."
+        }
+      }
+    },
+    "technicalSpecs": {
+      "badge": "Technical Specifications",
+      "title": "System Architecture",
+      "subtitle": "Detailed specifications of the TejoOne satellite",
+      "categories": {
+        "dimensions": {
+          "title": "Dimensions",
+          "items": {
+            "formFactor": {
+              "label": "Form Factor",
+              "value": "1U CubeSat"
+            },
+            "size": {
+              "label": "Size",
+              "value": "10 × 10 × 10 cm"
+            },
+            "mass": {
+              "label": "Mass",
+              "value": "1.3 kg"
+            },
+            "volume": {
+              "label": "Volume",
+              "value": "1000 cm³"
+            }
+          }
+        },
+        "power": {
+          "title": "Power",
+          "items": {
+            "solarPanels": {
+              "label": "Solar Panels",
+              "value": "4 × GaAs"
+            },
+            "avgPower": {
+              "label": "Average Power",
+              "value": "2W"
+            },
+            "battery": {
+              "label": "Battery",
+              "value": "Li-ion 5.2Wh"
+            },
+            "voltage": {
+              "label": "Voltage",
+              "value": "3.7V"
+            }
+          }
+        },
+        "communications": {
+          "title": "Communications",
+          "items": {
+            "band": {
+              "label": "Band",
+              "value": "UHF/VHF"
+            },
+            "txFreq": {
+              "label": "TX Frequency",
+              "value": "437 MHz"
+            },
+            "rxFreq": {
+              "label": "RX Frequency",
+              "value": "145 MHz"
+            },
+            "dataRate": {
+              "label": "Data Rate",
+              "value": "1200 bps"
+            }
+          }
+        },
+        "orbit": {
+          "title": "Orbit",
+          "items": {
+            "altitude": {
+              "label": "Altitude",
+              "value": "400 km"
+            },
+            "inclination": {
+              "label": "Inclination",
+              "value": "~51°"
+            },
+            "type": {
+              "label": "Type",
+              "value": "LEO"
+            },
+            "period": {
+              "label": "Period",
+              "value": "~92 min"
+            }
+          }
+        },
+        "thermal": {
+          "title": "Thermal",
+          "items": {
+            "operating": {
+              "label": "Operating",
+              "value": "-10°C to +50°C"
+            },
+            "survival": {
+              "label": "Survival",
+              "value": "-20°C to +60°C"
+            },
+            "control": {
+              "label": "Control",
+              "value": "Passive"
+            }
+          }
         }
       }
     }
+  },
+  "sponsors_page": {
+    "title": "Sponsors and Partners",
+    "subtitle": "Organizations that support and make possible the development of TejoOne",
+    "parceiro": "Partner",
+    "patrocinio": "Sponsorship",
+    "apoio": "Support",
+    "cta_title": "Interested in supporting TejoOne?",
+    "cta_description": "Get in touch to discuss sponsorship and partnership opportunities",
+    "cta_button": "Contact Us"
+  }
 }

@@ -26,6 +26,7 @@ export default function Header({ className = '' }) {
     { href: `/${locale}`, label: t('home') },
     { href: `/${locale}/tejoOne`, label: t('tejoone') },
     { href: `/${locale}/associacao`, label: t('association') },
+    { href: `/${locale}/sponsors`, label: t('sponsors') },
     { href: `/${locale}/projetos`, label: t('projects') },
     { href: `/${locale}/blog`, label: t('blog') },
     { href: `/${locale}/contactos`, label: t('contact') },
