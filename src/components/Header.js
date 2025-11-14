@@ -26,8 +26,8 @@ export default function Header({ className = '' }) {
 
   const navLinks = [
     { href: `/${locale}`, label: t('home') },
-    { href: `/${locale}/tejoOne`, label: t('tejoone') },
     { href: `/${locale}/associacao`, label: t('association') },
+    { href: `/${locale}/tejoOne`, label: t('tejoone') },
     { href: `/${locale}/sponsors`, label: t('sponsors') },
     { href: `/${locale}/projetos`, label: t('projects') },
     { href: `/${locale}/blog`, label: t('blog') },

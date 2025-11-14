@@ -1,5 +1,6 @@
 ---
-title: "Winter School"
+title: "Escola de Inverno NewSpace"
+subtitle: "Ensino Superior"
 description: "Programa intensivo de uma semana sobre desenvolvimento de satélites e tecnologias espaciais"
 date: "2024-02-10"
 image: "/images/projects/winter-school.jpg"
@@ -7,30 +8,13 @@ icon: "BookOpen"
 featured: true
 ---
 
-# Winter School TejoOne
+# Escola de Inverno NewSpace
 
-A Winter School é um programa intensivo de uma semana dedicado ao desenvolvimento de satélites e tecnologias espaciais.
+A Escola de Inverno NewSpace é um programa intensivo de uma semana dedicado ao desenvolvimento de satélites e tecnologias espaciais.
 
 ## Sobre o Programa
 
-Durante uma semana, participantes terão a oportunidade de trabalhar em projetos reais relacionados com o TejoOne, aprender com especialistas da indústria e desenvolver competências práticas em engenharia espacial.
-
-## Estrutura do Programa
-
-### Dia 1-2: Fundamentos
-- Introdução à engenharia de sistemas espaciais
-- Física orbital e dinâmica de satélites
-- Requisitos e design de missões
-
-### Dia 3-4: Desenvolvimento Técnico
-- Programação de sistemas embebidos
-- Comunicações via satélite
-- Gestão de energia e térmicos
-
-### Dia 5: Projeto Final
-- Trabalho em equipa num desafio de design
-- Apresentações finais
-- Networking com profissionais da indústria
+Durante 5 dias, os participantes terão oportunidade de contactar com vários nomes da indústria espacial portuguesa e academia, participando em 5 unidades curriculares que abrangem todo o setor espacial, através de palestras e workshops. No fim da nossa escola de inverno, existirá uma hackathon para testarem os seus novos conhecimentos!
 
 ## Requisitos
 
@@ -41,7 +25,3 @@ Durante uma semana, participantes terão a oportunidade de trabalhar em projetos
 ## Candidaturas
 
 As candidaturas para a próxima edição abrirão em breve. Mantém-te atento às nossas redes sociais para mais informações.
-
-## Edições Anteriores
-
-Já realizámos X edições da Winter School com mais de Y participantes de Z universidades diferentes.

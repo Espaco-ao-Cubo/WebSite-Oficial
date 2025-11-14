@@ -14,7 +14,7 @@ export default function Timeline() {
   const phaseKeys = ['concept', 'preliminary', 'critical', 'integration', 'campaign', 'launch']
 
   return (
-    <section className="py-20 lg:py-32 bg-[#1a3a2e]">
+    <section className="py-16 lg:py-20 bg-gradient-to-b from-[#173A3C] to-[#0f2d2f]">
       <div className="container mx-auto px-6 lg:px-16 xl:px-24">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -28,7 +28,7 @@ export default function Timeline() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline line */}
-            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-[#9cc5ad]/30 hidden md:block" />
+            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-[#84B295]/30 hidden md:block" />
 
             <div className="space-y-8">
               {phaseKeys.map((key, index) => {
@@ -38,9 +38,9 @@ export default function Timeline() {
                     {/* Icon */}
                     <div className="relative z-10 flex-shrink-0 hidden md:block">
                       {phase.completed ? (
-                        <CheckCircle className="w-16 h-16 text-[#9cc5ad] bg-[#1a3a2e] rounded-full" />
+                        <CheckCircle className="w-16 h-16 text-[#84B295] bg-[#173A3C] rounded-full" />
                       ) : (
-                        <Circle className="w-16 h-16 text-[#9cc5ad]/50 bg-[#1a3a2e] rounded-full" />
+                        <Circle className="w-16 h-16 text-[#84B295]/50 bg-[#173A3C] rounded-full" />
                       )}
                     </div>
 
@@ -48,12 +48,12 @@ export default function Timeline() {
                     <div
                       className={`flex-1 p-6 rounded-xl border transition-all duration-300 hover:scale-105 ${
                         phase.completed
-                          ? 'bg-[#9cc5ad]/10 border-[#9cc5ad]/30'
-                          : 'bg-white/5 border-[#9cc5ad]/20'
+                          ? 'bg-[#84B295]/10 border-[#84B295]/30'
+                          : 'bg-white/5 border-[#84B295]/20'
                       }`}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <span className="text-[#9cc5ad] font-bold text-lg">{phase.date}</span>
+                        <span className="text-[#84B295] font-bold text-lg">{phase.date}</span>
                         <h3 className="text-2xl font-bold text-white">{phase.title}</h3>
                       </div>
                       <p className="text-gray-300">{phase.description}</p>
@@ -62,14 +62,6 @@ export default function Timeline() {
                 )
               })}
             </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <Link href={`/${locale}/tejoOne`}>
-              <button className="bg-transparent border-2 border-[#9cc5ad] text-[#9cc5ad] hover:bg-[#9cc5ad] hover:text-[#1a3a2e] px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                {t('cta')}
-              </button>
-            </Link>
           </div>
         </div>
       </div>

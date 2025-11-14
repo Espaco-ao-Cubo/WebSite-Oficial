@@ -20,7 +20,7 @@ export default function TejoOneHero() {
   }
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-[#000000] via-[#0a1f1a] to-[#1a3a2e] overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-b from-[#000000] via-[#0a1f1a] to-[#173A3C] overflow-hidden">
       {/* Dramatic background */}
       <div className="absolute inset-0">
         <div className="stars opacity-40"></div>
@@ -29,7 +29,7 @@ export default function TejoOneHero() {
       </div>
 
       {/* Large orbital ring */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150vw] h-[150vw] border border-[#9cc5ad]/10 rounded-full animate-spin-slow" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150vw] h-[150vw] border border-[#84B295]/10 rounded-full animate-spin-slow" />
 
       <div className="relative z-10 container mx-auto px-6 lg:px-16 xl:px-24 min-h-screen flex items-center pt-20">
         <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
@@ -41,21 +41,21 @@ export default function TejoOneHero() {
             }`}
           >
             <div className="space-y-2">
-              <div className="text-[#9cc5ad] text-sm uppercase tracking-[0.3em] font-semibold">
+              <div className="text-[#84B295] text-sm uppercase tracking-[0.3em] font-semibold">
                 {t('badge')}
               </div>
               <h1 className="text-7xl lg:text-8xl xl:text-9xl font-bold">
-                <span className="bg-gradient-to-b from-white via-[#9cc5ad] to-[#5da284] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-b from-white via-[#84B295] to-[#588798] bg-clip-text text-transparent">
                   TEJO
                 </span>
                 <br />
-                <span className="bg-gradient-to-b from-[#9cc5ad] to-[#5da284] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-b from-[#84B295] to-[#588798] bg-clip-text text-transparent">
                   ONE
                 </span>
               </h1>
             </div>
 
-            <div className="h-1 w-24 bg-gradient-to-r from-[#9cc5ad] to-transparent" />
+            <div className="h-1 w-24 bg-gradient-to-r from-[#84B295] to-transparent" />
 
             <div className="space-y-4">
               <p className="text-2xl text-white font-light">
@@ -69,22 +69,22 @@ export default function TejoOneHero() {
             {/* Key specs - inline */}
             <div className="grid grid-cols-3 gap-6 pt-6">
               <div className="space-y-1">
-                <div className="text-3xl font-bold text-[#9cc5ad]">{t('specs.volume.value')}</div>
+                <div className="text-3xl font-bold text-[#84B295]">{t('specs.volume.value')}</div>
                 <div className="text-sm text-gray-500">{t('specs.volume.unit')}</div>
               </div>
               <div className="space-y-1">
-                <div className="text-3xl font-bold text-[#9cc5ad]">{t('specs.mass.value')}</div>
+                <div className="text-3xl font-bold text-[#84B295]">{t('specs.mass.value')}</div>
                 <div className="text-sm text-gray-500">{t('specs.mass.unit')}</div>
               </div>
               <div className="space-y-1">
-                <div className="text-3xl font-bold text-[#9cc5ad]">{t('specs.altitude.value')}</div>
+                <div className="text-3xl font-bold text-[#84B295]">{t('specs.altitude.value')}</div>
                 <div className="text-sm text-gray-500">{t('specs.altitude.unit')}</div>
               </div>
             </div>
 
             <button
               onClick={scrollToSpecs}
-              className="group flex items-center gap-3 text-[#9cc5ad] hover:text-white transition-colors mt-8"
+              className="group flex items-center gap-3 text-[#84B295] hover:text-white transition-colors mt-8"
             >
               <span className="text-sm uppercase tracking-wider">
                 {t('cta')}
@@ -101,7 +101,7 @@ export default function TejoOneHero() {
           >
             <div className="relative w-full aspect-square max-w-2xl mx-auto">
               {/* Dramatic glow */}
-              <div className="absolute inset-0 bg-[#9cc5ad]/20 blur-[100px] rounded-full" />
+              <div className="absolute inset-0 bg-[#84B295]/20 blur-[100px] rounded-full" />
               
               {/* Model container */}
               <div className="relative z-10">

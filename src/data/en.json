@@ -18,23 +18,24 @@
     "hero": {
       "badge": "An Espaço ao Cubo initiative",
       "title": "TejoOne",
-      "subtitle": "The first Portuguese CubeSat developed by students",
-      "description": "A pioneering mission to demonstrate national technological capabilities and inspire the next generation of aerospace engineers.",
+      "subtitle": "A CubeSat developed entirely by Portuguese students",
+      "description": "A pioneering mission to demonstrate technological capabilities of Portuguese students and inspire the next generation in the sector.",
       "btnDiscover": "Discover the Project",
       "btnAbout": "About Us",
       "statCubesat": "CubeSat",
       "statStudents": "Students",
-      "statLaunch": "Launch"
+      "statDevelopment": "2026",
+      "statLaunch": "Prototype"
     },
     "mission": {
       "title": "Espaço ao Cubo",
-      "description": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
+      "description": "Youth association dedicated to technology development and promoting education in the space sector",
       "objective": "Objective",
       "objectiveDesc": "Develop technical skills in space engineering through practical and challenging projects.",
       "missionTitle": "Mission",
       "missionDesc": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities.",
       "education": "Education",
-      "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools.",
+      "educationDesc": "Promote space literacy through workshops, lectures and educational projects in schools and universities.",
       "btnLearnMore": "Learn More About Us"
     },
     "blog": {
@@ -58,33 +59,33 @@
       "highlights": {
         "h1": {
           "icon": "Rocket",
-          "stat": "10×10×10",
+          "stat": "10x10x10",
           "unit": "cm",
           "label": "Dimensions"
         },
         "h2": {
           "icon": "Gauge",
-          "stat": "1.3",
+          "stat": "1.33",
           "unit": "kg",
           "label": "Mass"
         },
         "h3": {
           "icon": "Calendar",
-          "stat": "2025",
+          "stat": "2026",
           "unit": "Q4",
-          "label": "Launch"
+          "label": "Final Prototype"
         },
         "h4": {
-          "icon": "Trophy",
-          "stat": "100%",
-          "unit": "PT",
-          "label": "Portuguese"
+          "icon": "Globe",
+          "stat": "520",
+          "unit": "km",
+          "label": "Altitude"
         }
       }
     },
     "projectPreview": {
       "title": "Our Projects",
-      "subtitle": "Educational and outreach initiatives from TejoOne that promote scientific and technological knowledge",
+      "subtitle": "Educational and outreach initiatives that promote scientific and technological knowledge",
       "learnMore": "Learn more",
       "viewAll": "View All Projects"
     },
@@ -93,7 +94,7 @@
       "subtitle": "There are many ways to be part of this space adventure",
       "joinTeam": {
         "title": "Join the Team",
-        "description": "We are looking for students passionate about space engineering",
+        "description": "We are looking for students passionate about space, of all fields",
         "button": "Learn More"
       },
       "workshops": {
@@ -103,7 +104,7 @@
       },
       "sponsor": {
         "title": "Become a Sponsor",
-        "description": "Support TejoOne development",
+        "description": "Support the development of the TejoOne Nanosatellite and other initiatives",
         "button": "Contact Us"
       }
     }
@@ -152,9 +153,9 @@
   "association": {
     "badge": "About Us",
     "title": "Espaço ao Cubo",
-    "subtitle": "Student association dedicated to developing space technology and promoting education in aerospace engineering",
-    "intro1": "We are a passionate group of students united by the dream of reaching space. Our team brings together engineering students from various fields, working collaboratively to develop the first Portuguese CubeSat entirely designed and built by students.",
-    "intro2": "Beyond the technical challenge, we believe in the power of education and inspiration. We conduct workshops in schools, participate in events, and share our passion for space with the community, showing that the sky is not the limit.",
+    "subtitle": "Youth association dedicated to technology development and promoting education in the space sector",
+    "intro1": "We are a passionate group of students united by the dream of reaching space. Our team brings together engineering students from various disciplines, physicists, designers and legal scholars who work collaboratively to develop the first Portuguese CubeSat for space debris detection, designed and built entirely by students.",
+    "intro2": "Beyond the technical challenge, we believe in the power of education and inspiration. We conduct workshops and educational activities from primary to higher education. We also participate in events and lectures, sharing our passion for space with the community, showing that the sky is not the limit.",
     "valuesTitle": "Our Values",
     "teamTitle": "Meet the Team",
     "photoPlaceholder": "Team Photo Coming Soon",
@@ -166,11 +167,11 @@
       },
       "vision": {
         "title": "Vision",
-        "description": "Put into orbit the first Portuguese CubeSat developed by students and demonstrate national technological capabilities."
+        "description": "Put into orbit a CubeSat developed by students and demonstrate national technological capabilities."
       },
       "education": {
         "title": "Education",
-        "description": "Promote space literacy through workshops, lectures and educational projects in schools."
+        "description": "Promote space literacy through workshops, lectures and educational projects in schools and universities."
       },
       "coreValues": {
         "title": "Values",
@@ -226,10 +227,10 @@
       "badge": "Project",
       "title": "TEJOONE",
       "subtitle": "1U CubeSat Technology Demonstration",
-      "description": "The first Portuguese satellite developed entirely by students. A mission to validate national technology and inspire the next generation of space engineers.",
+      "description": "The first Portuguese satellite developed exclusively by students. A proof-of-concept mission demonstrating the capability of a 1U CubeSat to detect space debris, even those smaller than 10 cm.",
       "specs": {
         "volume": {
-          "value": "10³",
+          "value": "10",
           "unit": "cm³"
         },
         "mass": {
@@ -272,37 +273,51 @@
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "description": "On-board computer responsible for data processing and general satellite control."
+          "details": "O computador de bordo é responsável pelo processamento de dados e controlo geral do satélite. Gere as operações dos subsistemas, armazena telemetria e executa comandos recebidos da estação terrestre.",
+          "description": "On-board computer responsible for data processing and general satellite control.",
+          "specs": "Processor: ARM Cortex-M4, Memory: 256KB Flash, 64KB RAM, Interfaces: I2C, SPI, UART"
         },
         "comms": {
           "name": "COMMS",
           "fullName": "Communications",
-          "description": "Radio communications system for sending telemetry and receiving commands."
+          "details": "The communications system enables data exchange between the satellite and the ground station. It uses UHF/VHF bands to transmit telemetry and receive commands, ensuring a reliable link throughout the mission.",
+          "description": "Radio communications system for sending telemetry and receiving commands.",
+          "specs": "Band: UHF/VHF, Frequency: 437 MHz (TX), 145 MHz (RX), Data Rate: 1200 bps"
         },
         "eps": {
           "name": "EPS",
           "fullName": "Electrical Power System",
-          "description": "Power system with solar panels and batteries for satellite power supply."
+          "details": "The EPS manages the generation, storage, and distribution of electrical power on the satellite. It uses solar panels to capture energy from the sun and batteries to store it, ensuring all subsystems have sufficient power to operate.",
+          "description": "Power system with solar panels and batteries for satellite power supply.",
+          "specs": "Solar Panels: 4 × GaAs, Battery: Li-ion 5.2Wh, Voltage: 3.7V"
         },
         "adcs": {
           "name": "ADCS",
           "fullName": "Attitude Determination and Control",
-          "description": "Attitude determination and control system for satellite orientation."
+          "details": "The ADCS is responsible for determining and controlling the satellite's attitude in orbit. It uses sensors like magnetometers and gyroscopes to measure orientation, and actuators like reaction wheels and magnetorquers to adjust position as needed.",
+          "description": "Attitude determination and control system for satellite orientation.",
+          "specs": "Sensors: Magnetometers, Gyroscopes, Actuators: Reaction wheels, Magnetorquers"
         },
         "payload": {
           "name": "Payload",
           "fullName": "Camera",
-          "description": "Camera for capturing images of Earth and space."
+          "details": "The TejoOne payload is a camera designed to capture images of Earth and space. With a resolution of 640 × 480 pixels and a field of view of 60°, the camera stores images on a 2GB memory card for later analysis.",
+          "description": "Camera for capturing images of Earth and space.",
+          "specs": "Resolution: 640 × 480 pixels, Field of View: 60°, Storage: 2GB"
         },
         "structure": {
           "name": "Structure",
           "fullName": "Structure",
-          "description": "1U mechanical structure compatible with CubeSat standard."
+          "details": "The TejoOne structure is a 1U mechanical platform compatible with the CubeSat standard. Made from Aluminum 6061-T6, the structure provides physical support and protection to the internal subsystems, ensuring satellite integrity during launch and operation in orbit.",
+          "description": "1U mechanical structure compatible with CubeSat standard.",
+          "specs": "Material: Aluminum 6061-T6, Dimensions: 10 × 10 × 10 cm, Mass: 200g"
         },
         "thermal": {
           "name": "Thermal",
           "fullName": "Thermal Control",
-          "description": "Thermal control system to maintain operational temperature."
+          "details": "The TejoOne thermal system maintains the operational temperature of the subsystems within safe limits. It uses passive thermal control methods, such as coatings and insulation, to protect sensitive components from extreme temperature variations in the space environment.",
+          "description": "Thermal control system to maintain operational temperature.",
+          "specs": "Operating Range: -10°C to +50°C, Survival Range: -20°C to +60°C, Control: Passive"
         }
       }
     },
@@ -409,6 +424,27 @@
             "control": {
               "label": "Control",
               "value": "Passive"
+            }
+          }
+        },
+      "payload": {
+          "title": "Payload",
+          "items": {
+            "type": {
+              "label": "Type",
+              "value": "Camera"
+            },
+            "resolution": {
+              "label": "Resolution",
+              "value": "640 × 480 pixels"
+            },
+            "fov": {
+              "label": "Field of View",
+              "value": "60°"
+            },
+            "storage": {
+              "label": "Storage",
+              "value": "2GB"
             }
           }
         }

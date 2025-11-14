@@ -11,30 +11,30 @@ export default function MissionObjectives() {
       icon: Target,
       title: t('objectives.techDemo.title'),
       description: t('objectives.techDemo.description'),
-      color: 'from-blue-500 to-blue-700',
+      color: 'from-[#588798] to-[#84B295]',
     },
     {
       icon: Satellite,
       title: t('objectives.national.title'),
       description: t('objectives.national.description'),
-      color: 'from-purple-500 to-purple-700',
+      color: 'from-[#84B295] to-[#588798]',
     },
     {
       icon: Microscope,
       title: t('objectives.research.title'),
       description: t('objectives.research.description'),
-      color: 'from-green-500 to-green-700',
+      color: 'from-[#588798] to-[#173A3C]',
     },
     {
       icon: GraduationCap,
       title: t('objectives.education.title'),
       description: t('objectives.education.description'),
-      color: 'from-orange-500 to-orange-700',
+      color: 'from-[#84B295] to-[#173A3C]',
     },
   ]
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#1a3a2e] to-[#0a1f1a]">
+    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#0f2d2f] via-[#173A3C] to-[#173A3C]">
       <div className="container mx-auto px-6 lg:px-16 xl:px-24">
         
         <div className="text-center mb-16">
@@ -50,7 +50,7 @@ export default function MissionObjectives() {
           {objectives.map((obj, index) => (
             <div
               key={index}
-              className="group relative bg-black/40 backdrop-blur-sm border border-[#9cc5ad]/20 rounded-2xl p-8 hover:border-[#9cc5ad]/60 transition-all duration-500 overflow-hidden"
+              className="group relative bg-white/10 backdrop-blur-sm border border-[#84B295]/30 rounded-2xl p-8 hover:border-[#84B295]/60 transition-all duration-500 overflow-hidden"
             >
               {/* Gradient overlay on hover */}
               <div className={`absolute inset-0 bg-gradient-to-br ${obj.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`} />
@@ -60,7 +60,7 @@ export default function MissionObjectives() {
                   <obj.icon className="w-8 h-8 text-white" />
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#9cc5ad] transition-colors">
+                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#84B295] transition-colors">
                   {obj.title}
                 </h3>
                 

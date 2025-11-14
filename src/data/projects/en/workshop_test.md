@@ -1,5 +1,6 @@
 ---
-title: "Educational Workshops"
+title: "Workshops in Schools"
+subtitle: "High Schools"
 description: "Hands-on sessions on space technology and CubeSat development for students"
 date: "2024-01-15"
 image: "/images/projects/workshops.jpg"

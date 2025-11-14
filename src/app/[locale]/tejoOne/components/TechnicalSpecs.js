@@ -113,18 +113,35 @@ export default function TechnicalSpecs() {
         },
       ]
     },
+    {
+      category: t('categories.payload.title'),
+      icon: Weight,
+      items: [
+        { 
+          label: t('categories.payload.items.type.label'), 
+          value: t('categories.payload.items.type.value') 
+        },
+        { 
+          label: t('categories.payload.items.resolution.label'), 
+          value: t('categories.payload.items.resolution.value') 
+        },
+        { 
+          label: t('categories.payload.items.fov.label'), 
+          value: t('categories.payload.items.fov.value') 
+        },
+        { 
+          label: t('categories.payload.items.storage.label'), 
+          value: t('categories.payload.items.storage.value') 
+        },
+      ]
+    }
   ]
 
   return (
-    <section id="specifications" className="py-20 lg:py-32 bg-[#1a3a2e]">
+    <section id="specifications" className="py-20 lg:py-32 bg-gradient-to-b from-[#173A3C] to-[#0f2d2f]">
       <div className="container mx-auto px-6 lg:px-16 xl:px-24">
         
         <div className="text-center mb-16">
-          <div className="inline-block bg-[#9cc5ad]/20 backdrop-blur-sm px-6 py-3 rounded-full border border-[#9cc5ad]/30 mb-6">
-            <span className="text-[#9cc5ad] text-sm uppercase tracking-wider">
-              {t('badge')}
-            </span>
-          </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
             {t('title')}
           </h2>
@@ -137,10 +154,10 @@ export default function TechnicalSpecs() {
           {specs.map((spec, index) => (
             <div
               key={index}
-              className="bg-white/5 backdrop-blur-sm border border-[#9cc5ad]/20 rounded-2xl p-8 hover:bg-white/10 hover:border-[#9cc5ad]/40 transition-all duration-500"
+              className="bg-white/5 backdrop-blur-sm border border-[#84B295]/20 rounded-2xl p-8 hover:bg-white/10 hover:border-[#84B295]/40 transition-all duration-500"
             >
               <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 bg-gradient-to-br from-[#7ba591] to-[#9cc5ad] rounded-lg">
+                <div className="p-3 bg-gradient-to-br from-[#588798] to-[#84B295] rounded-lg">
                   <spec.icon className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-white">{spec.category}</h3>
@@ -148,9 +165,9 @@ export default function TechnicalSpecs() {
 
               <div className="space-y-4">
                 {spec.items.map((item, i) => (
-                  <div key={i} className="flex justify-between items-center py-2 border-b border-[#9cc5ad]/10 last:border-0">
+                  <div key={i} className="flex justify-between items-center py-2 border-b border-[#84B295]/10 last:border-0">
                     <span className="text-sm text-gray-400">{item.label}</span>
-                    <span className="text-sm font-semibold text-[#9cc5ad]">{item.value}</span>
+                    <span className="text-sm font-semibold text-[#84B295]">{item.value}</span>
                   </div>
                 ))}
               </div>

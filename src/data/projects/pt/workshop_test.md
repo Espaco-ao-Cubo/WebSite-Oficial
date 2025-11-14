@@ -1,5 +1,6 @@
 ---
-title: "Workshops Educativos"
+title: "Workshops nas escolas"
+subtitle: "Ensino médio e secundário"
 description: "Sessões práticas sobre tecnologia espacial e desenvolvimento de CubeSats para estudantes"
 date: "2024-01-15"
 image: "/images/projects/workshops.jpg"

@@ -16,15 +16,16 @@
   },
   "mainPage": {
     "hero": {
-      "badge": "Uma iniciativa do Espaço ao Cubo",
+      "badge": "Uma iniciativa da Espaço ao Cubo",
       "title": "TejoOne",
-      "subtitle": "O primeiro CubeSat português desenvolvido por estudantes",
-      "description": "Uma missão pioneira para demonstrar capacidades tecnológicas nacionais e inspirar a próxima geração de engenheiros aeroespaciais.",
+      "subtitle": "Um CubeSat português desenvolvido inteiramente por estudantes",
+      "description": "Uma missão pioneira para demonstrar capacidades tecnológicas dos estudantes portugueses e inspirar a próxima geração do setor.",
       "btnDiscover": "Descobrir o Projeto",
       "btnAbout": "Sobre Nós",
       "statCubesat": "CubeSat",
       "statStudents": "Estudantes",
-      "statLaunch": "Lançamento"
+      "statDevelopment": "2026",
+      "statLaunch": "Protótipo"
     },
     "mission": {
       "title": "Espaço ao Cubo",
@@ -34,7 +35,7 @@
       "missionTitle": "Missão",
       "missionDesc": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais.",
       "education": "Educação",
-      "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas.",
+      "educationDesc": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas e universidades.",
       "btnLearnMore": "Conhecer a Associação"
     },
     "blog": {
@@ -53,38 +54,38 @@
       "title": "Principais Características da Missão TejoOne",
       "subtitle": "Descobre os aspetos inovadores que fazem do TejoOne uma missão CubeSat pioneira",
       "description": "Um CubeSat 1U desenvolvido inteiramente por estudantes portugueses para demonstrar capacidades tecnológicas nacionais e inspirar futuras gerações.",
-      "cta": "Explorar TejoOne",
+      "cta": "Explorar o TejoOne",
       "projectLabel": "Projeto TejoOne",
       "highlights": {
         "h1": {
           "icon": "Rocket",
-          "stat": "10×10×10",
+          "stat": "10x10x10",
           "unit": "cm",
           "label": "Dimensões"
         },
         "h2": {
           "icon": "Gauge",
-          "stat": "1.3",
+          "stat": "1.33",
           "unit": "kg",
           "label": "Massa"
         },
         "h3": {
           "icon": "Calendar",
-          "stat": "2025",
+          "stat": "2026",
           "unit": "Q4",
-          "label": "Lançamento"
+          "label": "Protótipo Final"
         },
         "h4": {
-          "icon": "Trophy",
-          "stat": "100%",
-          "unit": "PT",
-          "label": "Português"
+          "icon": "Globe",
+          "stat": "520",
+          "unit": "km",
+          "label": "Altitude"
         }
       }
     },
     "projectPreview": {
       "title": "Os nossos Projetos",
-      "subtitle": "Iniciativas educativas e de divulgação do TejoOne que promovem o conhecimento científico e tecnológico",
+      "subtitle": "Iniciativas educativas e de divulgação que promovem o conhecimento científico e tecnológico",
       "learnMore": "Saber mais",
       "viewAll": "Ver Todos os Projetos"
     },
@@ -93,7 +94,7 @@
       "subtitle": "Há várias formas de fazer parte desta aventura espacial",
       "joinTeam": {
         "title": "Junta-te à Equipa",
-        "description": "Procuramos estudantes apaixonados por engenharia espacial",
+        "description": "Procuramos estudantes apaixonados pelo espaço, de todas as áreas",
         "button": "Saber Mais"
       },
       "workshops": {
@@ -103,7 +104,7 @@
       },
       "sponsor": {
         "title": "Torna-te Patrocinador",
-        "description": "Apoia o desenvolvimento do TejoOne",
+        "description": "Apoia o desenvolvimento do Nanosatélite TejoOne e restantes iniciativas",
         "button": "Contactar"
       }
     }
@@ -152,9 +153,9 @@
   "association": {
     "badge": "Sobre Nós",
     "title": "Espaço ao Cubo",
-    "subtitle": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
-    "intro1": "Somos um grupo apaixonado de estudantes unidos pelo sonho de chegar ao espaço. A nossa equipa reúne estudantes de engenharia de várias áreas, trabalhando colaborativamente para desenvolver o primeiro CubeSat português inteiramente projetado e construído por estudantes.",
-    "intro2": "Além do desafio técnico, acreditamos no poder da educação e inspiração. Realizamos workshops em escolas, participamos em eventos e partilhamos a nossa paixão pelo espaço com a comunidade, mostrando que o céu não é o limite.",
+    "subtitle": "Associação juvenil dedicada ao desenvolvimento de tecnologia e à promoção da educação no setor espacial",
+    "intro1": "Somos um grupo apaixonado de estudantes unidos pelo sonho de chegar ao espaço. A nossa equipa reúne estudantes de engenharia de várias áreas, físicos, designers e juristas, que trabalham colaborativamente para desenvolver o primeiro CubeSat português para a deteção de detritos espaciais, projetado e construído inteiramente por estudantes.",
+    "intro2": "Além do desafio técnico, acreditamos no poder da educação e inspiração. Realizamos workshops e atividades pedagógicas desde o ensino básico ao ensino superior. Participamos ainda em eventos e palestras, partilhando a nossa paixão pelo espaço com a comunidade, mostrando que o céu não é o limite.",
     "valuesTitle": "Os Nossos Valores",
     "teamTitle": "Conhece a Equipa",
     "photoPlaceholder": "Foto da Equipa em Breve",
@@ -166,11 +167,11 @@
       },
       "vision": {
         "title": "Visão",
-        "description": "Colocar em órbita o primeiro CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais."
+        "description": "Colocar em órbita um CubeSat português desenvolvido por estudantes e demonstrar capacidades tecnológicas nacionais."
       },
       "education": {
         "title": "Educação",
-        "description": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas."
+        "description": "Promover a literacia espacial através de workshops, palestras e projetos educativos em escolas e universidades."
       },
       "coreValues": {
         "title": "Valores",
@@ -248,18 +249,18 @@
       "badge": "Projeto",
       "title": "TEJOONE",
       "subtitle": "CubeSat 1U de Demonstração Tecnológica",
-      "description": "O primeiro satélite português desenvolvido inteiramente por estudantes. Uma missão para validar tecnologia nacional e inspirar a próxima geração de engenheiros espaciais.",
+      "description": "O primeiro satélite português desenvolvido exclusivamente por estudantes. Uma missão prova de conceito da capacidade de um CubeSat 1U detetar detritos espaciais, mesmo os inferiores a 10 cm.",
       "specs": {
         "volume": {
-          "value": "10³",
+          "value": "10",
           "unit": "cm³"
         },
         "mass": {
-          "value": "1.3",
+          "value": "1.33",
           "unit": "kg"
         },
         "altitude": {
-          "value": "400",
+          "value": "520",
           "unit": "km altitude"
         }
       },
@@ -268,41 +269,56 @@
     "subsystems": {
       "title": "Subsistemas",
       "subtitle": "O TejoOne é composto por diversos subsistemas que trabalham em conjunto para garantir o sucesso da missão",
+      "specsTitle": "Especificações",
       "items": {
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "description": "Computador de bordo responsável pelo processamento de dados e controlo geral do satélite."
+          "details": "O OBDH é o cérebro do satélite, responsável por gerir todas as operações a bordo. Ele processa dados dos sensores, controla os subsistemas e gere a comunicação com a estação terrestre.",
+          "description": "Computador de bordo responsável pelo processamento de dados e controlo geral do satélite.",
+          "specs": "Processador: ARM Cortex-M4, Memória: 256KB Flash, 64KB RAM, Interfaces: I2C, SPI, UART"
         },
         "comms": {
           "name": "COMMS",
           "fullName": "Communications",
-          "description": "Sistema de comunicações por rádio para envio de telemetria e receção de comandos."
+          "details": "O sistema de comunicações permite a troca de dados entre o satélite e a estação terrestre. Utiliza bandas UHF/VHF para transmitir telemetria e receber comandos, garantindo uma ligação confiável durante toda a missão.",
+          "description": "Sistema de comunicações por rádio para envio de telemetria e receção de comandos.",
+          "specs": "Banda: UHF/VHF, Frequência: 437 MHz (TX), 145 MHz (RX), Data Rate: 1200 bps"
         },
         "eps": {
           "name": "EPS",
           "fullName": "Electrical Power System",
-          "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite."
+          "details": "O EPS gere a geração, armazenamento e distribuição de energia elétrica no satélite. Utiliza painéis solares para captar energia do sol e baterias para armazená-la, garantindo que todos os subsistemas tenham energia suficiente para operar.",
+          "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite.",
+          "specs": "Painéis Solares: 4 × GaAs, Bateria: Li-ion 5.2Wh, Tensão: 3.7V"
         },
         "adcs": {
           "name": "ADCS",
           "fullName": "Attitude Determination and Control",
-          "description": "Sistema de determinação e controlo de atitude para orientação do satélite."
+          "details": "O ADCS é responsável por determinar e controlar a atitude do satélite em órbita. Utiliza sensores como magnetômetros e giroscópios para medir a orientação, e atuadores como rodas de reação e magnetotorquers para ajustar a posição conforme necessário.",
+          "description": "Sistema de determinação e controlo de atitude para orientação do satélite.",
+          "specs": "Sensores: Magnetômetros, Giroscópios, Atuadores: Rodas de reação, Magnetotorquers"
         },
         "payload": {
           "name": "Payload",
           "fullName": "Câmara",
-          "description": "Câmara para captura de imagens da Terra e do espaço."
+          "details": "O payload do TejoOne é uma câmara projetada para capturar imagens da Terra e do espaço. Com uma resolução de 640 × 480 pixels e um campo de visão de 60°, a câmara armazena as imagens em um cartão de memória de 2GB para posterior análise.",
+          "description": "Câmara para captura de imagens da Terra e do espaço.",
+          "specs": "Resolução: 640 × 480 pixels, Campo de Visão: 60°, Armazenamento: 2GB"
         },
         "structure": {
           "name": "Estrutura",
           "fullName": "Estrutura",
-          "description": "Estrutura mecânica 1U compatível com o padrão CubeSat."
+          "details": "A estrutura do TejoOne é uma plataforma mecânica 1U compatível com o padrão CubeSat. Fabricada em alumínio 6061-T6, a estrutura proporciona suporte físico e proteção aos subsistemas internos, garantindo a integridade do satélite durante o lançamento e operação em órbita.",
+          "description": "Estrutura mecânica 1U compatível com o padrão CubeSat.",
+          "specs": "Material: Alumínio 6061-T6, Dimensões: 10 × 10 × 10 cm, Massa: 200g"
         },
         "thermal": {
           "name": "Térmica",
           "fullName": "Controlo Térmico",
-          "description": "Sistema de controlo térmico para manter a temperatura operacional."
+          "details": "O sistema térmico do TejoOne mantém a temperatura operacional dos subsistemas dentro de limites seguros. Utiliza métodos passivos de controlo térmico, como revestimentos e isolamento, para proteger os componentes sensíveis das variações extremas de temperatura no ambiente espacial.",
+          "description": "Sistema de controlo térmico para manter a temperatura operacional.",
+          "specs": "Faixa Operacional: -10°C a +50°C, Faixa de Sobrevivência: -20°C a +60°C, Controlo: Passivo"
         }
       }
     },
@@ -411,6 +427,27 @@
               "value": "Passive"
             }
           }
+        },
+        "payload": {
+          "title": "Payload",
+          "items": {
+            "type": {
+              "label": "Tipo",
+              "value": "Câmara"
+            },
+            "resolution": {
+              "label": "Resolução",
+              "value": "640 × 480 pixels"
+            },
+            "fov": {
+              "label": "Campo de Visão",
+              "value": "60°"
+            },
+            "storage": {
+              "label": "Armazenamento",
+              "value": "2GB"
+            }
+          }
         }
       }
     }
@@ -427,7 +464,7 @@
   },
   "projects_page": {
     "title": "Projetos",
-    "subtitle": "Iniciativas educativas e de divulgação do TejoOne",
+    "subtitle": "Iniciativas educativas e de disseminação da ciência e tecnologia espacial",
     "empty_state": "Nenhum projeto disponível no momento.",
     "back_to_projects": "Voltar aos Projetos"
   }

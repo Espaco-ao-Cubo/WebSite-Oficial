@@ -15,10 +15,9 @@ export default function TejoOnePage() {
     <>
       <TejoOneHero />
       <Timeline />
-      <TechnicalSpecs />
       <MissionObjectives />
+      <TechnicalSpecs />
       <Subsystems />
-      <SponsorGrid />
     </>
   )
 }

@@ -68,10 +68,7 @@ export default function Hero() {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
-            {/* Badge */}
-            <div className="inline-block bg-[#9cc5ad]/20 backdrop-blur-sm px-6 py-3 rounded-full border border-[#9cc5ad]/30">
-              <span className="text-[#9cc5ad] text-sm md:text-base font-medium">{t('badge')}</span>
-            </div>
+
 
             {/* Main title */}
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold leading-none">
@@ -124,7 +121,7 @@ export default function Hero() {
 
               <div className="text-center p-4 rounded-lg hover:bg-white/5 transition-all duration-300 group">
                 <div className="text-4xl md:text-5xl font-bold text-[#9cc5ad] mb-2 group-hover:scale-110 transition-transform">
-                  2025
+                  {t('statDevelopment')}
                 </div>
                 <div className="text-sm md:text-base text-gray-400">{t('statLaunch')}</div>
               </div>

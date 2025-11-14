@@ -2,12 +2,12 @@
 
 import { useTranslations, useMessages } from 'next-intl'
 import Link from 'next/link'
-import { Rocket, Gauge, Calendar, Trophy } from 'lucide-react'
+import { Rocket, Gauge, Calendar, Globe } from 'lucide-react'
 
 export default function TejoOneHighlights() {
   const t = useTranslations('mainPage.TejoOneHighlights')
   const messages = useMessages()
-  const icons = { Rocket, Gauge, Calendar, Trophy }
+  const icons = { Rocket, Gauge, Calendar, Globe }
 
   // Access raw object safely from messages
   const highlights = Object.values(messages.mainPage.TejoOneHighlights.highlights)
@@ -23,7 +23,7 @@ export default function TejoOneHighlights() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left side */}
           <div className="text-white space-y-6">
-            <div className="inline-block bg-[#9cc5ad]/20 backdrop-blur-sm px-4 py-2 rounded-full border border-[#9cc5ad]/30 text-sm">
+            <div className="inline-block bg-[#9cc5ad]/20 backdrop-blur-sm px-5 py-3 rounded-full border border-[#9cc5ad]/30 text-sm">
               <span className="text-[#9cc5ad] font-medium">{t('projectLabel')}</span>
             </div>
 

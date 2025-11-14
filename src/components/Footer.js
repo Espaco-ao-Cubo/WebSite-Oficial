@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
-import { Mail, MapPin, Phone, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
+import { Mail, MapPin, Phone, Instagram, Linkedin, X } from 'lucide-react'
 
 export default function Footer() {
   const t = useTranslations('footer')
@@ -21,10 +21,9 @@ export default function Footer() {
   ]
 
   const socialLinks = [
-    { icon: Facebook, href: 'https://facebook.com/espacoaocubo', label: 'Facebook' },
-    { icon: Instagram, href: 'https://instagram.com/espacoaocubo', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/espaco_ao_cubo/', label: 'Instagram' },
     { icon: Linkedin, href: 'https://linkedin.com/company/espacoaocubo', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/espacoaocubo', label: 'Twitter' },
+    { icon: X, href: 'https://x.com/Tejo_One', label: 'X' }
   ]
 
   return (
@@ -109,10 +108,10 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-[#9cc5ad] flex-shrink-0 mt-0.5" />
                 <a
-                  href="mailto:info@espacoaocubo.pt"
+                  href="mailto:tejo.one@espacoaocubo.pt"
                   className="text-gray-400 hover:text-[#9cc5ad] transition-colors"
                 >
-                  info@espacoaocubo.pt
+                  tejo.one@espacoaocubo.pt
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -121,7 +120,7 @@ export default function Footer() {
                   href="tel:+351123456789"
                   className="text-gray-400 hover:text-[#9cc5ad] transition-colors"
                 >
-                  +351 123 456 789
+                  +351 926 253 903
                 </a>
               </li>
               <li className="flex items-start gap-3">
