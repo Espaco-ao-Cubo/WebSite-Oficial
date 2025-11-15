@@ -462,8 +462,10 @@
     "cta_button": "Contact Us"
   },
   "projects_page": {
-    "title": "Projects",
+    "title": "Educational Projects",
     "subtitle": "Educational and outreach initiatives of TejoOne",
+    "openRegistration": "Open Registrations!",
+    "signupNow": "Sign Up Now",
     "empty_state": "No projects available at the moment.",
     "back_to_projects": "Back to Projects"
   }

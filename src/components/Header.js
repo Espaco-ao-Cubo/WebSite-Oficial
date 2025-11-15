@@ -38,7 +38,6 @@ export default function Header({ className = '' }) {
     if (!pathname) return false
     
     // Remove locale prefix from href for comparison
-    // href is like "/pt/tejoOne", we need to compare with pathname which might be "/tejoOne"
     const hrefWithoutLocale = href.replace(`/${locale}`, '') || '/'
     
     // Normalize paths by removing trailing slashes
@@ -113,7 +112,7 @@ export default function Header({ className = '' }) {
         {/* Mobile Navigation */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+            isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
           <nav className="py-6 space-y-4 border-t border-[#2d5a4a]">
@@ -134,7 +133,9 @@ export default function Header({ className = '' }) {
                 </Link>
               )
             })}
-            <div className="pt-4">
+            
+            {/* Language Switcher in Mobile Menu */}
+            <div className="pt-4 pb-2 border-t border-[#2d5a4a]/50">
               <LanguageSwitcher />
             </div>
           </nav>

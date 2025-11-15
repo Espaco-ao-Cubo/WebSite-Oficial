@@ -3,59 +3,70 @@
     {
       "name": "FCUL - Faculdade de Ciências da Universidade de Lisboa",
       "logo": "/images/sponsors/FCUL.png",
-      "website": "https://ciencias.ulisboa.pt"
+      "website": "https://ciencias.ulisboa.pt",
+      "description": "A Faculdade de Ciências da Universidade de Lisboa é o nosso parceiro institucional, providenciando apoio académico e infraestrutura para o desenvolvimento das nossas atividades. A sua contribuição é essencial para a formação técnica dos nossos membros e para a realização de eventos educacionais de excelência."
     },
     {
       "name": "CTI Aeroespacial",
       "logo": "/images/sponsors/CTIaero.svg",
-      "website": "https://ctiaeroespacial.pt/"
+      "website": "https://ctiaeroespacial.pt/",
+      "description": "O Centro Tecnológico e de Inovação Aeroespacial é o nosso parceiro estratégico no desenvolvimento de soluções tecnológicas para o setor espacial português. Juntos, trabalhamos para promover a inovação e o empreendedorismo na indústria aeroespacial nacional."
     },
     {
       "name": "VORAGO Technologies",
       "logo": "/images/sponsors/vorago.png",
-      "website": "https://voragotech.com"
+      "website": "https://voragotech.com",
+      "description": "A VORAGO Technologies é líder mundial em microprocessadores radiation-hardened para aplicações espaciais. O seu apoio permite-nos aceder a tecnologia de ponta e desenvolver sistemas de processamento robustos para ambientes espaciais extremos."
     },
     {
       "name": "IST - Instituto Superior Técnico",
       "logo": "/images/sponsors/IST.png",
-      "website": "https://tecnico.ulisboa.pt"
+      "website": "https://tecnico.ulisboa.pt",
+      "description": "O Instituto Superior Técnico é o nosso parceiro académico de referência, oferecendo suporte técnico e científico aos nossos projetos. A colaboração com o IST fortalece a ponte entre a investigação universitária e a aplicação prática na área espacial."
     },
     {
       "name": "Thales Edisoft",
       "logo": "/images/sponsors/Thales.png",
-      "website": "https://thalesgroup.com"
+      "website": "https://thalesgroup.com",
+      "description": "A Thales Edisoft é o nosso parceiro industrial no desenvolvimento de sistemas críticos para missões espaciais. O seu expertise em software e sistemas embarcados é fundamental para garantir a qualidade e segurança dos nossos projetos."
     },
     {
       "name": "Synopsis Planet",
       "logo": "/images/sponsors/Synopsis.png",
-      "website": "https://www.synopsisplanet.com/"
+      "website": "https://www.synopsisplanet.com/",
+      "description": "A Synopsis Planet disponibiliza-nos ferramentas avançadas de design e simulação para o desenvolvimento de sistemas eletrónicos. Esta parceria permite-nos trabalhar com tecnologia profissional desde as fases iniciais dos nossos projetos."
     }
   ],
   "patrocinios": [
     {
       "name": "ISCTE",
       "logo": "/images/sponsors/iscte.png",
-      "website": "https://iscte-iul.pt"
+      "website": "https://iscte-iul.pt",
+      "description": "O ISCTE apoia as nossas iniciativas de divulgação científica e eventos académicos, contribuindo para a expansão do alcance das nossas atividades junto da comunidade universitária."
     },
     {
       "name": "DEEC-IST",
       "logo": "/images/sponsors/DEEC.png",
-      "website": "https://deec.tecnico.ulisboa.pt"
+      "website": "https://deec.tecnico.ulisboa.pt",
+      "description": "O Departamento de Engenharia Eletrotécnica e de Computadores do IST patrocina os nossos workshops técnicos e fornece recursos para o desenvolvimento de componentes eletrónicos dos nossos satélites."
     },
     {
       "name": "Critical Software",
       "logo": "/images/sponsors/Critical.png",
-      "website": "https://criticalsoftware.com"
+      "website": "https://criticalsoftware.com",
+      "description": "A Critical Software apoia o desenvolvimento dos nossos sistemas de software críticos, providenciando mentoria técnica e best practices da indústria para garantir a qualidade do nosso código."
     },
     {
       "name": "Space Manic",
       "logo": "/images/sponsors/spacemanic.png",
-      "website": "https://spacemanic.com"
+      "website": "https://spacemanic.com",
+      "description": "A Space Manic patrocina os nossos projetos de nanosatélites, partilhando experiência prática no desenvolvimento de CubeSats e contribuindo para a formação técnica da nossa equipa."
     },
     {
       "name": "DF-FCUL",
       "logo": "/images/sponsors/DF-FCUL.png",
-      "website": "https://ciencias.ulisboa.pt/pt/df"
+      "website": "https://ciencias.ulisboa.pt/pt/df",
+      "description": "O Departamento de Física da FCUL apoia os nossos projetos de investigação científica relacionados com física espacial e instrumentação para missões espaciais."
     }
   ],
   "apoios": [

@@ -463,8 +463,10 @@
     "cta_button": "Contactar"
   },
   "projects_page": {
-    "title": "Projetos",
+    "title": "Projetos Educativos",
     "subtitle": "Iniciativas educativas e de disseminação da ciência e tecnologia espacial",
+    "openRegistration": "Inscrições abertas!",
+    "signupNow": "Inscrever-me agora",
     "empty_state": "Nenhum projeto disponível no momento.",
     "back_to_projects": "Voltar aos Projetos"
   }
