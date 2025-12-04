@@ -16,7 +16,7 @@ export default function Subsystems() {
     { icon: Compass, key: 'adcs', image: '/images/subsystems/obdh.png' },
     { icon: Camera, key: 'payload', image: '/images/subsystems/obdh.png' },
     { icon: Boxes, key: 'structure', image: '/images/subsystems/obdh.png' },
-    { icon: Thermometer, key: 'thermal', image: '/images/subsystems/obdh.png' },
+    { icon: Thermometer, key: 'missionAnalysis', image: '/images/subsystems/obdh.png' },
   ]
 
   const subsystems = subsystemsConfig.map(config => ({

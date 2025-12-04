@@ -111,7 +111,7 @@ export default function Footer() {
                   href="mailto:tejo.one@espacoaocubo.pt"
                   className="text-gray-400 hover:text-[#9cc5ad] transition-colors"
                 >
-                  tejo.one@espacoaocubo.pt
+                  geral@espacoaocubo.pt
                 </a>
               </li>
               <li className="flex items-start gap-3">

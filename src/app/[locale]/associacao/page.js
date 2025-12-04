@@ -119,7 +119,7 @@ export default function TeamSection() {
               </div>
               {/* Imagem com object-fit responsivo */}
               <Image 
-                src="/images/team/team_photo_association_page.jpg" 
+                src="/images/team/team_photo_association_page.png" 
                 alt="Espaço ao Cubo Team"
                 fill
                 className="object-cover object-center"

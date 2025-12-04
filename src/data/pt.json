@@ -25,11 +25,11 @@
       "statCubesat": "CubeSat",
       "statStudents": "Estudantes",
       "statDevelopment": "2026",
-      "statLaunch": "Protótipo"
+      "statLaunch": "Modelo de voo proto"
     },
     "mission": {
       "title": "Espaço ao Cubo",
-      "description": "Associação estudantil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
+      "description": "Associação juvenil dedicada ao desenvolvimento de tecnologia espacial e à promoção da educação em engenharia aeroespacial",
       "objective": "Objetivo",
       "objectiveDesc": "Desenvolver competências técnicas em engenharia espacial através de projetos práticos e desafiantes.",
       "missionTitle": "Missão",
@@ -73,7 +73,7 @@
           "icon": "Calendar",
           "stat": "2026",
           "unit": "Q4",
-          "label": "Protótipo Final"
+          "label": "Modelo de voo proto"
         },
         "h4": {
           "icon": "Globe",
@@ -242,6 +242,12 @@
           "date": "2025 Q4",
           "description": "Lançamento para órbita terrestre baixa",
           "completed": false
+        },
+        "operations": {
+          "title": "Operações em Órbita",
+          "date": "5 anos",
+          "description": "Validar a capacidade de deteção de detritos espaciais inferiores a 10 cm através de um CubeSat 1U com um sistema ótico.",
+          "completed": false
         }
       }
     },
@@ -295,16 +301,16 @@
         "adcs": {
           "name": "ADCS",
           "fullName": "Attitude Determination and Control",
-          "details": "O ADCS é responsável por determinar e controlar a atitude do satélite em órbita. Utiliza sensores como magnetômetros e giroscópios para medir a orientação, e atuadores como rodas de reação e magnetotorquers para ajustar a posição conforme necessário.",
+          "details": "O ADCS é responsável por determinar e controlar a atitude do satélite em órbita. Utiliza sensores como magnetómetros, giroscópios e acelerómetros para medir a orientação, e atuadores como magnetotorquers para ajustar a posição conforme necessário.",
           "description": "Sistema de determinação e controlo de atitude para orientação do satélite.",
-          "specs": "Sensores: Magnetômetros, Giroscópios, Atuadores: Rodas de reação, Magnetotorquers"
+          "specs": "Sensores: Magnetómetros, Giroscópios, Acelerómetro, Atuadores: Magnetotorquers"
         },
         "payload": {
           "name": "Payload",
-          "fullName": "Câmara",
-          "details": "O payload do TejoOne é uma câmara projetada para capturar imagens da Terra e do espaço. Com uma resolução de 640 × 480 pixels e um campo de visão de 60°, a câmara armazena as imagens em um cartão de memória de 2GB para posterior análise.",
-          "description": "Câmara para captura de imagens da Terra e do espaço.",
-          "specs": "Resolução: 640 × 480 pixels, Campo de Visão: 60°, Armazenamento: 2GB"
+          "fullName": "Star Tracker Modificado",
+          "details": "A payload do TejoOne é um Star Tracker modificado que funciona como uma câmara para navegação estelar e deteção de detritos em órbita. Com uma resolução de 1280 × 980 pixeis e um campo de visão diagonal de 21º, capta imagens de elevada precisão para processamento a bordo. O sistema integra um baffle totalmente desenhado pela Espaço ao Cubo, otimizado para reduzir luz indesejada e melhorar a qualidade das deteções, contando com um Sun Exclusion Angle (half angle) de 22,4°.",
+          "description": "Star Tracker modificado com baffle otimizado, capaz de combinar navegação estelar com deteção de detritos em órbita.",
+          "specs": "Tipo: Câmara, Resolução: 1280 × 980 pixeis, Campo de Visão: 21º Diagonal, Sun Exclusion Angle (half angle): 22,4º"
         },
         "structure": {
           "name": "Estrutura",
@@ -313,12 +319,12 @@
           "description": "Estrutura mecânica 1U compatível com o padrão CubeSat.",
           "specs": "Material: Alumínio 6061-T6, Dimensões: 10 × 10 × 10 cm, Massa: 200g"
         },
-        "thermal": {
-          "name": "Térmica",
-          "fullName": "Controlo Térmico",
-          "details": "O sistema térmico do TejoOne mantém a temperatura operacional dos subsistemas dentro de limites seguros. Utiliza métodos passivos de controlo térmico, como revestimentos e isolamento, para proteger os componentes sensíveis das variações extremas de temperatura no ambiente espacial.",
-          "description": "Sistema de controlo térmico para manter a temperatura operacional.",
-          "specs": "Faixa Operacional: -10°C a +50°C, Faixa de Sobrevivência: -20°C a +60°C, Controlo: Passivo"
+        "missionAnalysis": {
+          "name": "Análise de Missão",
+          "fullName": "Mission Analysis",
+          "details": "O departamento de Análise de Missão (Mission Analysis) foi responsável por definir a órbita mais adequada para a missão científica e para o concurso, e implementar os algoritmos de Determinação Inicial de Órbita e de estimativa do tamanho do detrito por análise fotométrica, que servirão de base para a plataforma de processamento de dados na fase de operação.",
+          "description": "Determinação da órbita de operação do satélite e desenvolvimento algoritmos associados à missão científica.",
+          "specs": "Órbita: LEO circular, Altitude: 510-520 km, Inclinação: 30-45°, Tempo de vida orbital: 4-5 anos"
         }
       }
     },
@@ -395,36 +401,40 @@
           "items": {
             "altitude": {
               "label": "Altitude",
-              "value": "400 km"
+              "value": "510-520 km"
             },
             "inclination": {
               "label": "Inclinação",
-              "value": "~51°"
+              "value": "30-45°"
             },
             "type": {
               "label": "Tipo",
-              "value": "LEO"
+              "value": "LEO Circular"
             },
             "period": {
-              "label": "Período",
-              "value": "~92 min"
+              "label": "Tempo de Vida",
+              "value": "4-5 anos"
             }
           }
         },
-        "thermal": {
-          "title": "Térmica",
+        "missionAnalysis": {
+          "title": "Análise de Missão",
           "items": {
-            "operating": {
-              "label": "Operacional",
-              "value": "-10°C a +50°C"
+            "orbit": {
+              "label": "Órbita",
+              "value": "LEO Circular"
             },
-            "survival": {
-              "label": "Sobrevivência",
-              "value": "-20°C a +60°C"
+            "altitude": {
+              "label": "Altitude",
+              "value": "510-520 km"
             },
-            "control": {
-              "label": "Controlo",
-              "value": "Passive"
+            "inclination": {
+              "label": "Inclinação",
+              "value": "30-45°"
+            },
+            "lifetime": {
+              "label": "Tempo de Vida",
+              "value": "4-5 anos"
             }
           }
         },
@@ -433,19 +443,19 @@
           "items": {
             "type": {
               "label": "Tipo",
-              "value": "Câmara"
+              "value": "Câmara (Star Tracker Modificado)"
             },
             "resolution": {
               "label": "Resolução",
-              "value": "640 × 480 pixels"
+              "value": "1280 × 980 pixeis"
             },
             "fov": {
               "label": "Campo de Visão",
-              "value": "60°"
+              "value": "21º Diagonal"
             },
-            "storage": {
-              "label": "Armazenamento",
-              "value": "2GB"
+            "sunExclusion": {
+              "label": "Sun Exclusion Angle",
+              "value": "22,4º (half angle)"
             }
           }
         }

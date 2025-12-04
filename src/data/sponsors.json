@@ -4,13 +4,13 @@
       "name": "FCUL - Faculdade de Ciências da Universidade de Lisboa",
       "logo": "/images/sponsors/FCUL.png",
       "website": "https://ciencias.ulisboa.pt",
-      "description": "A Faculdade de Ciências da Universidade de Lisboa é o nosso parceiro institucional, providenciando apoio académico e infraestrutura para o desenvolvimento das nossas atividades. A sua contribuição é essencial para a formação técnica dos nossos membros e para a realização de eventos educacionais de excelência."
+      "description": "A Faculdade de Ciências da Universidade de Lisboa é o nosso parceiro institucional, providenciando apoio académico, financeiro e infraestrutura para o desenvolvimento das nossas atividades. A sua contribuição é essencial para a formação técnica dos nossos membros e para a realização de eventos educacionais de excelência."
     },
     {
-      "name": "CTI Aeroespacial",
+      "name": "CTI",
       "logo": "/images/sponsors/CTIaero.svg",
       "website": "https://ctiaeroespacial.pt/",
-      "description": "O Centro Tecnológico e de Inovação Aeroespacial é o nosso parceiro estratégico no desenvolvimento de soluções tecnológicas para o setor espacial português. Juntos, trabalhamos para promover a inovação e o empreendedorismo na indústria aeroespacial nacional."
+      "description": "O Centro Tecnológico e de Inovação Aeroespacial deu um apoio financeiro muito significativo para o desenvolvimento do satélite TejoOne e da sua estação terrestre dedicada."
     },
     {
       "name": "VORAGO Technologies",
@@ -28,13 +28,19 @@
       "name": "Thales Edisoft",
       "logo": "/images/sponsors/Thales.png",
       "website": "https://thalesgroup.com",
-      "description": "A Thales Edisoft é o nosso parceiro industrial no desenvolvimento de sistemas críticos para missões espaciais. O seu expertise em software e sistemas embarcados é fundamental para garantir a qualidade e segurança dos nossos projetos."
+      "description": "A Thales Edisoft é o nosso parceiro industrial no desenvolvimento de sistemas críticos para missões espaciais. O seu expertise em software e sistemas embarcados, juntamente com a mentoria técnica, é fundamental para garantir a qualidade e segurança dos nossos projetos."
     },
     {
       "name": "Synopsis Planet",
       "logo": "/images/sponsors/Synopsis.png",
       "website": "https://www.synopsisplanet.com/",
-      "description": "A Synopsis Planet disponibiliza-nos ferramentas avançadas de design e simulação para o desenvolvimento de sistemas eletrónicos. Esta parceria permite-nos trabalhar com tecnologia profissional desde as fases iniciais dos nossos projetos."
+      "description": "A Synopsis Planet forneceu o sistema ótico necessário à implementação da nossa missão científica, tendo sido um parceiro de contacto próximo com o projeto."
+    },
+    {
+      "name": "Exatronic",
+      "logo": "/images/sponsors/Exatronic.webp",
+      "website": "https://exatronic.pt",
+      "description": "Parceiros chave no desenvolvimento da eletrónica de controlo do satélite através de mentoria e apoios à produção."
     }
   ],
   "patrocinios": [
@@ -42,44 +48,34 @@
       "name": "ISCTE",
       "logo": "/images/sponsors/iscte.png",
       "website": "https://iscte-iul.pt",
-      "description": "O ISCTE apoia as nossas iniciativas de divulgação científica e eventos académicos, contribuindo para a expansão do alcance das nossas atividades junto da comunidade universitária."
+      "description": "O ISCTE apoiou financeiramente o projeto, contando também com participação ativa no projeto através da equipa de software."
     },
     {
       "name": "DEEC-IST",
       "logo": "/images/sponsors/DEEC.png",
       "website": "https://deec.tecnico.ulisboa.pt",
-      "description": "O Departamento de Engenharia Eletrotécnica e de Computadores do IST patrocina os nossos workshops técnicos e fornece recursos para o desenvolvimento de componentes eletrónicos dos nossos satélites."
+      "description": "O Departamento de Engenharia Eletrotécnica e de Computadores do IST fornece apoio técnico e recursos no desenvolvimento de subsistemas eletrónicos, nomeadamente em ADCS."
     },
     {
       "name": "Critical Software",
       "logo": "/images/sponsors/Critical.png",
       "website": "https://criticalsoftware.com",
-      "description": "A Critical Software apoia o desenvolvimento dos nossos sistemas de software críticos, providenciando mentoria técnica e best practices da indústria para garantir a qualidade do nosso código."
+      "description": "A Critical Software apoia o desenvolvimento dos nossos sistemas de software críticos, providenciando mentoria técnica e acesso aos seus produtos de última geração para garantir a qualidade do nosso código."
     },
     {
       "name": "Space Manic",
       "logo": "/images/sponsors/spacemanic.png",
       "website": "https://spacemanic.com",
-      "description": "A Space Manic patrocina os nossos projetos de nanosatélites, partilhando experiência prática no desenvolvimento de CubeSats e contribuindo para a formação técnica da nossa equipa."
+      "description": "Enquanto principal fornecedor de componentes COTS do satélite TejoOne, a Space Manic tem fornecido um acompanhamento próximo e descontos significativos."
     },
     {
       "name": "DF-FCUL",
       "logo": "/images/sponsors/DF-FCUL.png",
       "website": "https://ciencias.ulisboa.pt/pt/df",
-      "description": "O Departamento de Física da FCUL apoia os nossos projetos de investigação científica relacionados com física espacial e instrumentação para missões espaciais."
+      "description": "O Departamento de Física da FCUL tem dado acompanhamento próximo do projeto em mentoria técnica, apoio financeiro para prototipagem, assim como materiais e instalações para o desenvolvimento das atividades educacionais e de disseminação."
     }
   ],
   "apoios": [
-    {
-      "name": "Exatronic",
-      "logo": "/images/sponsors/Exatronic.webp",
-      "website": "https://exatronic.pt"
-    },
-    {
-      "name": "Cubotonic",
-      "logo": "/images/sponsors/cubotonic.webp",
-      "website": "https://www.cubotonic.pt/"
-    },
     {
       "name": "IA - Instituto de Astrofísica e Ciências do Espaço",
       "logo": "/images/sponsors/IA.png",
@@ -89,6 +85,11 @@
       "name": "IT - Instituto de Telecomunicações",
       "logo": "/images/sponsors/IT.png",
       "website": "https://www.it.pt"
+    },
+    {
+      "name": "Cubotonic",
+      "logo": "/images/sponsors/cubotonic.webp",
+      "website": "https://www.cubotonic.pt/"
     },
     {
       "name": "MAUSER Apoio",
@@ -124,6 +125,11 @@
       "name": "IADE",
       "logo": "/images/sponsors/IADE.png",
       "website": "https://www.iade.europeia.pt/"
+    },
+    {
+      "name": "NFEF-FCUL",
+      "logo": "/images/sponsors/NFEF-FCUL.png",
+      "website": "https://nfef.pt"
     }
   ]
 }

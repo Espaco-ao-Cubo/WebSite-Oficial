@@ -25,7 +25,7 @@
       "statCubesat": "CubeSat",
       "statStudents": "Students",
       "statDevelopment": "2026",
-      "statLaunch": "Prototype"
+      "statLaunch": "Proto flight model"
     },
     "mission": {
       "title": "Espaço ao Cubo",
@@ -73,7 +73,7 @@
           "icon": "Calendar",
           "stat": "2026",
           "unit": "Q4",
-          "label": "Final Prototype"
+          "label": "Proto Flight Model"
         },
         "h4": {
           "icon": "Globe",
@@ -220,6 +220,12 @@
           "date": "2025 Q4",
           "description": "Launch to low Earth orbit",
           "completed": false
+        },
+        "operations": {
+          "title": "Orbital Operations",
+          "date": "5 years",
+          "description": "Validate the capability to detect space debris smaller than 10 cm using a 1U CubeSat with an optical system.",
+          "completed": false
         }
       }
     },
@@ -266,58 +272,59 @@
         }
       }
     },
-    "subsystems": {
+"subsystems": {
       "title": "Subsystems",
-      "subtitle": "TejoOne consists of several subsystems working together to ensure mission success",
+      "subtitle": "TejoOne is composed of several subsystems that work together to ensure mission success",
+      "specsTitle": "Specifications",
       "items": {
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "details": "O computador de bordo é responsável pelo processamento de dados e controlo geral do satélite. Gere as operações dos subsistemas, armazena telemetria e executa comandos recebidos da estação terrestre.",
-          "description": "On-board computer responsible for data processing and general satellite control.",
+          "details": "The OBDH is the satellite's brain, responsible for managing all on-board operations. It processes sensor data, controls subsystems, and manages communication with the ground station.",
+          "description": "On-board computer responsible for data processing and overall satellite control.",
           "specs": "Processor: ARM Cortex-M4, Memory: 256KB Flash, 64KB RAM, Interfaces: I2C, SPI, UART"
         },
         "comms": {
           "name": "COMMS",
           "fullName": "Communications",
           "details": "The communications system enables data exchange between the satellite and the ground station. It uses UHF/VHF bands to transmit telemetry and receive commands, ensuring a reliable link throughout the mission.",
-          "description": "Radio communications system for sending telemetry and receiving commands.",
+          "description": "Radio communications system for telemetry transmission and command reception.",
           "specs": "Band: UHF/VHF, Frequency: 437 MHz (TX), 145 MHz (RX), Data Rate: 1200 bps"
         },
         "eps": {
           "name": "EPS",
           "fullName": "Electrical Power System",
-          "details": "The EPS manages the generation, storage, and distribution of electrical power on the satellite. It uses solar panels to capture energy from the sun and batteries to store it, ensuring all subsystems have sufficient power to operate.",
+          "details": "The EPS manages the generation, storage, and distribution of electrical power in the satellite. It uses solar panels to capture energy from the sun and batteries to store it, ensuring all subsystems have sufficient power to operate.",
           "description": "Power system with solar panels and batteries for satellite power supply.",
           "specs": "Solar Panels: 4 × GaAs, Battery: Li-ion 5.2Wh, Voltage: 3.7V"
         },
         "adcs": {
           "name": "ADCS",
           "fullName": "Attitude Determination and Control",
-          "details": "The ADCS is responsible for determining and controlling the satellite's attitude in orbit. It uses sensors like magnetometers and gyroscopes to measure orientation, and actuators like reaction wheels and magnetorquers to adjust position as needed.",
+          "details": "The ADCS is responsible for determining and controlling the satellite's attitude in orbit. It uses sensors such as magnetometers, gyroscopes, and accelerometers to measure orientation, and actuators such as magnetorquers to adjust position as needed.",
           "description": "Attitude determination and control system for satellite orientation.",
-          "specs": "Sensors: Magnetometers, Gyroscopes, Actuators: Reaction wheels, Magnetorquers"
+          "specs": "Sensors: Magnetometers, Gyroscopes, Accelerometer, Actuators: Magnetorquers"
         },
         "payload": {
           "name": "Payload",
-          "fullName": "Camera",
-          "details": "The TejoOne payload is a camera designed to capture images of Earth and space. With a resolution of 640 × 480 pixels and a field of view of 60°, the camera stores images on a 2GB memory card for later analysis.",
-          "description": "Camera for capturing images of Earth and space.",
-          "specs": "Resolution: 640 × 480 pixels, Field of View: 60°, Storage: 2GB"
+          "fullName": "Modified Star Tracker",
+          "details": "TejoOne's payload is a modified Star Tracker that functions as a camera for stellar navigation and orbital debris detection. With a resolution of 1280 × 980 pixels and a diagonal field of view of 21º, it captures high-precision images for on-board processing. The system integrates a baffle fully designed by Espaço ao Cubo, optimized to reduce unwanted light and improve detection quality, featuring a Sun Exclusion Angle (half angle) of 22.4°.",
+          "description": "Modified Star Tracker with optimized baffle, capable of combining stellar navigation with orbital debris detection.",
+          "specs": "Type: Camera, Resolution: 1280 × 980 pixels, Field of View: 21º Diagonal, Sun Exclusion Angle (half angle): 22.4º"
         },
         "structure": {
           "name": "Structure",
           "fullName": "Structure",
-          "details": "The TejoOne structure is a 1U mechanical platform compatible with the CubeSat standard. Made from Aluminum 6061-T6, the structure provides physical support and protection to the internal subsystems, ensuring satellite integrity during launch and operation in orbit.",
+          "details": "TejoOne's structure is a 1U mechanical platform compatible with the CubeSat standard. Manufactured in 6061-T6 aluminum, the structure provides physical support and protection to internal subsystems, ensuring satellite integrity during launch and orbital operations.",
           "description": "1U mechanical structure compatible with CubeSat standard.",
-          "specs": "Material: Aluminum 6061-T6, Dimensions: 10 × 10 × 10 cm, Mass: 200g"
+          "specs": "Material: 6061-T6 Aluminum, Dimensions: 10 × 10 × 10 cm, Mass: 200g"
         },
-        "thermal": {
-          "name": "Thermal",
-          "fullName": "Thermal Control",
-          "details": "The TejoOne thermal system maintains the operational temperature of the subsystems within safe limits. It uses passive thermal control methods, such as coatings and insulation, to protect sensitive components from extreme temperature variations in the space environment.",
-          "description": "Thermal control system to maintain operational temperature.",
-          "specs": "Operating Range: -10°C to +50°C, Survival Range: -20°C to +60°C, Control: Passive"
+        "missionAnalysis": {
+          "name": "Mission Analysis",
+          "fullName": "Mission Analysis",
+          "details": "The Mission Analysis department was responsible for defining the most suitable orbit for the scientific mission and competition, and implementing the Initial Orbit Determination algorithms and debris size estimation through photometric analysis, which will serve as the basis for the data processing platform during the operational phase.",
+          "description": "Determination of the satellite's operational orbit and development of algorithms associated with the scientific mission.",
+          "specs": "Orbit: Circular LEO, Altitude: 510-520 km, Inclination: 30-45°, Orbital Lifetime: 4-5 years"
         }
       }
     },
@@ -334,7 +341,7 @@
               "value": "1U CubeSat"
             },
             "size": {
-              "label": "Size",
+              "label": "Dimensions",
               "value": "10 × 10 × 10 cm"
             },
             "mass": {
@@ -394,57 +401,61 @@
           "items": {
             "altitude": {
               "label": "Altitude",
-              "value": "400 km"
+              "value": "510-520 km"
             },
             "inclination": {
               "label": "Inclination",
-              "value": "~51°"
+              "value": "30-45°"
             },
             "type": {
               "label": "Type",
-              "value": "LEO"
+              "value": "Circular LEO"
             },
             "period": {
-              "label": "Period",
-              "value": "~92 min"
+              "label": "Lifetime",
+              "value": "4-5 years"
             }
           }
         },
-        "thermal": {
-          "title": "Thermal",
+        "missionAnalysis": {
+          "title": "Mission Analysis",
           "items": {
-            "operating": {
-              "label": "Operating",
-              "value": "-10°C to +50°C"
+            "orbit": {
+              "label": "Orbit",
+              "value": "Circular LEO"
             },
-            "survival": {
-              "label": "Survival",
-              "value": "-20°C to +60°C"
+            "altitude": {
+              "label": "Altitude",
+              "value": "510-520 km"
             },
-            "control": {
-              "label": "Control",
-              "value": "Passive"
+            "inclination": {
+              "label": "Inclination",
+              "value": "30-45°"
+            },
+            "lifetime": {
+              "label": "Lifetime",
+              "value": "4-5 years"
             }
           }
         },
-      "payload": {
+        "payload": {
           "title": "Payload",
           "items": {
             "type": {
               "label": "Type",
-              "value": "Camera"
+              "value": "Camera (Modified Star Tracker)"
             },
             "resolution": {
               "label": "Resolution",
-              "value": "640 × 480 pixels"
+              "value": "1280 × 980 pixels"
             },
             "fov": {
               "label": "Field of View",
-              "value": "60°"
+              "value": "21º Diagonal"
             },
-            "storage": {
-              "label": "Storage",
-              "value": "2GB"
+            "sunExclusion": {
+              "label": "Sun Exclusion Angle",
+              "value": "22.4º (half angle)"
             }
           }
         }

@@ -11,7 +11,7 @@ export default function Timeline() {
 
   // Access the raw JSON object (booleans included)
   const phases = messages.tejoone_page.timeline.phases
-  const phaseKeys = ['concept', 'preliminary', 'critical', 'integration', 'campaign', 'launch']
+  const phaseKeys = ['concept', 'preliminary', 'critical', 'integration', 'campaign', 'launch', 'operations']
 
   return (
     <section className="py-16 lg:py-20 bg-gradient-to-b from-[#173A3C] to-[#0f2d2f]">

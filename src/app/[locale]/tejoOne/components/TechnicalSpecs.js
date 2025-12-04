@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
-import { Ruler, Weight, Zap, Radio, Thermometer, Gauge } from 'lucide-react'
+import { Ruler, Weight, Zap, Radio, Camera, Gauge } from 'lucide-react'
 
 export default function TechnicalSpecs() {
   const t = useTranslations('tejoone_page.technicalSpecs')
@@ -96,20 +96,24 @@ export default function TechnicalSpecs() {
       ]
     },
     {
-      category: t('categories.thermal.title'),
-      icon: Thermometer,
+      category: t('categories.missionAnalysis.title'),
+      icon: Camera,
       items: [
         { 
-          label: t('categories.thermal.items.operating.label'), 
-          value: t('categories.thermal.items.operating.value') 
+          label: t('categories.missionAnalysis.items.orbit.label'), 
+          value: t('categories.missionAnalysis.items.orbit.value') 
         },
         { 
-          label: t('categories.thermal.items.survival.label'), 
-          value: t('categories.thermal.items.survival.value') 
+          label: t('categories.missionAnalysis.items.altitude.label'), 
+          value: t('categories.missionAnalysis.items.altitude.value') 
         },
         { 
-          label: t('categories.thermal.items.control.label'), 
-          value: t('categories.thermal.items.control.value') 
+          label: t('categories.missionAnalysis.items.inclination.label'), 
+          value: t('categories.missionAnalysis.items.inclination.value') 
+        },
+        { 
+          label: t('categories.missionAnalysis.items.lifetime.label'), 
+          value: t('categories.missionAnalysis.items.lifetime.value') 
         },
       ]
     },
@@ -130,8 +134,8 @@ export default function TechnicalSpecs() {
           value: t('categories.payload.items.fov.value') 
         },
         { 
-          label: t('categories.payload.items.storage.label'), 
-          value: t('categories.payload.items.storage.value') 
+          label: t('categories.payload.items.sunExclusion.label'), 
+          value: t('categories.payload.items.sunExclusion.value') 
         },
       ]
     }
