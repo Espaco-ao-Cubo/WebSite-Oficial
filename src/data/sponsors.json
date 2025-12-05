@@ -8,7 +8,7 @@
     },
     {
       "name": "CTI",
-      "logo": "/images/sponsors/CTIaero.svg",
+      "logo": "/images/sponsors/CTIaero.png",
       "website": "https://ctiaeroespacial.pt/",
       "description": "O Centro Tecnológico e de Inovação Aeroespacial deu um apoio financeiro muito significativo para o desenvolvimento do satélite TejoOne e da sua estação terrestre dedicada."
     },
@@ -128,8 +128,8 @@
     },
     {
       "name": "NFEF-FCUL",
-      "logo": "/images/sponsors/NFEF-FCUL.png",
-      "website": "https://nfef.pt"
+      "logo": "/images/sponsors/NFEF-FCUL.jpg",
+      "website": "https://nfef-fcul.com/"
     }
   ]
 }

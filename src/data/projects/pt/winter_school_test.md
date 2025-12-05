@@ -8,7 +8,7 @@ image: "/images/projects/winter-school.jpg"
 icon: "BookOpen"
 featured: true
 registrationOpen: true
-registrationLink: "https://forms.google.com/your-form-link"
+registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQCZmvXLArwco37ee4G9tgQ85tkWvAw/viewform?usp=dialog"
 ---
 
 # Escola de Inverno NewSpace

@@ -1,152 +1,507 @@
 {
-  "teams": [
+  "projects": [
     {
-      "id": "leadership",
-      "name": "Leadership",
-      "description": "Team responsible for project management and strategic direction",
+      "id": "tejoone",
+      "name": "TejoOne",
+      "description": "First Portuguese CubeSat satellite developed by students",
       "departments": [
         {
-          "id": "executive",
-          "name": "Executive Board",
+          "id": "management",
+          "name": "Management",
           "members": [
             {
-              "name": "João Silva",
-              "role": "Project Manager",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Teresa Silva Correia",
+              "role": "",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "university": "",
+              "course": "",
+              "degree": "Professional",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
             },
             {
-              "name": "Maria Santos",
-              "role": "Deputy Project Manager",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Alice Morais Ferra Deniz Silva",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Biomedical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Pedro Costa",
-              "role": "Technical Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "João Paulo Freitas Gonçalves",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics and Astrophysics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
         {
-          "id": "coordination",
-          "name": "Coordination",
+          "id": "outreach",
+          "name": "Communication and Outreach",
           "members": [
             {
-              "name": "Ana Rodrigues",
-              "role": "Systems Coordinator",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "João Paulo Abrantes",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "Lusíada",
+              "course": "Law",
+              "degree": "Bachelor's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Carlos Mendes",
-              "role": "Operations Coordinator",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "engineering",
-      "name": "Engineering",
-      "description": "Technical team responsible for CubeSat development",
-      "departments": [
-        {
-          "id": "control",
-          "name": "Control",
-          "members": [
-            {
-              "name": "Sofia Alves",
-              "role": "ADCS Lead Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Nuno Espírito Santo",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FAUL",
+              "course": "Design",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Ricardo Ferreira",
-              "role": "Attitude Control Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Filipa Vitória de Vidigal e Almada Mendes Lopes",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor'              s",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Beatriz Lima",
-              "role": "Sensor Systems Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
-            }
-          ]
-        },
-        {
-          "id": "communications",
-          "name": "Communications",
-          "members": [
-            {
-              "name": "Miguel Santos",
-              "role": "Communications Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Mafalda Ferro Borges do Rêgo Cavaco",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "Lusófona",
+              "course": "Digital Animation",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Inês Carvalho",
-              "role": "RF Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
-            },
-            {
-              "name": "Tiago Oliveira",
-              "role": "Antenna Design Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Pedro Miguel Flamínio e Silva",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "",
+              "course": "",
+              "degree": "",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
         {
-          "id": "power",
-          "name": "Power Systems",
+          "id": "systems-engineering",
+          "name": "Systems Engineering",
           "members": [
             {
-              "name": "Diana Ribeiro",
-              "role": "Power Systems Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "André Filipe Conceição Santos",
+              "role": "",
+              "image": "/images/team/AndréSantos.JPG",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "André Martins",
-              "role": "Battery Systems Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Eduardo Filipe Braz Barata",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Informatics and Computer Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Catarina Sousa",
-              "role": "Solar Panel Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Manuel Marques da Cruz",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Informatics and Computer Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Tiago Miguel Prates da Costa",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Martim De Almeida Alves Caetano",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Francisco Maria Baptista Gonçalves Zarcos",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
         {
-          "id": "structure",
-          "name": "Structure and Materials",
+          "id": "software",
+          "name": "Software",
           "members": [
             {
-              "name": "Francisco Gomes",
-              "role": "Structures Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Alexandre Plotean",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "ISCTE",
+              "course": "Informatics Eng.",
+              "degree": "Bachelor's",
+              "year": "4th year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Laura Pereira",
-              "role": "Thermal Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Nuno Faísca Coelho",
+              "role": "",
+              "image": "/images/team/NunoCoelho.JPG",
+              "university": "ISCTE",
+              "course": "Telecommunications and Informatics Eng.",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Rui Fonseca",
-              "role": "Mechanical Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Alexandre Faísca Coelho",
+              "role": "",
+              "image": "/images/team/AlexandreCoelho.JPG",
+              "university": "IST",
+              "course": "Informatics Eng.",
+              "degree": "Master's",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Ricardo Miguel Pombo Gonçalves Maruta",
+              "role": "",
+              "image": "/images/team/RicardoMaruta.JPG",
+              "university": "ISCTE",
+              "course": "Informatics Eng.",
+              "degree": "Master's",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "João Pedro Marques Carvalho",
+              "role": "",
+              "image": "/images/team/JoãoCarvalho.JPG",
+              "university": "ISCTE",
+              "course": "Informatics Eng.",
+              "degree": "Master's",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Mário Huberto Simões Veloso Vieira",
+              "role": "",
+              "image": "/images/team/MárioVieira.JPG",
+              "university": "ISCTE",
+              "course": "Informatics Eng.",
+              "degree": "Bachelor's",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "telecommunications",
+          "name": "Telecommunications",
+          "members": [
+            {
+              "name": "David Pires Pereira da Encarnação",
+              "role": "",
+              "image": "/images/team/DavidEncarnação.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Rita Maria Roxo Leitão",
+              "role": "",
+              "image": "/images/team/RitaLeitão.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/rita-leitão-57b18b29b/"
+            },
+            {
+              "name": "Maria Carolina Tomé Fernandes",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Paulo Aléxis Silva Campos",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "estruturas",
+          "name": "Structures",
+          "members": [
+            {
+              "name": "Filipa Mota Guerreiro Cabrita",
+              "role": "",
+              "image": "/images/team/FilipaCabrita.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Filipa Cheng",
+              "role": "",
+              "image": "/images/team/FilipaCheng.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/filipacheng/"
+            },
+            {
+              "name": "Maria Beatriz Gomes Oliveira",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/mariabeatrizoliveira/"
+            },
+            {
+              "name": "Maria Guita Grilo",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "eletronica",
+          "name": "Electronics",
+          "members": [
+            {
+              "name": "Carlo Fantoni",
+              "role": "",
+              "image": "/images/team/CarloFantoni.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Francisco Guilherme Plantier Rosa",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Master's",
+              "year": "2nd year (M)",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "João Miguel Vaqueiro Lourenço",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "energia",
+          "name": "Energy",
+          "members": [
+            {
+              "name": "Marco Alexandre Mimoso Acúrcio",
+              "role": "",
+              "image": "/images/team/MarcoAcúrcio.JPG",
+              "university": "Luleå University of Technology",
+              "course": "Space Science & Technology",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Catarina Cheng Wang",
+              "role": "",
+              "image": "/images/team/CatarinaCheng.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "4th year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Júlia Marques da Cunha dos Santos Diamantino",
+              "role": "",
+              "image": "/images/team/JúliaDiamantino.JPG",
+              "university": "IST",
+              "course": "Technological and Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "mission-analysis",
+          "name": "Mission Analysis",
+          "members": [
+            {
+              "name": "Cláudio Manuel Vianna Moreira",
+              "role": "",
+              "image": "/images/team/CláudioMoreira.JPG",
+              "university": "FCT",
+              "course": "Aerospace Eng.",
+              "degree": "Master'              s",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Duarte Nuno Custódio Barreta",
+              "role": "",
+              "image": "/images/team/DuarteBarreta.JPG",
+              "university": "FCUL",
+              "course": "Technological and Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Francisca Maria Diogo Gonçalves",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Tomás Nabais Coelho Marques Fernandes",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Tiago Marques Mercia de Melo",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "Københavans Universitet",
+              "course": "Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        },
+        {
+          "id": "adcs",
+          "name": "ADCS",
+          "members": [
+            {
+              "name": "Ana Oliveira",
+              "role": "",
+              "image": "/images/team/AnaOliveira.PNG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "4th year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Diogo Gabriel Lino de Sousa Spinola",
+              "role": "",
+              "image": "/images/team/DiogoSpínola.jpg",
+              "university": "TU DELFT",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Manuel Tiago Duque Santos",
+              "role": "",
+              "image": "/images/team/ManuelSantos.JPG",
+              "university": "TU DELFT",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Lucas Ligeiro Silva",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Luís Carlos Lopes Machado",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
@@ -155,171 +510,559 @@
           "name": "Payload",
           "members": [
             {
-              "name": "Helena Costa",
-              "role": "Payload Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Miguel Castanheira Fialho",
+              "role": "",
+              "image": "/images/team/MiguelFialho.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
             },
             {
-              "name": "Gonçalo Dias",
-              "role": "Payload Integration Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Marisa Almeida Lamego",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Catarina Alexandra Dias Fernandes",
+              "role": "",
+              "image": "/images/team/CatarinaFernandes.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/catarinafernandes1/"
             }
           ]
         }
       ]
     },
     {
-      "id": "software",
-      "name": "Software",
-      "description": "Team responsible for onboard software and ground systems development",
+      "id": "workshops",
+      "name": "Workshops",
+      "description": "Educational workshops and training programs for students interested in space technology",
       "departments": [
         {
-          "id": "onboard",
-          "name": "Onboard Software",
+          "id": "organizadores",
+          "name": "Organizers",
           "members": [
             {
-              "name": "Vasco Silva",
-              "role": "Flight Software Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Alice Morais Ferra Deniz Silva",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Biomedical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Mariana Lopes",
-              "role": "Embedded Systems Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "João Paulo Freitas Gonçalves",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics and Astrophysics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Bruno Teixeira",
-              "role": "RTOS Developer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Teresa Silva Correia",
+              "role": "",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "university": "",
+              "course": "",
+              "degree": "Professional",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
+            },
+            {
+              "name": "Rita Maria Roxo Leitão",
+              "role": "",
+              "image": "/images/team/RitaLeitão.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/rita-leitão-57b18b29b/"
             }
           ]
         },
         {
-          "id": "ground",
-          "name": "Ground Segment",
+          "id": "formadores",
+          "name": "Trainers",
           "members": [
             {
-              "name": "Rita Nunes",
-              "role": "Ground Station Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Carlo Fantoni",
+              "role": "",
+              "image": "/images/team/CarloFantoni.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Diogo Ferreira",
-              "role": "Ground Software Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Filipa Cheng",
+              "role": "",
+              "image": "/images/team/FilipaCheng.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/filipacheng/"
             },
             {
-              "name": "Sara Monteiro",
-              "role": "Mission Control Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Filipa Mota Guerreiro Cabrita",
+              "role": "",
+              "image": "/images/team/FilipaCabrita.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Júlia Marques da Cunha dos Santos Diamantino",
+              "role": "",
+              "image": "/images/team/JúliaDiamantino.JPG",
+              "university": "IST",
+              "course": "Technological and Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Lucas Ligeiro Silva",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Miguel Castanheira Fialho",
+              "role": "",
+              "image": "/images/team/MiguelFialho.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
+            },
+            {
+              "name": "Tiago Miguel Prates da Costa",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         }
       ]
     },
     {
-      "id": "operations",
-      "name": "Operations",
-      "description": "Team responsible for testing, integration and quality assurance",
+      "id": "space-school",
+      "name": "Space School",
+      "description": "Comprehensive space education program for students and enthusiasts",
       "departments": [
         {
-          "id": "testing",
-          "name": "Testing and Integration",
+          "id": "coordenacao",
+          "name": "Coordination",
           "members": [
             {
-              "name": "Nuno Almeida",
-              "role": "Test & Integration Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Rita Maria Roxo Leitão",
+              "role": "",
+              "image": "/images/team/RitaLeitão.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/rita-leitão-57b18b29b/"
             },
             {
-              "name": "Joana Rodrigues",
-              "role": "Integration Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
-            },
-            {
-              "name": "Paulo Santos",
-              "role": "Test Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "João Paulo Freitas Gonçalves",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics and Astrophysics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
         {
-          "id": "quality",
-          "name": "Quality Assurance",
+          "id": "logistica",
+          "name": "Logistics",
           "members": [
             {
-              "name": "Marta Correia",
-              "role": "Quality Assurance Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Teresa Silva Correia",
+              "role": "",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "university": "",
+              "course": "",
+              "degree": "Professional",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
             },
             {
-              "name": "Eduardo Pinto",
-              "role": "Quality Engineer",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Miguel Castanheira Fialho",
+              "role": "",
+              "image": "/images/team/MiguelFialho.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
+            }
+          ]
+        },
+        {
+          "id": "imagem-and-divulgacao",
+          "name": "Image and Outreach",
+          "members": [
+            {
+              "name": "Júlia Marques da Cunha dos Santos Diamantino",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Technological and Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Francisca Maria Diogo Gonçalves",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "João Paulo Abrantes",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "Lusíada",
+              "course": "Law",
+              "degree": "Bachelor's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Filipa Cheng",
+              "role": "",
+              "image": "/images/team/FilipaCheng.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/filipacheng/"
+            }
+          ]
+        },
+        {
+          "id": "relacoes-externas",
+          "name": "External Relations",
+          "members": [
+            {
+              "name": "Filipa Mota Guerreiro Cabrita",
+              "role": "",
+              "image": "/images/team/FilipaCabrita.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Filipa Cheng",
+              "role": "",
+              "image": "/images/team/FilipaCheng.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/filipacheng/"
+            },
+            {
+              "name": "Cláudio Manuel Vianna Moreira",
+              "role": "",
+              "image": "/images/team/CláudioMoreira.JPG",
+              "university": "FCT",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "André Filipe Conceição Santos",
+              "role": "",
+              "image": "/images/team/AndréSantos.JPG",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Martim De Almeida Alves Caetano",
+              "role": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         }
       ]
     },
     {
-      "id": "outreach",
-      "name": "Communication and Outreach",
-      "description": "Team responsible for external communication and project dissemination",
-      "departments": [
+      "id": "association",
+      "name": "Association and Advisors",
+      "description": "Governing bodies of the Espaço ao Cubo association and project advisors",
+      "organs": [
         {
-          "id": "media",
-          "name": "Media and Communication",
+          "id": "direcao",
+          "name": "Management Board",
           "members": [
             {
-              "name": "Teresa Moura",
-              "role": "Communications Lead",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Teresa Silva Correia",
+              "role": "President",
+              "position": "President",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "university": "",
+              "course": "",
+              "degree": "Professional",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
             },
             {
-              "name": "Luís Costa",
-              "role": "Social Media Manager",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Miguel Castanheira Fialho",
+              "role": "Treasurer",
+              "position": "Treasurer",
+              "image": "/images/team/MiguelFialho.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
             },
             {
-              "name": "Cláudia Ferreira",
-              "role": "Content Creator",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "André Filipe Conceição Santos",
+              "role": "Director",
+              "position": "Director",
+              "image": "/images/team/AndréSantos.JPG",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Alexandre Plotean",
+              "role": "Director",
+              "position": "Director",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "ISCTE",
+              "course": "Informatics Eng.",
+              "degree": "Bachelor's",
+              "year": "4th year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "David Pires Pereira da Encarnação",
+              "role": "Director",
+              "position": "Director",
+              "image": "/images/team/DavidEncarnação.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Carlo Fantoni",
+              "role": "Director",
+              "position": "Director",
+              "image": "/images/team/CarloFantoni.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Cláudio Manuel Vianna Moreira",
+              "role": "Director",
+              "position": "Director",
+              "image": "/images/team/CláudioMoreira.JPG",
+              "university": "FCT",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
         },
         {
-          "id": "events",
-          "name": "Events and Partnerships",
+          "id": "mesa-da-assembleia",
+          "name": "General Assembly Board",
           "members": [
             {
-              "name": "António Silva",
-              "role": "Outreach Coordinator",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Alice Morais Ferra Deniz Silva",
+              "role": "President",
+              "position": "President",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Biomedical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
-              "name": "Patrícia Dias",
-              "role": "Partnerships Manager",
-              "image": "/images/team/profile_placeholder2.jpg",
-              "linkedin": "https://linkedin.com/in/manuelmcruz"
+              "name": "Filipa Cheng",
+              "role": "First Secretary",
+              "position": "First Secretary",
+              "image": "/images/team/FilipaCheng.JPG",
+              "university": "IST",
+              "course": "Mechanical Eng.",
+              "degree": "Bachelor's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/filipacheng/"
+            },
+            {
+              "name": "Francisco Guilherme Plantier Rosa",
+              "role": "Second Secretary",
+              "position": "Second Secretary",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "IST",
+              "course": "Electrical and Computer Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             }
           ]
+        },
+        {
+          "id": "concelho-fiscal",
+          "name": "Fiscal Council",
+          "members": [
+            {
+              "name": "Manuel Tiago Duque Santos",
+              "role": "President",
+              "position": "President",
+              "image": "/images/team/ManuelSantos.JPG",
+              "university": "TU DELFT",
+              "course": "Aerospace Eng.",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Francisca Maria Diogo Gonçalves",
+              "role": "Member",
+              "position": "Member",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Physics",
+              "degree": "Bachelor's",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Tiago Miguel Prates da Costa",
+              "role": "",
+              "position": "",
+              "image": "/images/team/profile_placeholder.jpg",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "2nd year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            }
+          ]
+        }
+      ],
+      "advisors": [
+        {
+          "name": "Nuno Miguel Cabecinhas Gonçalves",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "FCUL",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Joel Alves Costa Filho",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "FCUL / Synopsis Planet",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Alexandre Cabral",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "FCUL",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Manuel Abreu",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "FCUL",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "António Amorim",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "FCUL",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Fernando Lau",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "IST",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Frederico Afonso",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "IST",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "João Felício",
+          "role": "Advisor",
+          "image": "/images/team/profile_placeholder.jpg",
+          "institution": "IT/IST",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+        },
+        {
+          "name": "Manuel Loureiro",
+          "role": "Advisor",
+              "image": "/images/team/profile_placeholder.jpg",
+          "institution": "Exatronic",
+          "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
         }
       ]
     }

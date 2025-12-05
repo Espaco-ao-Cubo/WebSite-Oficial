@@ -19,12 +19,12 @@ export default function TeamSection() {
     
     const loadProjectsData = async () => {
       try {
-        const data = await import(`@/data/new_teamMembers_${locale}.json`)
+        const data = await import(`@/data/teamMembers_${locale}.json`)
         setProjectsData(data.default)
       } catch (error) {
         console.error('Error loading projects data:', error)
         // Fallback para inglês se houver erro
-        const fallbackData = await import('@/data/new_teamMembers_pt.json')
+        const fallbackData = await import('@/data/teamMembers_pt.json')
         setProjectsData(fallbackData.default)
       }
     }
@@ -104,7 +104,8 @@ export default function TeamSection() {
         <div className={`mb-20 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="relative w-full rounded-2xl overflow-hidden mb-12 border border-[#9cc5ad]/20">
             {/* Altura responsiva: mais baixa em mobile, mais alta em desktop */}
-            <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px]">
+            <div className="relative w-full h-80 sm:h-[450px] md:h-[550px] lg:h-[700px]">
+
               {/* Placeholder para foto da equipa */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#1a3a2e] to-[#0a1f1a] flex items-center justify-center">
                 <div className="text-center">
