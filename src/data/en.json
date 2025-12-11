@@ -160,6 +160,7 @@
     "teamTitle": "Meet the Team",
     "photoPlaceholder": "Team Photo Coming Soon",
     "photoSubtext": "Add your team photo here",
+    "goToProject": "Go to Project",
     "values": {
       "mission": {
         "title": "Mission",
@@ -187,43 +188,43 @@
       "phases": {
         "concept": {
           "title": "Concept Phase",
-          "date": "2023",
+          "date": "2024 Q1-Q3",
           "description": "Defining the mission, requirements, and satellite architecture",
           "completed": true
         },
         "preliminary": {
           "title": "Preliminary Design",
-          "date": "2024 Q1-Q2",
+          "date": "2024 Q4 - 2025 Q1",
           "description": "Subsystem development and component selection",
           "completed": true
         },
         "critical": {
           "title": "Critical Design",
-          "date": "2024 Q3-Q4",
+          "date": "2025 Q2-Q3",
           "description": "Design finalization and preparation for manufacturing",
           "completed": true
         },
         "integration": {
           "title": "Integration and Testing",
-          "date": "2025 Q1-Q2",
+          "date": "2025 Q4 - 2026 Q2",
           "description": "Satellite assembly and environmental testing",
           "completed": false
         },
         "campaign": {
           "title": "Launch Campaign",
-          "date": "2025 Q3",
+          "date": "2026 Q3",
           "description": "Final preparation and integration on the launcher",
           "completed": false
         },
         "launch": {
           "title": "Launch",
-          "date": "2025 Q4",
+          "date": "2026 Q4+",
           "description": "Launch to low Earth orbit",
           "completed": false
         },
         "operations": {
           "title": "Orbital Operations",
-          "date": "5 years",
+          "date": "5 years post-launch",
           "description": "Validate the capability to detect space debris smaller than 10 cm using a 1U CubeSat with an optical system.",
           "completed": false
         }
@@ -252,27 +253,27 @@
     },
     "missionObjectives": {
       "title": "Mission Objectives",
-      "subtitle": "A mission with multiple scientific and educational objectives",
+      "subtitle": "A mission with multiple scientific and educational goals",
       "objectives": {
-        "techDemo": {
-          "title": "Technology Demonstration",
-          "description": "Validate technologies developed in Portugal for space environment operation"
+        "techValidation": {
+          "title": "Technological Validation",
+          "description": "Validate internally developed (in-house) components and the integration of COTS (Commercial Off-The-Shelf) components into a 1U CubeSat, meeting all design, structural, and operational requirements."
         },
-        "national": {
-          "title": "National Capabilities",
-          "description": "Demonstrate Portuguese competencies in space systems development"
+        "debrisDetection": {
+          "title": "Debris Detection",
+          "description": "Prove the feasibility of detecting space debris equal to or greater than 3 cm using a 1U CubeSat and a custom optical 'star tracker' system. Preliminary orbital parameters of the detected debris will be derived and made available on a public website."
         },
         "research": {
           "title": "Research",
-          "description": "Study the behavior of COTS components in space environment"
+          "description": "Study the behavior and validate the integration of COTS components in the space environment, and acquire the essential technical skills for the development of space systems (learn how to build a satellite)."
         },
         "education": {
-          "title": "Education",
-          "description": "Train students and inspire future generations of space engineers"
+          "title": "Education and Open Source",
+          "description": "Train and inspire future generations of space engineers, and create a repository (with reports, studies, and simulations) to continue space education, including the creation of an open source catalogue of detected debris."
         }
       }
     },
-"subsystems": {
+    "subsystems": {
       "title": "Subsystems",
       "subtitle": "TejoOne is composed of several subsystems that work together to ensure mission success",
       "specsTitle": "Specifications",
@@ -280,50 +281,57 @@
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "details": "The OBDH is the satellite's brain, responsible for managing all on-board operations. It processes sensor data, controls subsystems, and manages communication with the ground station.",
-          "description": "On-board computer responsible for data processing and overall satellite control.",
-          "specs": "Processor: ARM Cortex-M4, Memory: 256KB Flash, 64KB RAM, Interfaces: I2C, SPI, UART"
+          "details": "TejoOne uses a distributed OBDH architecture designed to eliminate single points of failure. The system connects all subsystems via a **CSP CAN bus** (with I2C redundancy), allowing the ADCS to assume critical functions if the primary On-Board Computer (OBC) fails. It leverages radiation-hardened components and multiple memory types to ensure data integrity in the LEO environment.",
+          "description": "On-board computer with a distributed architecture, responsible for data processing and general satellite control.",
+          "specs": "Architecture: Distributed (SPoF Elimination), Bus: CAN (Primary), I2C (Secondary), Storage: 1 Gb Flash (Telemetry), MRAM/FRAM (Critical Data)"
+        },
+        "obsw": {
+          "name": "OBSW",
+          "fullName": "On-Board Software",
+          "details": "The software stack is built on the **FreeRTOS real-time operating system**, chosen for its efficiency and modularity. It implements a layered architecture that separates vital from non-vital modules, ensuring the satellite can always boot into a 'Minimal State' for recovery. The software supports remote firmware updates and utilizes the fail-safe **Reliance Edge** filesystem to prevent data corruption during power cycles.",
+          "description": "On-board software based on FreeRTOS that ensures satellite control, state management, and recovery capability.",
+          "specs": "Operating System: FreeRTOS, File System: Reliance Edge, Architecture: Layered (Vital/Non-Vital Modules), Functionality: Remote Firmware Updates"
         },
         "comms": {
-          "name": "COMMS",
-          "fullName": "Communications",
-          "details": "The communications system enables data exchange between the satellite and the ground station. It uses UHF/VHF bands to transmit telemetry and receive commands, ensuring a reliable link throughout the mission.",
-          "description": "Radio communications system for telemetry transmission and command reception.",
-          "specs": "Band: UHF/VHF, Frequency: 437 MHz (TX), 145 MHz (RX), Data Rate: 1200 bps"
+          "name": "COMMS (TT&C)",
+          "fullName": "Communications (Telemetry, Tracking & Control)",
+          "details": "TejoOne utilizes a robust **half-duplex** communication architecture operating in the **UHF band**. The system integrates a COTS Murgas transceiver with a custom-built (SRAD - Student Researched and Developed) canted turnstile antenna to ensure quasi-omnidirectional coverage. The system is designed for high reliability, employing **GFSK** modulation and supporting protocols like **CSP and AX.25** to manage telemetry downlink and command uplink.",
+          "description": "Half-duplex radio communication system for data transmission and reception, ensuring high reliability and coverage.",
+          "specs": "Band: UHF, Frequency: 437 MHz (UHF), Data Rate: 19.20 kbps, Modulation: Gaussian Frequency Shift Keying (GFSK)"
         },
         "eps": {
           "name": "EPS",
-          "fullName": "Electrical Power System",
-          "details": "The EPS manages the generation, storage, and distribution of electrical power in the satellite. It uses solar panels to capture energy from the sun and batteries to store it, ensuring all subsystems have sufficient power to operate.",
-          "description": "Power system with solar panels and batteries for satellite power supply.",
-          "specs": "Solar Panels: 4 × GaAs, Battery: Li-ion 5.2Wh, Voltage: 3.7V"
+          "fullName": "Electrical Power Subsystem",
+          "details": "The EPS is powered by high-efficiency solar panels mounted on **four faces** of the CubeSat, managed by a **SpaceManic AMUN** Power Supply Unit (PSU). The system uses **Maximum Power Point Tracking (MPPT)** to optimize energy harvesting and stores energy in **dual Li-Ion cells**. It provides regulated 3.3V and 5V lines to all subsystems, with active protection against overcurrent and latch-ups.",
+          "description": "Power system with solar panels and batteries for satellite power supply, optimized by MPPT and AMUN PSU.",
+          "specs": "Solar Panels: 4x side panels (2S1P config.), Peak Power: ~2.48 W per panel, Battery: 2x Li-Ion Cells (approx. 24 Wh), Distribution: 6 controllable power lines (3.3V & 5V regulated)"
         },
         "adcs": {
           "name": "ADCS",
           "fullName": "Attitude Determination and Control",
-          "details": "The ADCS is responsible for determining and controlling the satellite's attitude in orbit. It uses sensors such as magnetometers, gyroscopes, and accelerometers to measure orientation, and actuators such as magnetorquers to adjust position as needed.",
+          "details": "The ADCS is responsible for determining and controlling the satellite's attitude in orbit. It uses sensors such as magnetometers, gyroscopes, and accelerometers to measure orientation, and actuators like magnetorquers to adjust the position as needed.",
           "description": "Attitude determination and control system for satellite orientation.",
           "specs": "Sensors: Magnetometers, Gyroscopes, Accelerometer, Actuators: Magnetorquers"
         },
         "payload": {
           "name": "Payload",
           "fullName": "Modified Star Tracker",
-          "details": "TejoOne's payload is a modified Star Tracker that functions as a camera for stellar navigation and orbital debris detection. With a resolution of 1280 × 980 pixels and a diagonal field of view of 21º, it captures high-precision images for on-board processing. The system integrates a baffle fully designed by Espaço ao Cubo, optimized to reduce unwanted light and improve detection quality, featuring a Sun Exclusion Angle (half angle) of 22.4°.",
-          "description": "Modified Star Tracker with optimized baffle, capable of combining stellar navigation with orbital debris detection.",
+          "details": "TejoOne's payload is a modified Star Tracker that functions as a camera for star navigation and debris detection in orbit. With a resolution of 1280 × 980 pixels and a 21º diagonal field of view, it captures high-precision images for on-board processing. The system integrates a baffle entirely designed by Espaço ao Cubo, optimized to reduce unwanted light and improve detection quality, featuring a Sun Exclusion Angle (half angle) of 22.4°.",
+          "description": "Modified Star Tracker with optimized baffle, capable of combining star navigation with orbital debris detection.",
           "specs": "Type: Camera, Resolution: 1280 × 980 pixels, Field of View: 21º Diagonal, Sun Exclusion Angle (half angle): 22.4º"
         },
         "structure": {
           "name": "Structure",
           "fullName": "Structure",
-          "details": "TejoOne's structure is a 1U mechanical platform compatible with the CubeSat standard. Manufactured in 6061-T6 aluminum, the structure provides physical support and protection to internal subsystems, ensuring satellite integrity during launch and orbital operations.",
-          "description": "1U mechanical structure compatible with CubeSat standard.",
+          "details": "The TejoOne structure is a 1U mechanical platform compatible with the CubeSat standard. Manufactured from 6061-T6 aluminum, the structure provides physical support and protection to internal subsystems, ensuring satellite integrity during launch and operation in orbit.",
+          "description": "1U mechanical structure compatible with the CubeSat standard.",
           "specs": "Material: 6061-T6 Aluminum, Dimensions: 10 × 10 × 10 cm, Mass: 200g"
         },
         "missionAnalysis": {
           "name": "Mission Analysis",
           "fullName": "Mission Analysis",
-          "details": "The Mission Analysis department was responsible for defining the most suitable orbit for the scientific mission and competition, and implementing the Initial Orbit Determination algorithms and debris size estimation through photometric analysis, which will serve as the basis for the data processing platform during the operational phase.",
-          "description": "Determination of the satellite's operational orbit and development of algorithms associated with the scientific mission.",
+          "details": "The Mission Analysis department was responsible for defining the most suitable orbit for the scientific mission and the competition, and implementing the Initial Orbit Determination and debris size estimation algorithms via photometric analysis, which will serve as the basis for the data processing platform during the operation phase.",
+          "description": "Determination of the satellite's operating orbit and development of algorithms associated with the scientific mission.",
           "specs": "Orbit: Circular LEO, Altitude: 510-520 km, Inclination: 30-45°, Orbital Lifetime: 4-5 years"
         }
       }

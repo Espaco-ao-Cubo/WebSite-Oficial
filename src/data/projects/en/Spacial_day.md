@@ -116,7 +116,7 @@ Here we'll test the space knowledge they've acquired throughout the stations to 
 
 ## How to Organize at Your School
 
-To schedule "A Spacial Day" at your school and receive more information about the activities, contact us through the contact page or send an email to [insert email].
+To schedule "A Spacial Day" at your school and receive more information about the activities, contact us through the contact page or send an email to workshops@espacoaocubo.pt.
 
 Let's transform your day into an unforgettable space adventure!
 

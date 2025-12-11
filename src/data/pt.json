@@ -160,6 +160,7 @@
     "teamTitle": "Conhece a Equipa",
     "photoPlaceholder": "Foto da Equipa em Breve",
     "photoSubtext": "Adiciona a foto da equipa aqui",
+    "goToProject": "Ir para o Projeto",
     "values": {
       "mission": {
         "title": "Missão",
@@ -184,21 +185,21 @@
       "title": "Objetivos da Missão",
       "subtitle": "Uma missão com múltiplos objetivos científicos e educacionais",
       "objectives": {
-        "techDemo": {
-          "title": "Demonstração Tecnológica",
-          "description": "Validar tecnologias desenvolvidas em Portugal para operação em ambiente espacial"
+        "techValidation": {
+          "title": "Validação Tecnológica",
+          "description": "Validar os componentes desenvolvidos internamente (in-house) e a integração de componentes COTS (Commercial Off-The-Shelf) num CubeSat 1U, cumprindo todos os requisitos de design, estruturais e operacionais."
         },
-        "national": {
-          "title": "Capacidades Nacionais",
-          "description": "Demonstrar competências portuguesas no desenvolvimento de sistemas espaciais"
+        "debrisDetection": {
+          "title": "Deteção de Detritos",
+          "description": "Provar a viabilidade de deteção de detritos espaciais iguais ou superiores a 3 cm através de um CubeSat 1U e um sistema ótico 'star tracker' personalizado. Os parâmetros orbitais preliminares dos detritos detetados serão derivados e disponibilizados num website público."
         },
         "research": {
           "title": "Investigação",
-          "description": "Estudar o comportamento de componentes COTS em ambiente espacial"
+          "description": "Estudar o comportamento e validar a integração dos componentes COTS em ambiente espacial, e adquirir as competências técnicas essenciais para o desenvolvimento de sistemas espaciais (learn how to build a satellite)."
         },
         "education": {
-          "title": "Educação",
-          "description": "Formar estudantes e inspirar futuras gerações de engenheiros espaciais"
+          "title": "Educação e Open Source",
+          "description": "Formar e inspirar futuras gerações de engenheiros espaciais, e criar um repositório (com relatórios, estudos e simulações) para continuar a educação sobre o espaço, incluindo a criação de um catálogo open source dos detritos detetados."
         }
       }
     },
@@ -209,43 +210,43 @@
       "phases": {
         "concept": {
           "title": "Fase de Conceito",
-          "date": "2023",
+          "date": "2024 Q1-Q3",
           "description": "Definição da missão, requisitos e arquitetura do satélite",
           "completed": true
         },
         "preliminary": {
           "title": "Design Preliminar",
-          "date": "2024 Q1-Q2",
+          "date": "2024 Q4 - 2025 Q1",
           "description": "Desenvolvimento dos subsistemas e seleção de componentes",
           "completed": true
         },
         "critical": {
           "title": "Design Crítico",
-          "date": "2024 Q3-Q4",
+          "date": "2025 Q2-Q3",
           "description": "Finalização do design e preparação para fabricação",
           "completed": true
         },
         "integration": {
-          "title": "Integração e Testes",
-          "date": "2025 Q1-Q2",
+          "title": "Manufatura, Integração e Testes",
+          "date": "2025 Q4 - 2026 Q2",
           "description": "Montagem do satélite e testes ambientais",
           "completed": false
         },
         "campaign": {
           "title": "Campanha de Lançamento",
-          "date": "2025 Q3",
+          "date": "2026 Q3",
           "description": "Preparação final e integração no lançador",
           "completed": false
         },
         "launch": {
           "title": "Lançamento",
-          "date": "2025 Q4",
+          "date": "2026 Q4+",
           "description": "Lançamento para órbita terrestre baixa",
           "completed": false
         },
         "operations": {
           "title": "Operações em Órbita",
-          "date": "5 anos",
+          "date": "5 anos pós lançamento",
           "description": "Validar a capacidade de deteção de detritos espaciais inferiores a 10 cm através de um CubeSat 1U com um sistema ótico.",
           "completed": false
         }
@@ -280,23 +281,30 @@
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "details": "O OBDH é o cérebro do satélite, responsável por gerir todas as operações a bordo. Ele processa dados dos sensores, controla os subsistemas e gere a comunicação com a estação terrestre.",
-          "description": "Computador de bordo responsável pelo processamento de dados e controlo geral do satélite.",
-          "specs": "Processador: ARM Cortex-M4, Memória: 256KB Flash, 64KB RAM, Interfaces: I2C, SPI, UART"
+          "details": "O TejoOne utiliza uma arquitetura OBDH distribuída para eliminar pontos únicos de falha. O sistema liga todos os subsistemas através de um **barramento CAN CSP** (com redundância I2C), permitindo que o ADCS assuma funções críticas se o computador de bordo principal (OBC) falhar. Alavanca componentes resistentes à radiação e múltiplos tipos de memória para garantir a integridade dos dados na órbita LEO.",
+          "description": "Computador de bordo com arquitetura distribuída, responsável pelo processamento de dados e controlo geral do satélite.",
+          "specs": "Arquitetura: Distribuída (Eliminação de SPoF), Barramento: CAN (Primário), I2C (Secundário), Armazenamento: 1 Gb Flash (Telemetria), MRAM/FRAM (Dados Críticos)"
+        },
+        "obsw": {
+          "name": "OBSW",
+          "fullName": "On-Board Software",
+          "details": "A pilha de software é construída sobre o **sistema operativo de tempo real FreeRTOS**, escolhido pela sua eficiência e modularidade. Implementa uma arquitetura em camadas que separa módulos vitais dos não vitais, garantindo que o satélite possa sempre arrancar num 'Estado Mínimo' para recuperação. O software suporta atualizações remotas de firmware e utiliza o sistema de arquivos **Reliance Edge** à prova de falhas para evitar a corrupção de dados durante ciclos de energia.",
+          "description": "Software de bordo baseado em FreeRTOS que garante o controlo, a gestão de estado e a capacidade de recuperação do satélite.",
+          "specs": "Sistema Operativo: FreeRTOS, Sistema de Ficheiros: Reliance Edge, Arquitetura: Camadas (Módulos Vitais/Não Vitais), Funcionalidade: Atualizações Remotas de Firmware"
         },
         "comms": {
-          "name": "COMMS",
-          "fullName": "Communications",
-          "details": "O sistema de comunicações permite a troca de dados entre o satélite e a estação terrestre. Utiliza bandas UHF/VHF para transmitir telemetria e receber comandos, garantindo uma ligação confiável durante toda a missão.",
-          "description": "Sistema de comunicações por rádio para envio de telemetria e receção de comandos.",
-          "specs": "Banda: UHF/VHF, Frequência: 437 MHz (TX), 145 MHz (RX), Data Rate: 1200 bps"
+          "name": "COMMS (TT&C)",
+          "fullName": "Comunicações (Telemetry, Tracking & Control)",
+          "details": "O TejoOne utiliza uma robusta arquitetura de comunicação **half-duplex** operando na **banda UHF**. O sistema integra um transceptor COTS Murgas com uma antena 'canted turnstile' (SRAD - Student Researched and Developed) para garantir uma cobertura quase omnidirecional. O sistema é concebido para alta fiabilidade, empregando modulação **GFSK** e suportando protocolos como **CSP e AX.25** para gerir o downlink de telemetria e o uplink de comandos.",
+          "description": "Sistema de comunicações por rádio half-duplex para envio e receção de dados, garantindo alta fiabilidade e cobertura.",
+          "specs": "Banda: UHF, Frequência: 437 MHz (UHF), Data Rate: 19.20 kbps, Modulação: Gaussian Frequency Shift Keying (GFSK)"
         },
         "eps": {
           "name": "EPS",
-          "fullName": "Electrical Power System",
-          "details": "O EPS gere a geração, armazenamento e distribuição de energia elétrica no satélite. Utiliza painéis solares para captar energia do sol e baterias para armazená-la, garantindo que todos os subsistemas tenham energia suficiente para operar.",
-          "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite.",
-          "specs": "Painéis Solares: 4 × GaAs, Bateria: Li-ion 5.2Wh, Tensão: 3.7V"
+          "fullName": "Electrical Power Subsystem",
+          "details": "O EPS é alimentado por painéis solares de alta eficiência montados em **quatro faces** do CubeSat, geridos por uma Unidade de Alimentação (PSU) **SpaceManic AMUN**. O sistema utiliza **Maximum Power Point Tracking (MPPT)** para otimizar a colheita de energia e armazena energia em **duas células Li-Ion**. Fornece linhas reguladas de 3.3V e 5V a todos os subsistemas, com proteção ativa contra sobrecorrente e 'latch-ups'.",
+          "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite, otimizado por MPPT e PSU AMUN.",
+          "specs": "Painéis Solares: 4x laterais (config. 2S1P), Potência de Pico: ~2.48 W por painel, Bateria: 2x Células Li-Ion (aprox. 24 Wh), Distribuição: 6 linhas de potência controláveis (3.3V & 5V reguladas)"
         },
         "adcs": {
           "name": "ADCS",

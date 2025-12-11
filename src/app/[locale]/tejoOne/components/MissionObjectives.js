@@ -9,14 +9,14 @@ export default function MissionObjectives() {
   const objectives = [
     {
       icon: Target,
-      title: t('objectives.techDemo.title'),
-      description: t('objectives.techDemo.description'),
+      title: t('objectives.techValidation.title'),
+      description: t('objectives.techValidation.description'),
       color: 'from-[#588798] to-[#84B295]',
     },
     {
       icon: Satellite,
-      title: t('objectives.national.title'),
-      description: t('objectives.national.description'),
+      title: t('objectives.debrisDetection.title'),
+      description: t('objectives.debrisDetection.description'),
       color: 'from-[#84B295] to-[#588798]',
     },
     {
