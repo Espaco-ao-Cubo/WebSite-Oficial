@@ -20,11 +20,31 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus('loading');
 
-    // ⚙️ Placeholder for future Cloudflare Worker call
-    await new Promise((r) => setTimeout(r, 1000));
+    try {
+      const response = await fetch('/api/contactos', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      });
 
-    setStatus('success');
-    setForm({ name: '', email: '', message: '' });
+      const data = await response.json();
+
+      if (response.ok) {
+        setStatus('success');
+        setForm({ name: '', email: '', message: '' });
+        
+        // Limpar mensagem de sucesso após 5 segundos
+        setTimeout(() => setStatus(null), 5000);
+      } else {
+        setStatus('error');
+        console.error('Erro:', data.error);
+      }
+    } catch (error) {
+      setStatus('error');
+      console.error('Erro ao enviar:', error);
+    }
   };
 
   return (
@@ -110,6 +130,11 @@ export default function ContactPage() {
 
         {status === 'success' && (
           <p className="text-center text-green-400 mt-4">{t('thankyou')}</p>
+        )}
+        {status === 'error' && (
+          <p className="text-center text-red-400 mt-4">
+            Erro ao enviar mensagem. Tenta novamente.
+          </p>
         )}
       </motion.form>
     </div>

@@ -35,12 +35,6 @@
       "logo": "/images/sponsors/Synopsis.png",
       "website": "https://www.synopsisplanet.com/",
       "description": "A Synopsis Planet forneceu o sistema ótico necessário à implementação da nossa missão científica, tendo sido um parceiro de contacto próximo com o projeto."
-    },
-    {
-      "name": "Exatronic",
-      "logo": "/images/sponsors/Exatronic.webp",
-      "website": "https://exatronic.pt",
-      "description": "Parceiros chave no desenvolvimento da eletrónica de controlo do satélite através de mentoria e apoios à produção."
     }
   ],
   "patrocinios": [
@@ -73,6 +67,12 @@
       "logo": "/images/sponsors/DF-FCUL.png",
       "website": "https://ciencias.ulisboa.pt/pt/df",
       "description": "O Departamento de Física da FCUL tem dado acompanhamento próximo do projeto em mentoria técnica, apoio financeiro para prototipagem, assim como materiais e instalações para o desenvolvimento das atividades educacionais e de disseminação."
+    },
+    {
+      "name": "Exatronic",
+      "logo": "/images/sponsors/Exatronic.webp",
+      "website": "https://exatronic.pt",
+      "description": "Patrocinador chave no desenvolvimento da eletrónica de controlo do satélite através de mentoria e apoios à produção."
     }
   ],
   "apoios": [

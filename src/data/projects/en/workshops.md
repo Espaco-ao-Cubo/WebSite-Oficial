@@ -82,6 +82,6 @@ In this practical workshop, students will **build a *CubeSat* from scratch**, ex
 
 ## How to Participate
 
-To learn more about the workshops and schedule a session at your school, contact us through the contact page or send an email to geral@espacoaocubo.pt.
+To learn more about the workshops and schedule a session at your school, contact us through the contact page or send an email to workshops@espacoaocubo.pt.
 
 Your school can be part of this space adventure!

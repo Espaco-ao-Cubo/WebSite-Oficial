@@ -7,32 +7,59 @@ import Link from 'next/link'
 import ProfileCard from '@/components/ProfileCard'
 import { Target, Rocket, Users, Heart, ExternalLink } from 'lucide-react'
 
-export default function TeamSection() {
-  const [isVisible, setIsVisible] = useState(false)
-  const [projectsData, setProjectsData] = useState(null)
-  const [selectedProject, setSelectedProject] = useState('tejoone')
-  const t = useTranslations('association')
-  const locale = t('badge') === 'About Us' ? 'en' : 'pt' // Detecta locale
-
-  useEffect(() => {
-    setIsVisible(true)
+const reorderProjects = (projects) => {
+    const clonedProjects = [...projects]; 
+    const associationIndex = clonedProjects.findIndex(p => p.id === 'association');
     
-    const loadProjectsData = async () => {
-      try {
-        const data = await import(`@/data/teamMembers_${locale}.json`)
-        setProjectsData(data.default)
-      } catch (error) {
-        console.error('Error loading projects data:', error)
-        // Fallback para inglês se houver erro
-        const fallbackData = await import('@/data/teamMembers_pt.json')
-        setProjectsData(fallbackData.default)
-      }
+    if (associationIndex > -1) {
+        const associationProject = clonedProjects.splice(associationIndex, 1)[0]; 
+        return [associationProject, ...clonedProjects];
     }
-    
-    loadProjectsData()
-  }, [locale])
+    return projects;
+};
 
-  // Contador global para o index dos cards
+const getInitialProject = (projects) => {
+    const associationProject = projects.find(p => p.id === 'association');
+    return associationProject ? 'association' : (projects.length > 0 ? projects[0].id : null);
+}
+
+
+export default function TeamSection() {
+    const [isVisible, setIsVisible] = useState(false)
+    const [projectsData, setProjectsData] = useState(null)
+    const [selectedProject, setSelectedProject] = useState('association') 
+    const t = useTranslations('association')
+    const locale = t('badge') === 'About Us' ? 'en' : 'pt' 
+
+    useEffect(() => {
+        setIsVisible(true)
+        
+        const loadProjectsData = async () => {
+            try {
+                // A importação dinâmica pode retornar a mesma referência de dados
+                const data = await import(`@/data/teamMembers_${locale}.json`)
+                
+                const orderedProjects = reorderProjects(data.default.projects);
+                
+                setProjectsData({ ...data.default, projects: orderedProjects })
+                
+                const initialSelectionId = getInitialProject(orderedProjects);
+                setSelectedProject(initialSelectionId)
+
+            } catch (error) {
+                console.error('Error loading projects data:', error)
+                // Fallback (também deve usar reorderProjects)
+                const fallbackData = await import('@/data/teamMembers_pt.json')
+                const orderedProjects = reorderProjects(fallbackData.default.projects);
+                
+                setProjectsData({ ...fallbackData.default, projects: orderedProjects })
+                setSelectedProject(getInitialProject(orderedProjects))
+            }
+        }        
+        loadProjectsData()
+
+    }, [locale])
+
   let globalCardIndex = 0
 
   if (!projectsData) {
@@ -217,7 +244,7 @@ export default function TeamSection() {
                     href={getProjectLink(currentProject.id)}
                     className="group flex items-center gap-2 px-6 py-3 bg-[#9cc5ad] text-[#0a1f1a] font-semibold rounded-lg hover:bg-[#84B295] transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-[#9cc5ad]/30 hover:scale-105"
                   >
-                    <span>Go to Project</span>
+                    <span>{t('goToProject')}</span>
                     <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                   </Link>
                 )}
@@ -287,8 +314,8 @@ export default function TeamSection() {
                             key={currentIndex} 
                             member={{
                               name: advisor.name,
-                              role: 'Advisor',
-                              university: advisor.institution,
+                              role: 'Conselheiro', // O role é sempre Conselheiro
+                              university: advisor.institution, // Institution passa para university para ser exibido
                               course: '',
                               degree: '',
                               year: '',

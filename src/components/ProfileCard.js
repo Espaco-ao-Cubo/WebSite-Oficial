@@ -1,14 +1,80 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link' // Importar Link para lidar com links externos/internos de forma otimizada
 import { useEffect, useRef, useState } from 'react'
+import { Linkedin, Globe, Briefcase } from 'lucide-react' // Ícones para links variados
 
-// Function to get first and last name
+// Função para obter o primeiro e último nome
 function getShortName(fullName) {
   const names = fullName.trim().split(' ')
   if (names.length === 1) return names[0]
+  // Retorna o primeiro nome e o último nome (ou o único, se for só um)
   return `${names[0]} ${names[names.length - 1]}`
 }
+
+// Função para determinar o ícone e o texto do link
+function getLinkInfo(link, role) {
+  if (!link) {
+    return { icon: null, text: null, color: '' }
+  }
+  
+  const lowerLink = link.toLowerCase()
+
+  if (lowerLink.includes('linkedin')) {
+    return { 
+      icon: Linkedin, 
+      text: 'LinkedIn', 
+      color: 'bg-[#0A66C2] hover:bg-[#004182]' 
+    }
+  } 
+  
+  if (role.toLowerCase() === 'conselheiro' || role.toLowerCase() === 'advisor') {
+    return { 
+      icon: Globe, 
+      text: 'Website', 
+      color: 'bg-gray-600 hover:bg-gray-800' 
+    }
+  }
+
+  return { 
+    icon: Globe, 
+    text: 'Website', 
+    color: 'bg-gray-600 hover:bg-gray-800' // Default para website/instituição
+  }
+}
+
+// Função para obter a descrição principal (Role > Course/Degree)
+function getMainDescription(member) {
+    const excludedRoles = ['Vogal', 'Diretor', 'Conselheiro', 'Advisor'];
+    
+    // 1. Prioridade: Cargo Principal (não genérico)
+    if (member.role && !excludedRoles.includes(member.role)) {
+      return member.role
+    }
+
+    // 2. Segunda prioridade: Universidade/Instituição (Principalmente para Conselheiros)
+    if (member.university && member.role && (member.role.includes('Conselheiro') || member.role.includes('Advisor'))) {
+        return member.university
+    }
+    
+    // 3. Terceira prioridade: Curso + Grau/Ano
+    if (member.course) {
+        let desc = member.course
+        if (member.degree) {
+             desc += ` (${member.degree})`
+        }
+        return desc
+    }
+    
+    // 4. Se o curso estiver vazio, mas o role for genérico (como Presidente/Tesoureiro/Vogal), retorne o role.
+    if (member.role) {
+      return member.role
+    }
+
+    return ''
+}
+
 
 export default function ProfileCard({ member, index, positionInRow }) {
   const [isVisible, setIsVisible] = useState(false)
@@ -40,8 +106,9 @@ export default function ProfileCard({ member, index, positionInRow }) {
   }, [])
 
   const shortName = getShortName(member.name)
-  // Use placeholder as default if no image is provided
   const imageSrc = member.image || '/images/team/profile_placeholder.jpg'
+  const linkInfo = getLinkInfo(member.linkedin, member.role)
+  const mainDescription = getMainDescription(member)
 
   return (
     <div 
@@ -49,6 +116,7 @@ export default function ProfileCard({ member, index, positionInRow }) {
       className={`relative transition-all duration-700 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
+      // Animação com delay para efeito escalonado
       style={{ transitionDelay: `${positionInRow * 100}ms` }}
     >
       {/* Card with self-contained glow */}
@@ -57,10 +125,12 @@ export default function ProfileCard({ member, index, positionInRow }) {
         <div className="absolute inset-0 bg-gradient-to-r from-[#9cc5ad] to-[#7ba591] rounded-2xl blur opacity-0 group-hover:opacity-75 transition duration-500 -z-10"></div>
         
         <div className="relative h-full bg-gradient-to-br from-[#1a3a2e] to-[#0a1f1a] rounded-2xl overflow-hidden border border-[#9cc5ad]/20 group-hover:border-[#9cc5ad]/50 transition-all duration-300 flex flex-col">
+          
+          {/* Imagem */}
           <div className="relative h-64 w-full overflow-hidden flex-shrink-0">
             <Image 
               src={imageSrc} 
-              alt={member.name} 
+              alt={`Foto de ${member.name}`} 
               fill 
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
               priority={index < 4}
@@ -70,16 +140,28 @@ export default function ProfileCard({ member, index, positionInRow }) {
           </div>
 
           <div className="p-5 flex-grow flex flex-col">
+            
+            {/* Nome */}
             <h3 className="text-xl font-bold text-white mb-1 group-hover:text-[#9cc5ad] transition-colors duration-300">
               {shortName}
             </h3>
-            {member.university && (
-              <p className="text-[#9cc5ad]/70 text-sm mb-4 font-medium">
+            
+            {/* Descrição Principal (Role/Course) */}
+            {mainDescription && (
+              <p className="text-[#9cc5ad] text-sm mb-2 font-semibold">
+                {mainDescription}
+              </p>
+            )}
+
+            {/* Universidade/Instituição (se não for a descrição principal) */}
+            {member.university && !(member.role && (member.role.includes('Conselheiro') || member.role.includes('Advisor'))) && (
+              <p className="text-gray-400 text-xs mb-4 font-medium">
                 {member.university}
               </p>
             )}
 
-            {member.linkedin && (
+            {/* Link para Perfil/Website */}
+           {member.linkedin && (
               <a 
                 href={member.linkedin} 
                 target="_blank" 
@@ -93,6 +175,7 @@ export default function ProfileCard({ member, index, positionInRow }) {
                 <span className="text-sm">LinkedIn</span>
               </a>
             )}
+
           </div>
         </div>
       </div>

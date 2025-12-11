@@ -116,7 +116,7 @@ Aqui vamos testar os conhecimentos sobre o espaço que foram adquirindo ao longo
 
 ## Como Organizar na Sua Escola
 
-Para agendar "A Spacial Day" na vossa escola e receber mais informações sobre as atividades, contacta-nos através da página de contactos ou envia um email para [inserir email].
+Para agendar "A Spacial Day" na vossa escola e receber mais informações sobre as atividades, contacta-nos através da página de contactos ou envia um email para workshops@espacoaocubo.pt.
 
 Vamos transformar o vosso dia numa aventura espacial inesquecível!
 

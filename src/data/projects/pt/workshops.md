@@ -82,6 +82,6 @@ Neste workshop prático, os alunos vão **construir um *CubeSat* do zero**, expl
 
 ## Como Participar
 
-Para saber mais sobre os workshops e agendar uma sessão na vossa escola, contacta-nos através da página de contactos ou envia um email para geral@espacoaocubo.pt.
+Para saber mais sobre os workshops e agendar uma sessão na vossa escola, contacta-nos através da página de contactos ou envia um email para workshops@espacoaocubo.pt.
 
 A vossa escola pode fazer parte desta aventura espacial!
