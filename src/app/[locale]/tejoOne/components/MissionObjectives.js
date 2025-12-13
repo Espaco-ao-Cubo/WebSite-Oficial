@@ -34,37 +34,37 @@ export default function MissionObjectives() {
   ]
 
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-b from-[#0f2d2f] via-[#173A3C] to-[#173A3C]">
-      <div className="container mx-auto px-6 lg:px-16 xl:px-24">
+    <section className="py-12 sm:py-16 lg:py-32 bg-gradient-to-b from-[#0f2d2f] via-[#173A3C] to-[#173A3C]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 xl:px-24">
         
-        <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 lg:mb-6">
             {t('title')}
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4">
             {t('subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
           {objectives.map((obj, index) => (
             <div
               key={index}
-              className="group relative bg-white/10 backdrop-blur-sm border border-[#84B295]/30 rounded-2xl p-8 hover:border-[#84B295]/60 transition-all duration-500 overflow-hidden"
+              className="group relative bg-white/10 backdrop-blur-sm border border-[#84B295]/30 rounded-2xl p-6 sm:p-8 hover:border-[#84B295]/60 transition-all duration-500 overflow-hidden"
             >
               {/* Gradient overlay on hover */}
               <div className={`absolute inset-0 bg-gradient-to-br ${obj.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`} />
               
               <div className="relative z-10">
-                <div className={`inline-block p-4 bg-gradient-to-br ${obj.color} rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <obj.icon className="w-8 h-8 text-white" />
+                <div className={`inline-block p-3 sm:p-4 bg-gradient-to-br ${obj.color} rounded-xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                  <obj.icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                 </div>
                 
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#84B295] transition-colors">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4 group-hover:text-[#84B295] transition-colors">
                   {obj.title}
                 </h3>
                 
-                <p className="text-gray-300 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                   {obj.description}
                 </p>
               </div>
