@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
 import Link from 'next/link'
+import rehypeRaw from 'rehype-raw'
 import { ArrowLeft, Calendar, ExternalLink } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
 
@@ -116,6 +117,7 @@ export default async function ProjectDetailPage({ params }) {
         {/* Content */}
         <article className="prose prose-invert prose-lg max-w-none">
           <ReactMarkdown
+            rehypePlugins={[rehypeRaw]}
             components={{
               h1: ({ node, children, ...props }) => (
                 <h1 className="text-3xl font-bold text-white mb-6 mt-12 pb-3 border-b border-[#9cc5ad]/20" {...props}>

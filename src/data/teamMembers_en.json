@@ -619,8 +619,18 @@
           "name": "Structures",
           "members": [
             {
-              "name": "Filipa Mota Guerreiro Cabrita",
+              "name": "David Pires Pereira da Encarnação",
               "role": "Coordinator",
+              "image": "/images/team/DavidEncarnação.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Filipa Mota Guerreiro Cabrita",
+              "role": "",
               "image": "/images/team/FilipaCabrita.JPG",
               "university": "IST",
               "course": "Mechanical Engineering",
@@ -803,8 +813,18 @@
           "name": "ADCS",
           "members": [
             {
-              "name": "Ana Oliveira",
+              "name": "Cláudio Manuel Vianna Moreira",
               "role": "Coordinator",
+              "image": "/images/team/CláudioMoreira.JPG",
+              "university": "FCT",
+              "course": "Aerospace Engineering",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "www.linkedin.com/in/claudiomvmoreira"
+            },
+            {
+              "name": "Ana Oliveira",
+              "role": "",
               "image": "/images/team/AnaOliveira.PNG",
               "university": "IST",
               "course": "Mechanical Engineering",
