@@ -77,7 +77,7 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Sara Pinto Ferreira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Science Communicator - VdA Vieira de Almeida</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Space Law - VdA Vieira de Almeida</p>
   </div>
 </div>
 
@@ -91,13 +91,13 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Ana Prata</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Space Law - FCUL & TecLabs</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Science Communicator - FCUL & TecLabs</p>
   </div>
 </div>
 
 ---
 
-### TELESCOPES
+### Telescopes
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png" alt="André Moitinho" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
@@ -118,9 +118,12 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
     <img src="/images/projects/winter-school/Logos/Oradores/IA.jpg" alt="IA" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
   </div>
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/NEO TAG LINE - Black.jpg" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Ricardo Ferreira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Researcher - Institute of Astrophysics</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Researcher - Institute of Astrophysics & N3O</p>
   </div>
 </div>
 
@@ -140,13 +143,16 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 
 ---
 
-### SATELLITES
+### Satellites
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/João Oliveira.jpg" alt="João Oliveira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="IST" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">João Oliveira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Satellite Development Specialist</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Professor - Instituto Superior Técnico</p>
   </div>
 </div>
 
@@ -198,13 +204,16 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 
 ---
 
-### LAUNCH SYSTEMS
+### Launch Systems
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/AlainSouza (1).png" alt="Alain Souza" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="IST" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Alain Souza</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Launch Systems Specialist</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Professor - Instituto Superior Técnico</p>
   </div>
 </div>
 
@@ -230,10 +239,16 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
     <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/Critical.png" alt="Critical Software" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/logo_oe.png" alt="Order of Engineers" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
+  </div>
+  <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
     <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/Paladin.webp" alt="Paladin" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
-    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/red-bull-logo.png" alt="Red Bull" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/red-bull-logo.png" alt="Red Bull" style="max-width: 125px; max-height: 75px; width: auto; height: auto; object-fit: contain;" />
+  </div>
+  <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/gutsy.png" alt="GUTsy" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
     <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/pasteis-de-belem.png" alt="Pastéis de Belém" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />

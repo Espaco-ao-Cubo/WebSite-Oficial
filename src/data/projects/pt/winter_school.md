@@ -25,19 +25,19 @@ Durante um período de cinco dias, os participantes irão participar em palestra
 
 ## Blocos Temáticos
 
-### 🔭 TELESCOPES
+### 🔭 TELESCÓPIOS
 Explore a observação espacial através de uma abordagem focada em instrumentação e investigação astrofísica, contactando com sistemas de telescópios, recolha de dados e análise científica.
 
-### 🛰️ SATELLITES
+### 🛰️ SATÉLITES
 Aborda os principais processos de desenvolvimento de satélites e as tendências NewSpace atuais, cobrindo design, mecânica orbital e aplicações modernas.
 
 ### 🌐 DOWNSTREAM
 Dedicado às aplicações de dados de satélite, focando-se no uso prático de informação baseada no espaço para soluções tecnológicas, comerciais e sustentáveis.
 
-### 🚀 LAUNCH SYSTEMS
+### 🚀 LANÇADORES
 Explore os diversos veículos de lançamento existentes, com especial enfoque em tecnologias emergentes e o seu papel no setor NewSpace.
 
-### 📈 BEYOND ENGINEERING
+### 📈 PARA ALÉM DA ENGENHARIA
 Um bloco transversal que cobre gestão, comunicação de ciência, empreendedorismo em ciência e direito espacial, melhorando a compreensão dos participantes sobre a indústria espacial mais ampla.
 
 ### 💡 HACKATHON
@@ -60,7 +60,7 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
 
 ## Oradores
 
-### Beyond Engineering
+### Para Além da Engenharia
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/Gonçalo Vera-Cruz.jpg" alt="Gonçalo Vera-Cruz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
@@ -77,7 +77,7 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
   </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Sara Pinto Ferreira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Comunicadora de Ciência - VdA Vieira de Almeida</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;"> Direito Espacial - VdA Vieira de Almeida</p>
   </div>
 </div>
 
@@ -91,13 +91,13 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
   </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Ana Prata</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Direito Espacial - FCUL & TecLabs</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;"> Comunicadora de Ciência - FCUL & TecLabs</p>
   </div>
 </div>
 
 ---
 
-### TELESCOPES
+### Telescópios
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png" alt="André Moitinho" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
@@ -118,9 +118,12 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
   <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
     <img src="/images/projects/winter-school/Logos/Oradores/IA.jpg" alt="IA" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
   </div>
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/NEO TAG LINE - Black.jpg" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Ricardo Ferreira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Investigador - Instituto de Astrofísica</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Investigador - Instituto de Astrofísica & N3O</p>
   </div>
 </div>
 
@@ -140,13 +143,16 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
 
 ---
 
-### SATELLITES
+### Satélites
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/João Oliveira.jpg" alt="João Oliveira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">João Oliveira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Especialista em Desenvolvimento de Satélites</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Professor - Instituto Superior Técnico</p>
   </div>
 </div>
 
@@ -198,13 +204,16 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
 
 ---
 
-### LAUNCH SYSTEMS
+### Lançadores
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/AlainSouza (1).png" alt="Alain Souza" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+  </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Alain Souza</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Especialista em Sistemas de Lançamento</p>
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">Professor - Instituto Superior Técnico</p>
   </div>
 </div>
 
@@ -217,6 +226,7 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
     <p style="margin: 0.5rem 0; color: #b8dbc4;">Tecnologias de Lançamento Emergentes</p>
   </div>
 </div>
+
 ---
 
 ## Apoios e Patrocínios
@@ -229,16 +239,22 @@ A Escola de Inverno culmina com uma Hackathon de 24 horas, onde equipas multidis
     <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/Critical.png" alt="Critical Software" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/logo_oe.png" alt="Ordem dos Engenheiros" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
+  </div>
+  <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
     <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/Paladin.webp" alt="Paladin" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
-    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/red-bull-logo.png" alt="Red Bull" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/red-bull-logo.png" alt="Red Bull" style="max-width: 125px; max-height: 75px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
-    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/pasteis-de-belem.png" alt="Pastéis de Belém" style="max-width: 150px; max-height: 1000px; width: auto; height: auto; object-fit: contain;" />
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/gutsy.png" alt="GUTsy" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
-    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/food delivery brands.png" alt="Food Delivery" style="max-width: 150px; max-height: 1000px; width: auto; height: auto; object-fit: contain;" />
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/pasteis-de-belem.png" alt="Pastéis de Belém" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
+  </div>
+  <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; width: 100%; height: 120px;">
+    <img src="/images/projects/winter-school/Logos/Apoios-Parcerias/food delivery brands.png" alt="Food Delivery" style="max-width: 150px; max-height: 100px; width: auto; height: auto; object-fit: contain;" />
   </div>
 </div>
 

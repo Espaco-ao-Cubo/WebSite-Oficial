@@ -721,8 +721,18 @@
           "name": "Power",
           "members": [
             {
-              "name": "Marco Alexandre Mimoso Acúrcio",
+              "name": "Carlo Fantoni",
               "role": "Coordinator",
+              "image": "/images/team/CarloFantoni.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Undergraduate",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/carlofantoni/"
+            },
+            {
+              "name": "Marco Alexandre Mimoso Acúrcio",
+              "role": "",
               "image": "/images/team/MarcoAcúrcio.JPG",
               "university": "Luleå University of Technology",
               "course": "Space Science & Technology",
