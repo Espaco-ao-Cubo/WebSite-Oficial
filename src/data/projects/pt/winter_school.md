@@ -7,7 +7,7 @@ dateRange: "10-14 de Fevereiro de 2026"
 image: "/images/projects/winter-school.jpg"
 icon: "BookOpen"
 featured: true
-registrationOpen: true
+registrationOpen: false
 registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQCZmvXLArwco37ee4G9tgQ85tkWvAw/viewform?usp=dialog"
 ---
 
@@ -123,7 +123,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
     <img src="/images/projects/winter-school/Logos/Oradores/Fcul.png" alt="FCUL" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/IA.png" alt="IA" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    <img src="/images/projects/winter-school/Logos/Oradores/IA.jpg" alt="IA" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
   </div>
   <div style="flex: 1; min-width: 250px;">
     <h4 style="margin: 0; color: #9cc5ad;">Nuno Gonçalves</h4>
