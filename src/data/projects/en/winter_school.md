@@ -67,163 +67,65 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 
 ### Telescopes
 
-<div style="
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-">
+<div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
 
-  <!-- Speaker photo -->
-  <img
-    src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png"
-    alt="André Moitinho"
-    style="
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #9cc5ad;
-    "
-  />
+  <!-- FOTO (stub) -->
+  <img src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png"
+       alt="André Moitinho"
+       style="width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #9cc5ad;" />
 
-  <!-- FCUL logo -->
-  <div style="
-    background: white;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    min-width: 140px;
-  ">
-    <img
-      src="/images/projects/winter-school/Logos/Oradores/Fcul.png"
-      alt="FCUL"
-      style="max-width: 120px; max-height: 60px; object-fit: contain;"
-    />
+  <!-- LOGOS -->
+  <div style="background:white;padding:1rem;border-radius:0.5rem;display:flex;align-items:center;justify-content:center;height:100px;min-width:140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/Fcul.png"
+         alt="FCUL"
+         style="max-width:120px;max-height:60px;object-fit:contain;" />
   </div>
 
-  <!-- LIP logo -->
-  <div style="
-    background: white;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    min-width: 140px;
-  ">
-    <img
-      src="/images/projects/winter-school/Logos/Oradores/LIP-logo.png"
-      alt="LIP"
-      style="max-width: 150px; max-height: 90px; object-fit: contain;"
-    />
+  <div style="background:white;padding:1rem;border-radius:0.5rem;display:flex;align-items:center;justify-content:center;height:100px;min-width:140px;">
+    <img src="/images/projects/winter-school/Logos/Oradores/LIP-logo.png"
+         alt="LIP"
+         style="max-width:150px;max-height:90px;object-fit:contain;" />
   </div>
 
-  <!-- Text + dropdown -->
-  <div style="
-    flex: 1 1 100%;
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-  ">
-    <h4 style="margin: 0; color: #9cc5ad;">
-      André Moitinho
-    </h4>
+  <!-- TEXTO + BIO -->
+  <div style="flex:1;min-width:250px;">
 
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">
-      Astrophysics Professor – FCUL & LIP
+    <h4 style="margin:0;color:#9cc5ad;">André Moitinho</h4>
+    <p style="margin:0.5rem 0;color:#b8dbc4;">
+      Professor de Astrofísica – FCUL & LIP
     </p>
 
-    <details
-      style="
-        margin-top: 1rem;
-        width: 100%;
-        border-radius: 0.5rem;
-        background: rgba(156, 197, 173, 0.04);
-        overflow: hidden;
-      "
-    >
-      <summary
-        style="
-          cursor: pointer;
-          padding: 0.75rem 1rem;
-          color: #9cc5ad;
-          font-weight: 600;
-          list-style: none;
-        "
-      >
-        View Bio & Lecture Details
+    <details>
+      <summary style="cursor:pointer;color:#9cc5ad;">
+        Descrição biográfica
       </summary>
 
-      <!-- content -->
-      <div style="
-        padding: 1rem;
-        animation: slideDown 0.35s ease;
-      ">
-        <p><strong>FEB 10 – 15:00 – Lecture</strong></p>
+      <p>
+        Professor da Faculdade de Ciências da Universidade de Lisboa e investigador do
+        Laboratório de Instrumentação e Física Experimental de Partículas (LIP). É especialista
+        no estudo da Via Láctea e em ciência de dados. Coordena a participação nacional na
+        missão Gaia da Agência Espacial Europeia (ESA).
+      </p>
 
-        <p>
-          <strong>Lecture Title:</strong><br />
-          Telescopes: technology that extends our senses to explore the Universe
-        </p>
+      <p>
+        O seu trabalho recente inclui a produção de mapas da Via Láctea, usando medições de
+        perto de dois mil milhões de estrelas, que se tornaram as imagens icónicas da missão Gaia.
+      </p>
 
-        <p>
-          <strong>Abstract:</strong><br />
-          Telescopes are fundamental instruments of astrophysics, allowing us to
-          observe the Universe far beyond the capabilities of the human eye.
-          This presentation discusses the physical principles governing their
-          operation, the main types of telescopes, and how technological advances
-          on Earth and in space have shaped major astronomical discoveries.
-        </p>
+      <p>
+        Foi presidente da Sociedade Portuguesa de Astronomia entre 2010 e 2022 e diretor da
+        revista <em>Astronomy & Astrophysics</em> entre 2016 e 2022.
+      </p>
 
-        <p>
-          <strong>Biography:</strong><br />
-          Professor at the Faculty of Sciences of the University of Lisbon and
-          researcher at the Laboratory of Instrumentation and Experimental
-          Particle Physics (LIP). He is a specialist in the study of the Milky Way
-          and data science. He coordinates national participation in the Gaia
-          mission of the European Space Agency (ESA).
-        </p>
-
-        <p>
-          His recent work includes the production of maps of the Milky Way using
-          measurements of nearly two billion stars, which became the iconic
-          images of the Gaia mission.
-        </p>
-
-        <p>
-          He was president of the Portuguese Astronomical Society from 2010 to
-          2022 and director of the <em>Astronomy & Astrophysics</em> journal.
-          He has served on ESA, ESO, and UN COPUOS committees, contributing to
-          scientific priorities, space missions, and space sustainability
-          guidelines.
-        </p>
-      </div>
+      <p>
+        Participou em várias comissões internacionais da ESA, ESO e das Nações Unidas,
+        integrando o grupo de peritos em lixo espacial da COPUOS.
+      </p>
     </details>
+
   </div>
 </div>
 
-<style>
-  summary::-webkit-details-marker {
-    display: none;
-  }
-
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-6px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-</style>
 
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
