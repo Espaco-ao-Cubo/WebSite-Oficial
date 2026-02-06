@@ -171,56 +171,56 @@
         {
           "name": "Nuno Miguel Cabecinhas Gonçalves",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/NunoGonçalves.png",
           "institution": "FCUL",
           "linkedin": "https://www.linkedin.com/in/nuno-miguel-gon%C3%A7alves-59a70a14a/"
         },
         {
           "name": "Joel Alves Costa Filho",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/JoelFilho.png",
           "institution": "FCUL / Synopsis Planet",
           "linkedin": "https://www.linkedin.com/in/joelacfilho/"
         },
         {
           "name": "Alexandre Cabral",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/AlexandreCabral.png",
           "institution": "FCUL",
           "linkedin": "https://www.iastro.pt/"
         },
         {
           "name": "Manuel Abreu",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/ManuelAbreu.png",
           "institution": "FCUL",
           "linkedin": "https://www.iastro.pt/"
         },
         {
           "name": "Ana Prata",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/AnaPrata.jpg",
           "institution": "IST",
           "linkedin": "https://www.linkedin.com/in/anaprataag/"
         },
         {
           "name": "Fernando Lau",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/FernandoLau.jpg",
           "institution": "IST",
           "linkedin": "https://www.linkedin.com/in/fernando-lau/"
         },
         {
           "name": "Frederico Afonso",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/FredericoAfonso.png",
           "institution": "IST",
           "linkedin": "https://www.linkedin.com/in/frederico-afonso/"
         },
         {
           "name": "João Felício",
           "role": "Advisor",
-          "image": "/images/team/profile_placeholder.jpg",
+          "image": "/images/team/advisors/JoãoFelicio.png",
           "institution": "IT/IST",
           "linkedin": "http://it.pt/"
         },
@@ -619,8 +619,18 @@
           "name": "Structures",
           "members": [
             {
-              "name": "Filipa Mota Guerreiro Cabrita",
+              "name": "David Pires Pereira da Encarnação",
               "role": "Coordinator",
+              "image": "/images/team/DavidEncarnação.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+            },
+            {
+              "name": "Filipa Mota Guerreiro Cabrita",
+              "role": "",
               "image": "/images/team/FilipaCabrita.JPG",
               "university": "IST",
               "course": "Mechanical Engineering",
@@ -711,8 +721,18 @@
           "name": "Power",
           "members": [
             {
-              "name": "Marco Alexandre Mimoso Acúrcio",
+              "name": "Carlo Fantoni",
               "role": "Coordinator",
+              "image": "/images/team/CarloFantoni.JPG",
+              "university": "FCUL",
+              "course": "Engineering Physics",
+              "degree": "Undergraduate",
+              "year": "3rd year",
+              "linkedin": "https://www.linkedin.com/in/carlofantoni/"
+            },
+            {
+              "name": "Marco Alexandre Mimoso Acúrcio",
+              "role": "",
               "image": "/images/team/MarcoAcúrcio.JPG",
               "university": "Luleå University of Technology",
               "course": "Space Science & Technology",
@@ -803,8 +823,18 @@
           "name": "ADCS",
           "members": [
             {
-              "name": "Ana Oliveira",
+              "name": "Cláudio Manuel Vianna Moreira",
               "role": "Coordinator",
+              "image": "/images/team/CláudioMoreira.JPG",
+              "university": "FCT",
+              "course": "Aerospace Engineering",
+              "degree": "Master's",
+              "year": "1st year",
+              "linkedin": "www.linkedin.com/in/claudiomvmoreira"
+            },
+            {
+              "name": "Ana Oliveira",
+              "role": "",
               "image": "/images/team/AnaOliveira.PNG",
               "university": "IST",
               "course": "Mechanical Engineering",
