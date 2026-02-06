@@ -67,29 +67,164 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 
 ### Telescopes
 
-<div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
-  <img src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png" alt="André Moitinho" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/Fcul.png" alt="FCUL" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+<div style="
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+">
+
+  <!-- Speaker photo -->
+  <img
+    src="/images/projects/winter-school/Fotos oradores/Moitinho (1).png"
+    alt="André Moitinho"
+    style="
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #9cc5ad;
+    "
+  />
+
+  <!-- FCUL logo -->
+  <div style="
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    min-width: 140px;
+  ">
+    <img
+      src="/images/projects/winter-school/Logos/Oradores/Fcul.png"
+      alt="FCUL"
+      style="max-width: 120px; max-height: 60px; object-fit: contain;"
+    />
   </div>
-  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/LIP-logo.png" alt="LIP" style="max-width: 150px; max-height: 90px; width: auto; height: auto; object-fit: contain;" />
+
+  <!-- LIP logo -->
+  <div style="
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    min-width: 140px;
+  ">
+    <img
+      src="/images/projects/winter-school/Logos/Oradores/LIP-logo.png"
+      alt="LIP"
+      style="max-width: 150px; max-height: 90px; object-fit: contain;"
+    />
   </div>
-  <div style="flex: 1; min-width: 250px;">
-    <h4 style="margin: 0; color: #9cc5ad;">André Moitinho</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Astrophysics Professor - FCUL & LIP</p>
-    <details style="margin-top: 1rem;">
-      <summary style="cursor: pointer; color: #9cc5ad; font-weight: 600;">View Bio & Lecture Details</summary>
-      <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 197, 173, 0.05); border-radius: 0.5rem;">
-        <p><strong>FEB 10 - 15:00 - Lecture</strong></p>
-        <p><strong>Lecture Title:</strong> Telescopes: technology that extends our senses to explore the Universe</p>
-        <p><strong>Abstract:</strong> Telescopes are fundamental instruments of astrophysics, allowing us to observe the Universe far beyond the capabilities of the human eye. This presentation discusses the physical principles governing their operation, the main types of telescopes, and how technological advances on Earth and in space have shaped major astronomical discoveries.</p>
-        <p><strong>Biography:</strong> Professor at the Faculty of Sciences of the University of Lisbon and researcher at the Laboratory of Instrumentation and Experimental Particle Physics (LIP). He is a specialist in the study of the Milky Way and data science. He coordinates national participation in the Gaia mission of the European Space Agency (ESA). His recent work includes the production of maps of the Milky Way using measurements of nearly two billion stars, which became the iconic images of the Gaia mission.</p>
-        <p>He was president of the Portuguese Astronomical Society from 2010 to 2022. Between 2016 and 2022, he was director of the "Astronomy & Astrophysics" journal, one of the world's leading professional astronomy journals. He has served on several international committees, notably those of ESA and ESO (European Southern Observatory), where he worked on defining scientific priorities and the development of telescopes, instruments, and space missions. He was a member of the United Nations Committee on the Peaceful Uses of Outer Space (COPUOS), where he joined the group of experts on space debris, contributing to the definition of the Guidelines for the Long-term Sustainability of Outer Space Activities.</p>
+
+  <!-- Text + dropdown -->
+  <div style="
+    flex: 1 1 100%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+  ">
+    <h4 style="margin: 0; color: #9cc5ad;">
+      André Moitinho
+    </h4>
+
+    <p style="margin: 0.5rem 0; color: #b8dbc4;">
+      Astrophysics Professor – FCUL & LIP
+    </p>
+
+    <details
+      style="
+        margin-top: 1rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        background: rgba(156, 197, 173, 0.04);
+        overflow: hidden;
+      "
+    >
+      <summary
+        style="
+          cursor: pointer;
+          padding: 0.75rem 1rem;
+          color: #9cc5ad;
+          font-weight: 600;
+          list-style: none;
+        "
+      >
+        View Bio & Lecture Details
+      </summary>
+
+      <!-- content -->
+      <div style="
+        padding: 1rem;
+        animation: slideDown 0.35s ease;
+      ">
+        <p><strong>FEB 10 – 15:00 – Lecture</strong></p>
+
+        <p>
+          <strong>Lecture Title:</strong><br />
+          Telescopes: technology that extends our senses to explore the Universe
+        </p>
+
+        <p>
+          <strong>Abstract:</strong><br />
+          Telescopes are fundamental instruments of astrophysics, allowing us to
+          observe the Universe far beyond the capabilities of the human eye.
+          This presentation discusses the physical principles governing their
+          operation, the main types of telescopes, and how technological advances
+          on Earth and in space have shaped major astronomical discoveries.
+        </p>
+
+        <p>
+          <strong>Biography:</strong><br />
+          Professor at the Faculty of Sciences of the University of Lisbon and
+          researcher at the Laboratory of Instrumentation and Experimental
+          Particle Physics (LIP). He is a specialist in the study of the Milky Way
+          and data science. He coordinates national participation in the Gaia
+          mission of the European Space Agency (ESA).
+        </p>
+
+        <p>
+          His recent work includes the production of maps of the Milky Way using
+          measurements of nearly two billion stars, which became the iconic
+          images of the Gaia mission.
+        </p>
+
+        <p>
+          He was president of the Portuguese Astronomical Society from 2010 to
+          2022 and director of the <em>Astronomy & Astrophysics</em> journal.
+          He has served on ESA, ESO, and UN COPUOS committees, contributing to
+          scientific priorities, space missions, and space sustainability
+          guidelines.
+        </p>
       </div>
     </details>
   </div>
 </div>
+
+<style>
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
 
 <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/Ricardo.jpg" alt="Ricardo Ferreira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
