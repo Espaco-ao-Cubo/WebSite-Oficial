@@ -227,8 +227,8 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 11 - 11:30 - Workshop</p>
   <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
     <img src="/images/projects/winter-school/Fotos oradores/André Santos.jpg" alt="André Santos" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-    <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 200px; max-height: 80px; width: auto; height: auto; object-fit: contain;" />
     </div>
     <div style="flex: 1; min-width: 250px;">
       <h4 style="margin: 0; color: #9cc5ad;">André Santos</h4>
@@ -246,8 +246,8 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   </div>
    <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
     <img src="/images/projects/winter-school/Fotos oradores/alexandre_plotean.jpg" alt="Alexandre Plotean" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-    <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 200px; max-height: 80px; width: auto; height: auto; object-fit: contain;" />
     </div>
     <div style="flex: 1; min-width: 250px;">
       <h4 style="margin: 0; color: #9cc5ad;">Alexandre Plotean</h4>
@@ -255,7 +255,6 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
     </div>
   </div>
 </div>
-
 
 ---
 
@@ -430,7 +429,7 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 ### Beyond Engineering
 
 <div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
-  <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 12 - 11:30 - Workshop</p>
+  <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 12 - 14:30 - Lecture</p>
   <div style="display: flex; gap: 2rem; align-items: center;flex-wrap: wrap;">
     <img src="/images/projects/winter-school/Fotos oradores/Gonçalo Vera-Cruz.jpg" alt="Gonçalo Vera-Cruz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
     <div style="flex: 1; min-width: 250px;">
