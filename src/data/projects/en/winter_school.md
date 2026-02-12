@@ -228,7 +228,7 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
   <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
     <img src="/images/projects/winter-school/Fotos oradores/André Santos.jpg" alt="André Santos" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
     <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.png" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
     </div>
     <div style="flex: 1; min-width: 250px;">
       <h4 style="margin: 0; color: #9cc5ad;">André Santos</h4>
@@ -247,7 +247,7 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
    <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
     <img src="/images/projects/winter-school/Fotos oradores/alexandre_plotean.jpg" alt="Alexandre Plotean" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
     <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 100px; min-width: 140px;">
-      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.png" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+      <img src="/images/projects/winter-school/Logos/Oradores/EspacoAoCubo.jpg" alt="Espaço ao Cubo" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
     </div>
     <div style="flex: 1; min-width: 250px;">
       <h4 style="margin: 0; color: #9cc5ad;">Alexandre Plotean</h4>
