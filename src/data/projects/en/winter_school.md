@@ -148,44 +148,49 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 ---
 
 ### Satellites
-
-<div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
-  <img src="/images/projects/winter-school/Fotos oradores/JoãoOliveira.jpg" alt="João Oliveira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="IST" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <h4 style="margin: 0; color: #9cc5ad;">João Oliveira</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Assistant Professor - Instituto Superior Técnico</p>
-    <details style="margin-top: 1rem;">
-      <summary style="cursor: pointer; color: #9cc5ad; font-weight: 600;">View Bio & Lecture Details</summary>
-      <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 197, 173, 0.05); border-radius: 0.5rem;">
-        <p><strong>FEB 11 - 09:30 - Lecture</strong></p>
-        <p><strong>Lecture Title:</strong> Space environment and satellite design</p>
-        <p><strong>Abstract:</strong> The space environment in which a satellite operates during its mission, whether in LEO, MEO, or GEO orbits, influences the design of many of its subsystems. In this presentation, some of the most important characteristics of the space environment will be mentioned, relating them to the design and testing of satellites, including: structural loads and vibrations during launch; atmospheric drag and mission duration; atomic oxygen erosion and protection of exposed surfaces; thermal environment and passive and active thermal control; collisions with space debris and micrometeorites; radiation environment and protection; satellite reentry and design for demise.</p>
-        <p><strong>Biography:</strong> João Manuel Gonçalves de Sousa Oliveira holds a degree in Physics from the Faculty of Sciences of the University of Lisbon, and a Master's and Doctorate in Mechanical Engineering from Instituto Superior Técnico. He has been an Assistant Professor in the Department of Mechanical Engineering at Instituto Superior Técnico since 2004. His recent research interests include drone rotor noise, aeronautical noise prediction near airports, space launch noise prediction, and aerodynamic drag reduction for VLEO satellites. He currently teaches the courses of Orbital Mechanics and Space Environment.</p>
-      </div>
-    </details>
+<div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
+  <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 11 - 09:30 - Lecture</p>
+  <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
+    <img src="/images/projects/winter-school/Fotos oradores/JoãoOliveira.jpg" alt="João Oliveira" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+    <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+      <img src="/images/projects/winter-school/Logos/Oradores/IST.png" alt="IST" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    </div>
+    <div style="flex: 1; min-width: 250px;">
+      <h4 style="margin: 0; color: #9cc5ad;">João Oliveira</h4>
+      <p style="margin: 0.5rem 0; color: #b8dbc4;">Assistant Professor - Instituto Superior Técnico</p>
+      <details style="margin-top: 1rem;">
+        <summary style="cursor: pointer; color: #9cc5ad; font-weight: 600;">View Bio & Lecture Details</summary>
+        <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 197, 173, 0.05); border-radius: 0.5rem;">
+          <p><strong>FEB 11 - 09:30 - Lecture</strong></p>
+          <p><strong>Lecture Title:</strong> Space environment and satellite design</p>
+          <p><strong>Abstract:</strong> The space environment in which a satellite operates during its mission, whether in LEO, MEO, or GEO orbits, influences the design of many of its subsystems. In this presentation, some of the most important characteristics of the space environment will be mentioned, relating them to the design and testing of satellites, including: structural loads and vibrations during launch; atmospheric drag and mission duration; atomic oxygen erosion and protection of exposed surfaces; thermal environment and passive and active thermal control; collisions with space debris and micrometeorites; radiation environment and protection; satellite reentry and design for demise.</p>
+          <p><strong>Biography:</strong> João Manuel Gonçalves de Sousa Oliveira holds a degree in Physics from the Faculty of Sciences of the University of Lisbon, and a Master's and Doctorate in Mechanical Engineering from Instituto Superior Técnico. He has been an Assistant Professor in the Department of Mechanical Engineering at Instituto Superior Técnico since 2004. His recent research interests include drone rotor noise, aeronautical noise prediction near airports, space launch noise prediction, and aerodynamic drag reduction for VLEO satellites. He currently teaches the courses of Orbital Mechanics and Space Environment.</p>
+        </div>
+      </details>
+    </div>
   </div>
 </div>
 
-<div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
-  <img src="/images/projects/winter-school/Fotos oradores/PedroPrates.jpg" alt="Pedro Prates" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/NEO TAG LINE - Black.jpg" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <h4 style="margin: 0; color: #9cc5ad;">Pedro Prates</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Mission Analysis Engineer - N3O</p>
-    <details style="margin-top: 1rem;">
-      <summary style="cursor: pointer; color: #9cc5ad; font-weight: 600;">View Bio & Lecture Details</summary>
-      <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 197, 173, 0.05); border-radius: 0.5rem;">
-        <p><strong>FEB 11 - 10:15 - Lecture (Part 1)</strong></p>
-        <p><strong>Lecture Title:</strong> Mission Analysis for N3O VHR Satellites</p>
-        <p><strong>Abstract:</strong> We will explore the fundamentals of Astrodynamics and Mission Analysis with a focus on Phases 0/A. The presentation will also demonstrate the work carried out so far at N3O on the PRR Atlantic Constellation missions with a focus on Mission Analysis and Systems Engineering. To conclude, I will share my experience and some advice on how to enter the space industry.</p>
-        <p><strong>Biography:</strong> He began his journey in space at the University of Southampton, where he studied for a Master's in Aerospace Engineering with a specialisation in satellite development. He completed two internships and participated in CanSat USA and other space projects (such as the development of a propulsion system for satellites). After completing the course, he worked on Phase 0/A of a mission to develop an interplanetary CubeSat. Currently, he works at N3O, based in Matosinhos, where he primarily performs Mission Analysis, with support in Systems and AIT. At N3O, he has been developing two VHR (Very High Resolution) satellites for Earth Observation as part of the PRR for the Atlantic Constellation.</p>
-      </div>
-    </details>
+<div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
+  <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 11 - 10:15 - Lecture</p>
+  <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
+    <img src="/images/projects/winter-school/Fotos oradores/PedroPrates.jpg" alt="Pedro Prates" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+    <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+      <img src="/images/projects/winter-school/Logos/Oradores/NEO TAG LINE - Black.jpg" alt="N3O" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    </div>
+    <div style="flex: 1; min-width: 250px;">
+      <h4 style="margin: 0; color: #9cc5ad;">Pedro Prates</h4>
+      <p style="margin: 0.5rem 0; color: #b8dbc4;">Mission Analysis Engineer - N3O</p>
+      <details style="margin-top: 1rem;">
+        <summary style="cursor: pointer; color: #9cc5ad; font-weight: 600;">View Bio & Lecture Details</summary>
+        <div style="margin-top: 1rem; padding: 1rem; background: rgba(156, 197, 173, 0.05); border-radius: 0.5rem;">
+          <p><strong>FEB 11 - 10:15 - Lecture (Part 1)</strong></p>
+          <p><strong>Lecture Title:</strong> Mission Analysis for N3O VHR Satellites</p>
+          <p><strong>Abstract:</strong> We will explore the fundamentals of Astrodynamics and Mission Analysis with a focus on Phases 0/A. The presentation will also demonstrate the work carried out so far at N3O on the PRR Atlantic Constellation missions with a focus on Mission Analysis and Systems Engineering. To conclude, I will share my experience and some advice on how to enter the space industry.</p>
+          <p><strong>Biography:</strong> He began his journey in space at the University of Southampton, where he studied for a Master's in Aerospace Engineering with a specialisation in satellite development. He completed two internships and participated in CanSat USA and other space projects (such as the development of a propulsion system for satellites). After completing the course, he worked on Phase 0/A of a mission to develop an interplanetary CubeSat. Currently, he works at N3O, based in Matosinhos, where he primarily performs Mission Analysis, with support in Systems and AIT. At N3O, he has been developing two VHR (Very High Resolution) satellites for Earth Observation as part of the PRR for the Atlantic Constellation.</p>
+        </div>
+      </details>
+    </div>
   </div>
 </div>
 
@@ -211,7 +216,7 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
 
 <div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
   <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 11 - 11:30 - Workshop</p>
-  <div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
+  <div style="display: flex; gap: 2rem; align-items: center;flex-wrap: wrap;">
   <img src="/images/projects/winter-school/Fotos oradores/miguel isidoro.png" alt="Miguel Isidoro" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
   <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
     <img src="/images/projects/winter-school/Logos/Oradores/beyond_gravity.png" alt="Beyond Gravity" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
@@ -220,17 +225,17 @@ The Winter School concludes with a 24-hour Hackathon, where multidisciplinary te
     <h4 style="margin: 0; color: #9cc5ad;">Miguel Isidoro</h4>
     <p style="margin: 0.5rem 0; color: #b8dbc4;">Engineer - Beyond Gravity</p>
   </div>
-</div>>
-<div style="display: flex; gap: 2rem; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
-  <img src="/images/projects/winter-school/Fotos oradores/João Lopes.png" alt="João Lopes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
-  <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
-    <img src="/images/projects/winter-school/Logos/Oradores/beyond_gravity.png" alt="Beyond Gravity" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
-  </div>
-  <div style="flex: 1; min-width: 250px;">
-    <h4 style="margin: 0; color: #9cc5ad;">João Lopes</h4>
-    <p style="margin: 0.5rem 0; color: #b8dbc4;">Engineer - Beyond Gravity</p>
-  </div>
-</div>>
+  </div>>
+  <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+    <img src="/images/projects/winter-school/Fotos oradores/João Lopes.png" alt="João Lopes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #9cc5ad;" />
+    <div style="background: white; padding: 1rem; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: 80px; min-width: 140px;">
+      <img src="/images/projects/winter-school/Logos/Oradores/beyond_gravity.png" alt="Beyond Gravity" style="max-width: 120px; max-height: 60px; width: auto; height: auto; object-fit: contain;" />
+    </div>
+    <div style="flex: 1; min-width: 250px;">
+      <h4 style="margin: 0; color: #9cc5ad;">João Lopes</h4>
+      <p style="margin: 0.5rem 0; color: #b8dbc4;">Engineer - Beyond Gravity</p>
+    </div>
+  </div>>
 </div>
 
 
