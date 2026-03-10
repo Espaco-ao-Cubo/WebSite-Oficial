@@ -230,6 +230,13 @@
           "image": "/images/team/profile_placeholder.jpg",
           "institution": "Exatronic",
           "linkedin": "https://www.linkedin.com/in/manuel-fl-loureiro/"
+        },
+        {
+          "name": "Pedro Batista",
+          "role": "Conselheiro",
+          "image": "/images/team/advisors/PedroBatista.png",
+          "institution": "ISR/IST",
+          "linkedin": "https://www.linkedin.com/in/ptmbatista/"
         }
       ]
     },
