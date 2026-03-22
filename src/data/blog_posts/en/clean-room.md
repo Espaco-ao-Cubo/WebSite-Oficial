@@ -1,13 +1,19 @@
 ---
-title: "Clean Room: TejoOne Validation and First Tests"
-slug: "clean-room"
-date: "2024-12-05"
-author: "Espaço ao Cubo Team"
-authorRole: "Integration and Testing"
-category: "Engineering"
-tags: ["clean room", "integration", "testing", "ISO 7", "phase D"]
-image: "/images/blog/sala-limpa.jpg"
-excerpt: "Phase D of the TejoOne project marks a decisive moment: we validated our ISO 7 clean room and conducted the first integration tests."
+slug: clean-room
+draft: false
+title: 'Clean Room: TejoOne Validation and First Tests'
+category: Engineering
+date: 2024-12-05T00:00:00.000Z
+author: Espaço ao Cubo Team
+authorRole: Integration and Testing
+image: /images/blog/sala-limpa.jpg
+tags:
+  - clean room
+  - integration
+  - testing
+  - ISO 7
+  - phase D
+excerpt: 'Phase D of the TejoOne project marks a decisive moment: we validated our ISO 7 clean room and conducted the first integration tests.'
 ---
 
 # Clean Room: TejoOne Validation and First Tests
@@ -24,10 +30,10 @@ A clean room is a controlled environment where the concentration of airborne par
 
 To ensure this controlled environment, a clean room typically includes:
 
-- **Active air filtration** through HEPA filters
-- **Constant air renewal**
-- **Differential pressure between rooms**, preventing particle entry from adjacent areas
-- **Strict access rules**
+* **Active air filtration** through HEPA filters
+* **Constant air renewal**
+* **Differential pressure between rooms**, preventing particle entry from adjacent areas
+* **Strict access rules**
 
 These access rules include the prohibition of materials that release particles, sanitization of all equipment and tools with isopropyl alcohol, and mandatory use of gowns, caps, gloves, and shoe covers.
 
@@ -58,8 +64,8 @@ The tests performed yielded the following results:
 
 Based on these results, it was concluded that:
 
-- During work periods with people present, filtration must operate between **75% and 100%**, depending on the number of people in the room
-- Temperature control must be turned on whenever people are working or when there is a need to maintain a sensitive component at a stable temperature
+* During work periods with people present, filtration must operate between **75% and 100%**, depending on the number of people in the room
+* Temperature control must be turned on whenever people are working or when there is a need to maintain a sensitive component at a stable temperature
 
 This qualification process confirmed that **the room is ready to support the demands of satellite assembly and integration**.
 
@@ -80,10 +86,10 @@ This first test demonstrated, in practice, that the clean room is suitable for r
 
 Additionally, the experience allowed us to:
 
-- Identify the type of support material needed to optimize work in upcoming stages
-- Understand the logistical needs involved in the process
-- Evaluate technical and documentation requirements
-- Improve test organization and planning
+* Identify the type of support material needed to optimize work in upcoming stages
+* Understand the logistical needs involved in the process
+* Evaluate technical and documentation requirements
+* Improve test organization and planning
 
 ## Next Steps
 
@@ -101,6 +107,6 @@ At a later stage, and after qualification of all subsystems, the **complete asse
 
 We thank the **Institute of Astrophysics and Space Sciences** for providing the space where Espaço ao Cubo performed the clean room validation and will continue the work, conducting the necessary tests and TejoOne integration, allowing us to fulfill the dream of assembling our satellite.
 
----
+***
 
 *Published by Espaço ao Cubo Team - Integration and Testing*

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
     "start": "next start",
     "lint": "eslint"
   },
@@ -29,11 +29,13 @@
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
     "resend": "^6.6.0",
-    "three": "^0.181.0"
+    "three": "^0.181.0",
+    "tinacms": "^3.6.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/typography": "^0.5.19",
+    "@tinacms/cli": "^2.1.11",
     "@types/node": "^20.0.0",
     "autoprefixer": "^10.4.21",
     "babel-plugin-react-compiler": "1.0.0",

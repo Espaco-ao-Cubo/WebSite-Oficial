@@ -21,7 +21,7 @@ export function getAllPosts(locale = 'pt') {
   }
 
   const fileNames = fs.readdirSync(localePath)
-  const allPostsData = fileNames
+  let allPostsData = fileNames
     .filter(fileName => fileName.endsWith('.md'))
     .map(fileName => {
       // Remove ".md" do nome do arquivo para obter o slug
@@ -40,6 +40,8 @@ export function getAllPosts(locale = 'pt') {
         ...matterResult.data,
       }
     })
+
+  allPostsData = allPostsData.filter(post => !post.draft || post.draft === 'false')
 
   // Ordena os posts por data (mais recentes primeiro)
   return allPostsData.sort((a, b) => {

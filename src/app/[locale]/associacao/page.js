@@ -1,119 +1,60 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 import ProfileCard from '@/components/ProfileCard'
 import { Target, Rocket, Users, Heart, ExternalLink } from 'lucide-react'
+import teamData from '@/data/teamMembers.json' // <-- Direct, clean import!
 
-const reorderProjects = (projects) => {
-    const clonedProjects = [...projects]; 
-    const associationIndex = clonedProjects.findIndex(p => p.id === 'association');
-    
-    if (associationIndex > -1) {
-        const associationProject = clonedProjects.splice(associationIndex, 1)[0]; 
-        return [associationProject, ...clonedProjects];
-    }
-    return projects;
-};
-
-const getInitialProject = (projects) => {
-    const associationProject = projects.find(p => p.id === 'association');
-    return associationProject ? 'association' : (projects.length > 0 ? projects[0].id : null);
-}
-
+// Reorder logic: always put 'association' first
+const orderedProjects = [...teamData.projects].sort((a, b) => 
+  a.id === 'association' ? -1 : b.id === 'association' ? 1 : 0
+);
 
 export default function TeamSection() {
-    const [isVisible, setIsVisible] = useState(false)
-    const [projectsData, setProjectsData] = useState(null)
-    const [selectedProject, setSelectedProject] = useState('association') 
-    const t = useTranslations('association')
-    const locale = t('badge') === 'About Us' ? 'en' : 'pt' 
+  const [selectedProject, setSelectedProject] = useState(orderedProjects[0]?.id || null) 
+  const t = useTranslations('association')
+  const locale = t('badge') === 'About Us' ? 'en' : 'pt' 
 
-    useEffect(() => {
-        setIsVisible(true)
-        
-        const loadProjectsData = async () => {
-            try {
-                // A importação dinâmica pode retornar a mesma referência de dados
-                const data = await import(`@/data/teamMembers_${locale}.json`)
-                
-                const orderedProjects = reorderProjects(data.default.projects);
-                
-                setProjectsData({ ...data.default, projects: orderedProjects })
-                
-                const initialSelectionId = getInitialProject(orderedProjects);
-                setSelectedProject(initialSelectionId)
-
-            } catch (error) {
-                console.error('Error loading projects data:', error)
-                // Fallback (também deve usar reorderProjects)
-                const fallbackData = await import('@/data/teamMembers_pt.json')
-                const orderedProjects = reorderProjects(fallbackData.default.projects);
-                
-                setProjectsData({ ...fallbackData.default, projects: orderedProjects })
-                setSelectedProject(getInitialProject(orderedProjects))
-            }
-        }        
-        loadProjectsData()
-
-    }, [locale])
-
-  let globalCardIndex = 0
-
-  if (!projectsData) {
-    return (
-      <section className="min-h-screen pt-32 pb-20 px-4 bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a]">
-        <div className="max-w-7xl mx-auto w-full flex items-center justify-center">
-          <div className="text-[#9cc5ad] text-xl">Loading...</div>
-        </div>
-      </section>
-    )
-  }
-
-  // Valores da associação com ícones
   const values = [
-    {
-      icon: Target,
-      titleKey: 'values.mission.title',
-      descKey: 'values.mission.description'
-    },
-    {
-      icon: Rocket,
-      titleKey: 'values.vision.title',
-      descKey: 'values.vision.description'
-    },
-    {
-      icon: Users,
-      titleKey: 'values.education.title',
-      descKey: 'values.education.description'
-    },
-    {
-      icon: Heart,
-      titleKey: 'values.coreValues.title',
-      descKey: 'values.coreValues.description'
-    }
+    { icon: Target, titleKey: 'values.mission.title', descKey: 'values.mission.description' },
+    { icon: Rocket, titleKey: 'values.vision.title', descKey: 'values.vision.description' },
+    { icon: Users, titleKey: 'values.education.title', descKey: 'values.education.description' },
+    { icon: Heart, titleKey: 'values.coreValues.title', descKey: 'values.coreValues.description' }
   ]
 
-  // Encontrar o projeto selecionado
-  const currentProject = projectsData.projects.find(p => p.id === selectedProject)
+  const currentProject = orderedProjects.find(p => p.id === selectedProject)
+  const getProjectLink = (id) => id === 'tejoone' ? `/${locale}/tejoOne` : `/${locale}/projetos`
 
-  // Função para obter o link do projeto
-  const getProjectLink = (projectId) => {
-    if (projectId === 'tejoone') {
-      return `/${locale}/tejoOne`
-    }
-    // Para outros projetos, assume-se que estão na página de projetos
-    return `/${locale}/projetos`
+  // Helper function to format the year natively based on language
+  const formatYear = (yearNum) => {
+    if (!yearNum) return '';
+    if (locale === 'pt') return `${yearNum}º ano`;
+    return yearNum === "1" ? "1st year" : yearNum === "2" ? "2nd year" : yearNum === "3" ? "3rd year" : `${yearNum}th year`;
   }
+
+  // Helper to translate a member object so ProfileCard doesn't break
+  const localizeMember = (member) => ({
+    name: member.name,
+    role: member[`role_${locale}`] || '',
+    university: member.university,
+    course: member[`course_${locale}`] || '',
+    degree: member[`degree_${locale}`] || '',
+    year: formatYear(member.year),
+    image: member.image,
+    linkedin: member.linkedin
+  })
+
+  let globalCardIndex = 0
 
   return (
     <section className="min-h-screen pt-32 pb-20 px-4 bg-gradient-to-br from-[#0a1f1a] via-[#1a3a2e] to-[#2d5a4a]">
       <div className="max-w-7xl mx-auto w-full">
         
         {/* Header */}
-        <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className="text-center mb-16 animate-fade-in-up">
           <div className="inline-block mb-4">
             <span className="text-[#9cc5ad] text-sm font-semibold tracking-wider uppercase bg-[#9cc5ad]/10 px-4 py-2 rounded-full border border-[#9cc5ad]/30">
               {t('badge')}
@@ -127,260 +68,87 @@ export default function TeamSection() {
           </p>
         </div>
 
-        {/* Team Photo Section */}
-        <div className={`mb-20 transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="relative w-full rounded-2xl overflow-hidden mb-12 border border-[#9cc5ad]/20">
-            {/* Altura responsiva: mais baixa em mobile, mais alta em desktop */}
-            <div className="relative w-full h-80 sm:h-[450px] md:h-[550px] lg:h-[700px]">
-
-              {/* Placeholder para foto da equipa */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[#1a3a2e] to-[#0a1f1a] flex items-center justify-center">
-                <div className="text-center">
-                  <Users className="w-32 h-32 text-[#9cc5ad]/30 mx-auto mb-4" />
-                  <p className="text-[#9cc5ad]/50 text-lg">
-                    {t('photoPlaceholder')}
-                  </p>
-                  <p className="text-[#9cc5ad]/30 text-sm mt-2">
-                    {t('photoSubtext')}
-                  </p>
-                </div>
-              </div>
-              {/* Imagem com object-fit responsivo */}
-              <Image 
-                src="/images/team/team_photo_association_page.png" 
-                alt="Espaço ao Cubo Team"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 1200px"
-                priority
-              />
-            </div>
-          </div>
-
-          {/* Intro Text */}
-          <div className="max-w-4xl mx-auto text-center mb-12">
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              {t('intro1')}
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              {t('intro2')}
-            </p>
-          </div>
-        </div>
-
-        {/* Values/Mission Grid */}
-        <div className={`mb-24 transition-all duration-1000 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
-            {t('valuesTitle')}
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {values.map((value, index) => (
-              <div 
-                key={value.titleKey}
-                className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-[#9cc5ad]/20 hover:border-[#9cc5ad]/50 transition-all duration-300 hover:transform hover:scale-105"
-                style={{ transitionDelay: `${index * 100}ms` }}
-              >
-                <div className="w-12 h-12 bg-[#9cc5ad]/20 rounded-lg flex items-center justify-center mb-4">
-                  <value.icon className="w-6 h-6 text-[#9cc5ad]" />
-                </div>
-                <h3 className="text-xl font-bold text-white mb-3">{t(value.titleKey)}</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">{t(value.descKey)}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Divider */}
-        <div className="mb-16">
-          <div className="flex items-center justify-center mb-8">
-            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#9cc5ad]/30 to-transparent"></div>
-            <div className="px-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-white">
-                {t('teamTitle')}
-              </h2>
-            </div>
-            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#9cc5ad]/30 to-transparent"></div>
-          </div>
-        </div>
-
         {/* Project Selection Menu */}
-        <div className={`mb-16 transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="flex flex-wrap justify-center gap-4">
-            {projectsData.projects.map((project) => (
-              <button
-                key={project.id}
-                onClick={() => setSelectedProject(project.id)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
-                  selectedProject === project.id
-                    ? 'bg-[#9cc5ad] text-[#0a1f1a] shadow-lg shadow-[#9cc5ad]/50 scale-105'
-                    : 'bg-white/5 text-[#9cc5ad] border border-[#9cc5ad]/30 hover:border-[#9cc5ad]/60 hover:bg-white/10'
-                }`}
-              >
-                {project.name}
-              </button>
-            ))}
-          </div>
+        <div className="mb-16 flex flex-wrap justify-center gap-4 animate-fade-in-up delay-200">
+          {orderedProjects.map((project) => (
+            <button
+              key={project.id}
+              onClick={() => setSelectedProject(project.id)}
+              className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
+                selectedProject === project.id
+                  ? 'bg-[#9cc5ad] text-[#0a1f1a] shadow-lg shadow-[#9cc5ad]/50 scale-105'
+                  : 'bg-white/5 text-[#9cc5ad] border border-[#9cc5ad]/30 hover:bg-white/10'
+              }`}
+            >
+              {project[`name_${locale}`]}
+            </button>
+          ))}
         </div>
 
         {/* Selected Project Content */}
         {currentProject && (
-          <div key={selectedProject} className="transition-all duration-500">
-            {/* Project Header with Go to Project Button */}
-            <div className={`mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-              <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-8">
-                <div className="flex-1 mb-4 md:mb-0">
-                  <h3 className="text-4xl md:text-5xl font-bold text-white mb-3">
-                    {currentProject.name}
-                  </h3>
-                  <p className="text-[#9cc5ad]/70 text-lg">
-                    {currentProject.description}
-                  </p>
-                  <div className="h-1 w-32 bg-gradient-to-r from-[#9cc5ad] to-transparent mt-4"></div>
-                </div>
-                
-                {/* Go to Project Button - Only show for projects with dedicated pages */}
-                {currentProject.id !== 'association' && (
-                  <Link 
-                    href={getProjectLink(currentProject.id)}
-                    className="group flex items-center gap-2 px-6 py-3 bg-[#9cc5ad] text-[#0a1f1a] font-semibold rounded-lg hover:bg-[#84B295] transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-[#9cc5ad]/30 hover:scale-105"
-                  >
-                    <span>{t('goToProject')}</span>
-                    <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                  </Link>
-                )}
+          <div key={selectedProject} className="animate-fade-in-up">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12">
+              <div className="flex-1 mb-4 md:mb-0">
+                <h3 className="text-4xl md:text-5xl font-bold text-white mb-3">
+                  {currentProject[`name_${locale}`]}
+                </h3>
+                <p className="text-[#9cc5ad]/70 text-lg">
+                  {currentProject[`description_${locale}`]}
+                </p>
+                <div className="h-1 w-32 bg-gradient-to-r from-[#9cc5ad] to-transparent mt-4"></div>
               </div>
+              
+              {currentProject.id !== 'association' && (
+                <Link 
+                  href={getProjectLink(currentProject.id)}
+                  className="group flex items-center gap-2 px-6 py-3 bg-[#9cc5ad] text-[#0a1f1a] font-semibold rounded-lg hover:bg-[#84B295] transition-all shadow-lg hover:scale-105"
+                >
+                  <span>{t('goToProject')}</span>
+                  <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              )}
             </div>
 
-            {/* Check if it's Association project (has organs and advisors) */}
-            {currentProject.id === 'association' ? (
-              <>
-                {/* Association Organs */}
-                {currentProject.organs && currentProject.organs.length > 0 && (
-                  <div className="mb-20">
-                    <h3 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-                      {locale === 'en' ? 'Governing Bodies' : 'Órgãos Sociais'}
-                    </h3>
-                    {currentProject.organs.map((organ) => (
-                      <div key={organ.id} className="mb-16">
-                        {/* Organ Header */}
-                        <div className="mb-8">
-                          <h4 className="text-2xl md:text-3xl font-bold text-[#9cc5ad] mb-2">
-                            {organ.name}
-                          </h4>
-                        </div>
+            {/* Render Organs (Association) */}
+            {currentProject.organs?.map((organ) => (
+              <div key={organ.id} className="mb-16">
+                <h4 className="text-2xl font-bold text-[#9cc5ad] mb-6 text-center">{organ[`name_${locale}`]}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  {organ.members?.map((member, idx) => (
+                    <ProfileCard key={globalCardIndex++} member={localizeMember(member)} index={globalCardIndex} positionInRow={idx} />
+                  ))}
+                </div>
+              </div>
+            ))}
 
-                        {/* Organ Members Grid */}
-                        {organ.members && organ.members.length > 0 && (
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                            {organ.members.map((member, memberIndex) => {
-                              const currentIndex = globalCardIndex++
-                              return (
-                                <ProfileCard 
-                                  key={currentIndex} 
-                                  member={{
-                                    ...member,
-                                    role: member.position // Map position to role for ProfileCard
-                                  }} 
-                                  index={currentIndex}
-                                  positionInRow={memberIndex}
-                                />
-                              )
-                            })}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Divider between Organs and Advisors */}
-                {currentProject.organs && currentProject.advisors && (
-                  <div className="mb-20 flex items-center justify-center">
-                    <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#9cc5ad]/30 to-transparent"></div>
-                  </div>
-                )}
-
-                {/* Advisors Section */}
-                {currentProject.advisors && currentProject.advisors.length > 0 && (
-                  <div className="mb-16">
-                    <h3 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-                      {locale === 'en' ? 'Advisors' : 'Conselheiros'}
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                      {currentProject.advisors.map((advisor, advisorIndex) => {
-                        const currentIndex = globalCardIndex++
-                        return (
-                          <ProfileCard 
-                            key={currentIndex} 
-                            member={{
-                              name: advisor.name,
-                              role: 'Conselheiro', // O role é sempre Conselheiro
-                              university: advisor.institution, // Institution passa para university para ser exibido
-                              course: '',
-                              degree: '',
-                              year: '',
-                              linkedin: advisor.linkedin,
-                              image: advisor.image
-                            }} 
-                            index={currentIndex}
-                            positionInRow={advisorIndex}
-                          />
-                        )
-                      })}
-                    </div>
-                  </div>
-                )}
-              </>
-            ) : (
-              /* Regular projects with departments */
-              <>
-                {currentProject.departments && currentProject.departments.length > 0 ? (
-                  currentProject.departments.map((department, deptIndex) => (
-                    <div key={department.id} className="mb-16">
-                      {/* Department Header */}
-                      <div className="mb-8">
-                        <h4 className="text-2xl md:text-3xl font-bold text-[#9cc5ad] mb-2">
-                          {department.name}
-                        </h4>
-                      </div>
-
-                      {/* Members Grid */}
-                      {department.members && department.members.length > 0 ? (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                          {department.members.map((member, memberIndex) => {
-                            const currentIndex = globalCardIndex++
-                            return (
-                              <ProfileCard 
-                                key={currentIndex} 
-                                member={member} 
-                                index={currentIndex}
-                                positionInRow={memberIndex}
-                              />
-                            )
-                          })}
-                        </div>
-                      ) : (
-                        <div className="text-center py-12">
-                          <p className="text-[#9cc5ad]/50 text-lg">
-                            {locale === 'en' ? 'No members in this department yet.' : 'Ainda não há membros neste departamento.'}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-                  ))
-                ) : (
-                  <div className="text-center py-20">
-                    <Users className="w-24 h-24 text-[#9cc5ad]/30 mx-auto mb-6" />
-                    <p className="text-[#9cc5ad]/50 text-xl mb-4">
-                      {locale === 'en' ? 'Team members coming soon!' : 'Membros da equipa em breve!'}
-                    </p>
-                    <p className="text-[#9cc5ad]/30 text-sm">
-                      {locale === 'en' ? 'This project is currently being organized.' : 'Este projeto está atualmente a ser organizado.'}
-                    </p>
-                  </div>
-                )}
-              </>
+            {/* Render Advisors (Association) */}
+            {currentProject.advisors?.length > 0 && (
+              <div className="mb-16">
+                <div className="flex items-center justify-center mb-12">
+                   <div className="flex-1 h-px bg-[#9cc5ad]/30"></div>
+                   <h3 className="px-6 text-3xl font-bold text-white">{locale === 'en' ? 'Advisors' : 'Conselheiros'}</h3>
+                   <div className="flex-1 h-px bg-[#9cc5ad]/30"></div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  {currentProject.advisors.map((advisor, idx) => (
+                    <ProfileCard key={globalCardIndex++} member={localizeMember(advisor)} index={globalCardIndex} positionInRow={idx} />
+                  ))}
+                </div>
+              </div>
             )}
+
+            {/* Render Departments (Other Projects) */}
+            {currentProject.departments?.map((dept) => (
+              <div key={dept.id} className="mb-16">
+                <h4 className="text-2xl font-bold text-[#9cc5ad] mb-6">{dept[`name_${locale}`]}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  {dept.members?.map((member, idx) => (
+                    <ProfileCard key={globalCardIndex++} member={localizeMember(member)} index={globalCardIndex} positionInRow={idx} />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         )}
       </div>

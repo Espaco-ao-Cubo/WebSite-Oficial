@@ -1,13 +1,19 @@
 ---
-title: "Sala Limpa: Validação e Primeiros Testes do TejoOne"
-slug: "sala-limpa"
-date: "2024-12-05"
-author: "Equipa Espaço ao Cubo"
-authorRole: "Integração e Testes"
-category: "Engineering"
-tags: ["sala limpa", "integração", "testes", "ISO 7", "fase D"]
-image: "/images/blog/sala-limpa.jpg"
-excerpt: "A chegada da Fase D do projeto TejoOne marca um momento decisivo: validámos a nossa sala limpa ISO 7 e realizámos os primeiros testes de integração."
+slug: sala-limpa
+draft: false
+title: 'Sala Limpa: Validação e Primeiros Testes do TejoOne'
+category: Engineering
+date: 2024-12-05T00:00:00.000Z
+author: Equipa Espaço ao Cubo
+authorRole: Integração e Testes
+image: /images/blog/sala-limpa.jpg
+tags:
+  - sala limpa
+  - integração
+  - testes
+  - ISO 7
+  - fase D
+excerpt: 'A chegada da Fase D do projeto TejoOne marca um momento decisivo: validámos a nossa sala limpa ISO 7 e realizámos os primeiros testes de integração.'
 ---
 
 # Sala Limpa: Validação e Primeiros Testes do TejoOne
@@ -24,10 +30,10 @@ Uma sala limpa é um ambiente controlado onde a concentração de partículas su
 
 Para garantir este ambiente controlado, uma sala limpa normalmente inclui:
 
-- **Filtragem de ar ativa**, através de filtros HEPA
-- **Renovação constante do ar**
-- **Pressão diferencial entre salas**, evitando a entrada de partículas de zonas adjacentes
-- **Regras de acesso rigorosas**
+* **Filtragem de ar ativa**, através de filtros HEPA
+* **Renovação constante do ar**
+* **Pressão diferencial entre salas**, evitando a entrada de partículas de zonas adjacentes
+* **Regras de acesso rigorosas**
 
 Estas regras de acesso incluem a proibição de entrada de materiais que libertem partículas, a higienização de todo o equipamento e ferramentas com álcool isopropílico e o uso obrigatório de bata, touca, luvas e protetores de pés.
 
@@ -58,8 +64,8 @@ Os testes realizados permitiram obter os seguintes resultados:
 
 Com base nestes resultados, concluiu-se que:
 
-- Durante períodos de trabalho com pessoas presentes, a filtragem deve operar entre **75% e 100%**, dependendo do número de pessoas na sala
-- O controlo de temperatura deve ser ligado sempre que houver pessoas a trabalhar ou quando houver necessidade de manter algum componente sensível a uma temperatura estável
+* Durante períodos de trabalho com pessoas presentes, a filtragem deve operar entre **75% e 100%**, dependendo do número de pessoas na sala
+* O controlo de temperatura deve ser ligado sempre que houver pessoas a trabalhar ou quando houver necessidade de manter algum componente sensível a uma temperatura estável
 
 Este processo de qualificação permitiu confirmar que **a sala está pronta para suportar as exigências da montagem e integração do satélite**.
 
@@ -76,14 +82,14 @@ O objetivo deste ensaio foi duplo:
 
 ### Resultados e Aprendizagens
 
-Este primeiro teste demonstrou, na prática, que a sala limpa é adequada para operações reais de integração, permitindo trabalhar com componentes sensíveis enquanto se mantém um ambiente controlado. 
+Este primeiro teste demonstrou, na prática, que a sala limpa é adequada para operações reais de integração, permitindo trabalhar com componentes sensíveis enquanto se mantém um ambiente controlado.
 
 Além disso, a experiência permitiu:
 
-- Identificar o tipo de material de apoio necessário para otimizar o trabalho em próximas etapas
-- Compreender as necessidades logísticas envolvidas no processo
-- Avaliar requisitos técnicos e de documentação
-- Melhorar a organização e planeamento de testes
+* Identificar o tipo de material de apoio necessário para otimizar o trabalho em próximas etapas
+* Compreender as necessidades logísticas envolvidas no processo
+* Avaliar requisitos técnicos e de documentação
+* Melhorar a organização e planeamento de testes
 
 ## Próximos Passos
 
@@ -101,6 +107,6 @@ Numa fase posterior, e após a qualificação de todos os subsistemas, será rea
 
 Agradecemos ao **Instituto de Astrofísica e Ciências do Espaço** pela cedência do espaço, onde o Espaço ao Cubo realizou a validação da sala limpa e continuará o trabalho, conduzindo os testes necessários e a integração do TejoOne, permitindo-nos realizar o sonho de montar o nosso satélite.
 
----
+***
 
 *Publicado pela Equipa Espaço ao Cubo - Integração e Testes*

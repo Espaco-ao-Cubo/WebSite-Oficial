@@ -1,6 +1,6 @@
-import './globals.css'
-import { Analytics } from '@vercel/analytics/next'
-import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import "./globals.css";
 
 export const metadata = {
   title: 'Espaço ao Cubo',
@@ -16,12 +16,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html>
-      <body>
+    <html suppressHydrationWarning>
+      <body className="antialiased bg-[#0a1f1a]" suppressHydrationWarning>
         {children}
         <Analytics />
         <SpeedInsights />
       </body>
     </html>
-  )
+  );
 }
