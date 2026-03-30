@@ -30,12 +30,12 @@
     "resend": "^6.6.0",
     "server-only": "^0.0.1",
     "three": "^0.181.0",
-    "tinacms": "^3.6.3"
+    "tinacms": "^3.7.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/typography": "^0.5.19",
-    "@tinacms/cli": "^2.1.11",
+    "@tinacms/cli": "^2.2.1",
     "@types/node": "^20.0.0",
     "autoprefixer": "^10.4.21",
     "babel-plugin-react-compiler": "1.0.0",
