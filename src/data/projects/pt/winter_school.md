@@ -1,14 +1,14 @@
 ---
-title: "NewSpace Winter School"
-subtitle: "Ensino Superior"
-description: "Programa intensivo de uma semana sobre desenvolvimento de satélites e tecnologias espaciais"
-date: "2026-02-10"
-dateRange: "10-14 de Fevereiro de 2026"
-image: "/images/projects/winter-school.jpg"
-icon: "BookOpen"
+subtitle: Ensino Superior
+dateRange: 10-14 de Fevereiro de 2026
+icon: BookOpen
 featured: true
 registrationOpen: false
-registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQCZmvXLArwco37ee4G9tgQ85tkWvAw/viewform?usp=dialog"
+registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQCZmvXLArwco37ee4G9tgQ85tkWvAw/viewform?usp=dialog'
+title: NewSpace Winter School
+date: 2026-02-10T00:00:00.000Z
+image: /images/projects/EscolaDeInverno.jpeg
+description: Programa intensivo de uma semana sobre desenvolvimento de satélites e tecnologias espaciais
 ---
 
 # NewSpace Winter School
@@ -18,37 +18,43 @@ registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQ
 A NewSpace Winter School, organizada pela Espaço ao Cubo, é um curso de uma semana concebido para estudantes universitários com interesse em Física, Engenharia, Tecnologias Espaciais, Gestão e Direito do Espaço.
 
 **Onde:**
-- 10-12 Fev - Faculdade de Ciências da Universidade de Lisboa - Edifício C8 (Salas 8.2.39 (Palestras) e 8.2.10 (Workshops))
-- 13-14 Fev - Museu das Comunicações
 
+* 10-12 Fev - Faculdade de Ciências da Universidade de Lisboa - Edifício C8 (Salas 8.2.39 (Palestras) e 8.2.10 (Workshops))
+* 13-14 Fev - Museu das Comunicações
 
 ## Sobre o Programa
 
 Ao longo de cinco dias, os participantes farão parte de palestras temáticas e sessões de workshop focadas nos principais pilares do ecossistema NewSpace. Cada bloco combina bases teóricas com aprendizagem prática, promovendo o conhecimento técnico, o pensamento interdisciplinar e competências criativas de resolução de problemas.
 
----
+***
 
 ## Blocos Temáticos
 
 ### 🔭 TELESCÓPIOS
+
 Explore a observação espacial através de uma abordagem focada na instrumentação e investigação astrofísica, contactando com sistemas de telescópios, recolha de dados e análise científica.
 
 ### 🛰️ SATÉLITES
+
 Aborde os principais processos de desenvolvimento de satélites e as atuais tendências do NewSpace, cobrindo design, mecânica orbital e aplicações modernas.
 
 ### 🌐 DOWNSTREAM
+
 Dedicado às aplicações de dados de satélite, focando-se no uso prático de informação espacial para soluções tecnológicas, comerciais e sustentáveis.
 
 ### 🚀 SISTEMAS DE LANÇAMENTO
+
 Explore os vários veículos de lançamento existentes, com um foco especial em tecnologias emergentes e o seu papel no setor NewSpace.
 
 ### 📈 BEYOND ENGINEERING
+
 Um bloco transversal que abrange gestão, comunicação de ciência, empreendedorismo na ciência e direito do espaço, reforçando a compreensão dos participantes sobre a indústria espacial de forma abrangente.
 
 ### 💡 HACKATHON
+
 A Winter School encerra com um Hackathon de 24 horas, onde equipas multidisciplinares aplicam o conhecimento adquirido ao longo da semana para desenvolver um projeto criativo relacionado com o NewSpace.
 
----
+***
 
 ## Horário
 
@@ -61,7 +67,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   <img src="/images/projects/winter-school/Horario/7 (1).png" alt="Sábado" style="width: 100%; height: auto; border-radius: 0.75rem;" />
 </div>
 
----
+***
 
 ## Oradores
 
@@ -153,9 +159,10 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   <p style="margin: 0.5rem 0; color: #b8dbc4;">Observatório Astronómico da Ajuda</p>
 </div>
 
----
+***
 
 ### Satélites
+
 <div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
   <p style="margin: 0; color: #9cc5ad; font-weight: 600;">11 FEV - 09:30 - Palestra</p>
   <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
@@ -221,8 +228,6 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
 </div>
 </div>
 
-
-
 <div style="padding: 1rem; background: rgba(156, 197, 173, 0.1); border-radius: 0.5rem; margin: 2rem 0;">
   <p style="margin: 0; color: #9cc5ad; font-weight: 600;">FEB 11 - 11:30 - Workshop</p>
   <div style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
@@ -256,7 +261,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   </div>
 </div>
 
----
+***
 
 ### Downstream
 
@@ -339,7 +344,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
     <p style="margin: 0; color: #9cc5ad; font-weight: 600;">🎬 11 FEV - 20:00 - Sessão de Cinema</p>
   </div>
 
----
+***
 
 ### Sistemas de Lançamento
 
@@ -423,7 +428,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   </div>>
 </div>
 
----
+***
 
 ### Beyond Engineering
 
@@ -503,7 +508,7 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   <p style="margin: 0.5rem 0; color: #b8dbc4;">Ana Prata - FCUL & TecLabs</p>
 </div>
 
----
+***
 
 ## Apoios e Patrocínios
 
@@ -546,11 +551,11 @@ A Winter School encerra com um Hackathon de 24 horas, onde equipas multidiscipli
   </div>
 </div>
 
----
+***
 
 ## Contacto
 
 Dúvidas? Entre em contacto connosco:
 
-- **Email:** space.school@espacoaocubo.pt
-- **Redes Sociais:** [@espacoaocubo](https://instagram.com/espacoaocubo)
+* **Email:** [space.school@espacoaocubo.pt](mailto:space.school@espacoaocubo.pt)
+* **Redes Sociais:** [@espacoaocubo](https://instagram.com/espacoaocubo)
