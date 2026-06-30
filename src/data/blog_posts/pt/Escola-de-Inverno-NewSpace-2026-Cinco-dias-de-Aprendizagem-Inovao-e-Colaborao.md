@@ -20,7 +20,7 @@ Durante cinco dias, estudantes de várias áreas científicas reuniram-se para e
 
 ## Uma Experiência Formativa Intensiva
 
-A \*\*Escola de Inverno \*NewSpace \*\*\*foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
+A **Escola de Inverno *NewSpace**** *foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
 
 Para além da vertente científica e tecnológica, a **Escola de Inverno *NewSpace*** procurou também promover competências transversais fundamentais, como o trabalho em equipa, a criatividade e a capacidade de resolução de problemas.
 
@@ -30,7 +30,7 @@ A edição de 2026 decorreu em formato presencial e teve lugar em dois espaços 
 
 O programa foi estruturado em dois momentos principais: os **três primeiros dias**, os participantes assistiram a palestras e participaram em workshops dedicados a diferentes áreas do setor espacial, estas sessões combinaram conteúdos teóricos e atividades práticas, permitindo aos estudantes explorar conceitos fundamentais e conhecer aplicações reais da tecnologia espacial.
 
-Nos **dois últimos dias**, o foco passou para a componente prática do evento: um ***Hackathon de 24 horas***, no qual os participantes foram desafiados a desenvolver soluções inovadoras relacionadas com o setor espacial.
+Nos **dois últimos dias**, o foco passou para a componente prática do evento: um ***Hackathon ***de 24 horas, no qual os participantes foram desafiados a desenvolver soluções inovadoras relacionadas com o setor espacial.
 
 ### Cinco Temas para Explorar o Setor Espacial
 
