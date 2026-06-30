@@ -18,13 +18,13 @@ Between 10 and 14 February, the first edition of the **NewSpace Winter School**,
 
 Over five days, students from several scientific fields came together to explore different areas of the space sector, deepen their knowledge and develop innovative solutions in a collaborative and multidisciplinary environment.
 
-## An intensive training experience
+## An Intensive Training Experience
 
 The **NewSpace Winter School** was designed as an intensive training experience, with the aim of providing participants with a broad overview of the space sector. Throughout the event, participants had the opportunity to gain knowledge about different areas of the space sector, develop practical skills and engage directly with researchers, industry professionals and specialists from several organisations.
 
 In addition to its scientific and technological component, the **NewSpace Winter School** also sought to promote key transversal skills, such as teamwork, creativity and problem-solving.
 
-### Event structure
+### Event Structure
 
 The 2026 edition took place in person and was held across two different venues: the **Faculty of Sciences of the University of Lisbon**, where the lectures and workshops of the first three days took place, and the **Communications Museum**, which hosted the final stage of the event.
 
@@ -32,7 +32,7 @@ The programme was structured around two main moments: during the **first three d
 
 During the **final two days**, the focus shifted to the practical component of the event: a 24-hour **Hackathon**, in which participants were challenged to develop innovative solutions related to the space sector.
 
-### Five themes to explore the space sector
+### Five Themes to Explore the Space Sector
 
 The Winter School was organised into **five thematic blocks**, designed to cover different dimensions of the space sector.
 
@@ -42,7 +42,7 @@ The **Downstream** theme highlighted the use of space-derived data for applicati
 
 Finally, the **Beyond Engineering** block brought an interdisciplinary perspective to the space sector, addressing topics such as space law, the socioeconomic impact of space and science communication.
 
-### The Hackathon challenge
+### The Hackathon Challenge
 
 One of the central moments of the Winter School was the 24-hour Hackathon, in which participants were organised into teams of five and challenged to develop innovative solutions for a current problem in the space sector.
 
@@ -50,7 +50,7 @@ This edition’s challenge focused on the **sustainability of space operations**
 
 During the Hackathon, each team aimed to identify a specific problem related to this theme and develop an innovative solution proposal, demonstrating its practical applicability. Teams were challenged to define the concept behind their solution, its potential impact and a possible implementation model.
 
-## The community involved
+## The Community Involved
 
 The 2026 edition welcomed **50 participants**, students from several Portuguese higher education institutions, including the Faculty of Sciences of the University of Lisbon, the Instituto Superior Técnico, the Faculty of Sciences and Technology of the University of Coimbra, NOVA FCT, ISCTE and NOVA FCSH.
 
@@ -64,7 +64,7 @@ This diversity of contributions made it possible to approach the space sector fr
 
 In addition to the speakers and mentors, the event was also supported by several **partner organisations**, whose contribution was essential to making the initiative possible, from institutional and financial support to the provision of venues, logistics and food support.
 
-## A very positive outcome
+## A Very Positive Outcome
 
 The first edition of the **NewSpace Winter School** received a **very positive overall evaluation from participants**, who highlighted the quality of the lectures, workshops and the experience provided throughout the week.
 
@@ -74,7 +74,7 @@ Beyond the training component, the collaborative environment created among parti
 
 ###### *“Very well organised. I especially enjoyed the Hackathon atmosphere; everything was very well thought out so that we had everything we needed to work effectively.”*
 
-## Looking to the future
+## Looking to the Future
 
 The first edition of the **NewSpace Winter School** demonstrated students’ interest in the space sector and the importance of initiatives that promote **direct contact with industry**. Over five days, participants had the opportunity to deepen their knowledge, explore different areas of the sector and develop innovative solutions in a collaborative environment.
 
