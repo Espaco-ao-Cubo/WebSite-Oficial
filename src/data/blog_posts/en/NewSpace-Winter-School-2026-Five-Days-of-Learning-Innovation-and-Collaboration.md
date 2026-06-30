@@ -70,6 +70,10 @@ The first edition of the **NewSpace Winter School** received a **very positive o
 
 Beyond the training component, the collaborative environment created among participants, speakers and organisers also stood out. The combination of learning moments, practical activities and interaction with professionals from the sector contributed to making this experience particularly enriching for everyone involved.
 
+###### *“Impeccable. It was a great pleasure to witness such a well-oiled dynamic from a 100% student-led association. Keep it up!”*
+
+###### *“Very well organised. I especially enjoyed the Hackathon atmosphere; everything was very well thought out so that we had everything we needed to work effectively.”*
+
 ## Looking to the future
 
 The first edition of the **NewSpace Winter School** demonstrated students’ interest in the space sector and the importance of initiatives that promote **direct contact with industry**. Over five days, participants had the opportunity to deepen their knowledge, explore different areas of the sector and develop innovative solutions in a collaborative environment.
