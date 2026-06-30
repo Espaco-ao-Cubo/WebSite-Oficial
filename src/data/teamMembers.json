@@ -575,6 +575,32 @@
               "linkedin": "https://www.linkedin.com/in/andrerfpsantos"
             },
             {
+              "name": "Alexandre Plotean",
+              "image": "/images/team/profile_placeholder.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "ISCTE",
+              "course_en": "Computer Engineering",
+              "course_pt": "Engenharia Informática",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "4",
+              "linkedin": "https://www.linkedin.com/in/alexandre-plotean-1685762b6"
+            },
+            {
+              "name": "Cláudio Moreira",
+              "image": "/images/team/Cl%C3%A1udioMoreira.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCT",
+              "course_en": "Aerospace Engineering",
+              "course_pt": "Engenharia Aeroespacial",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/claudiomvmoreira"
+            },
+            {
               "name": "Eduardo Barata",
               "image": "/images/team/EduardoBarata.png",
               "role_en": "Member",
@@ -586,19 +612,6 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
-            },
-            {
-              "name": "Francisco Zarcos",
-              "image": "/images/team/profile_placeholder.jpg",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "IST",
-              "course_en": "Electrical and Computer Engineering",
-              "course_pt": "Engenharia Eletrotécnica e de Computadores",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
-              "year": "2",
-              "linkedin": "https://www.linkedin.com/in/francisco-gon%C3%A7alves-zarcos-58476629b/"
             },
             {
               "name": "Manuel Cruz",
@@ -614,17 +627,17 @@
               "linkedin": "https://www.linkedin.com/in/manuelmcruz/"
             },
             {
-              "name": "Martim Caetano",
-              "image": "/images/team/FotoAssocia%C3%A7%C3%A3o.png",
+              "name": "Marco Acúrcio",
+              "image": "/images/team/MarcoAc%C3%BArcio.JPG",
               "role_en": "Member",
               "role_pt": "Membro",
-              "university": "IST",
-              "course_en": "Mechanical Engineering",
-              "course_pt": "Engenharia Mecânica",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
+              "university": "Luleå University of Technology",
+              "course_en": "Space Science & Technology",
+              "course_pt": "Ciência e Tecnologia do Espaço",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
               "year": "2",
-              "linkedin": "https://www.linkedin.com/in/martim-alves-caetano"
+              "linkedin": "https://www.linkedin.com/in/marco-acurcio/"
             },
             {
               "name": "Tiago Costa",
@@ -638,6 +651,19 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/tiago-costa-53511435b"
+            },
+            {
+              "name": "Tiago Melo",
+              "image": "/images/team/TiagoMelo.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "Københavans Universitet",
+              "course_en": "Physics",
+              "course_pt": "Física",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/tiago-melo-1b651a382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             }
           ]
         },
@@ -660,19 +686,6 @@
               "linkedin": "https://www.linkedin.com/in/alexandre-plotean-1685762b6"
             },
             {
-              "name": "Nuno Coelho",
-              "image": "/images/team/NunoCoelho.JPG",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "ISCTE",
-              "course_en": "Telecommunications and Informatics Engineering",
-              "course_pt": "Engenharia de Telecomunicações e Informática",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
-              "year": "1",
-              "linkedin": "https://www.linkedin.com/in/nuno-coelho-836090269"
-            },
-            {
               "name": "Alexandre Coelho",
               "image": "/images/team/AlexandreCoelho.JPG",
               "role_en": "Member",
@@ -684,19 +697,6 @@
               "degree_pt": "Mestrado",
               "year": "",
               "linkedin": "https://www.linkedin.com/in/alexandre-coelho-2b60b5200/"
-            },
-            {
-              "name": "Ricardo Maruta",
-              "image": "/images/team/RicardoMaruta.JPG",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "ISCTE",
-              "course_en": "Computer Engineering",
-              "course_pt": "Engenharia Informática",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
-              "year": "",
-              "linkedin": "https://www.linkedin.com/in/ricardo-maruta-91101b1a3/"
             },
             {
               "name": "João Carvalho",
@@ -723,6 +723,32 @@
               "degree_pt": "Licenciatura",
               "year": "",
               "linkedin": "https://www.linkedin.com/in/m%C3%A1rio-vieira-47b1b126b/"
+            },
+            {
+              "name": "Nuno Coelho",
+              "image": "/images/team/NunoCoelho.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "ISCTE",
+              "course_en": "Telecommunications and Informatics Engineering",
+              "course_pt": "Engenharia de Telecomunicações e Informática",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/nuno-coelho-836090269"
+            },
+            {
+              "name": "Ricardo Maruta",
+              "image": "/images/team/RicardoMaruta.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "ISCTE",
+              "course_en": "Computer Engineering",
+              "course_pt": "Engenharia Informática",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "",
+              "linkedin": "https://www.linkedin.com/in/ricardo-maruta-91101b1a3/"
             }
           ]
         },
@@ -758,6 +784,19 @@
               "linkedin": " https://www.linkedin.com/in/maria-carolina-fernandes-b35116226/"
             },
             {
+              "name": "Maria Oliveira",
+              "image": "/images/team/MariaOliveira.jpeg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "course_en": "Engineering Physics",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/mariabeatrizoliveira/"
+            },
+            {
               "name": "Paulo Campos",
               "image": "/images/team/PauloAle%CC%81xis.jpg",
               "role_en": "Member",
@@ -769,19 +808,6 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
-            },
-            {
-              "name": "Rita Leitão",
-              "image": "/images/team/RitaLeitão.JPG",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "FCUL",
-              "course_en": "Engineering Physics",
-              "course_pt": "Engenharia Física",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
-              "year": "1",
-              "linkedin": "https://www.linkedin.com/in/ritamrleitao"
             }
           ]
         },
@@ -830,19 +856,6 @@
               "linkedin": "http://www.linkedin.com/in/filipacheng"
             },
             {
-              "name": "Maria Oliveira",
-              "image": "/images/team/MariaOliveira.jpeg",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "FCUL",
-              "course_en": "Engineering Physics",
-              "course_pt": "Engenharia Física",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
-              "year": "3",
-              "linkedin": "https://www.linkedin.com/in/mariabeatrizoliveira/"
-            },
-            {
               "name": "Maria Grilo",
               "image": "/images/team/MariaGrilo.jpg",
               "role_en": "Member",
@@ -887,19 +900,6 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/francisco-rosa-745471240/"
-            },
-            {
-              "name": "João Lourenço",
-              "image": "/images/team/JoaoLourenco.png",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "IST",
-              "course_en": "Electrical and Computer Engineering",
-              "course_pt": "Engenharia Eletrotécnica e de Computadores",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
-              "year": "3",
-              "linkedin": "https://www.linkedin.com/in/jo%C3%A3o-miguel-louren%C3%A7o-7414b5154/"
             },
             {
               "name": "Sarah Villette",
@@ -1090,19 +1090,6 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/diogo-sp%C3%ADnola-1712271a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            },
-            {
-              "name": "Lucas Silva",
-              "image": "/images/team/profile_placeholder.jpg",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "FCUL",
-              "course_en": "Engineering Physics",
-              "course_pt": "Engenharia Física",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
-              "year": "3",
-              "linkedin": "https://www.linkedin.com/in/lucas-ligeiro-silva/"
             },
             {
               "name": "Luís Machado",
