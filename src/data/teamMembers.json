@@ -1216,7 +1216,7 @@
               "degree_en": "Undergraduate",
               "degree_pt": "Licenciatura",
               "year": "2",
-              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+              "linkedin": "https://www.linkedin.com/in/alice-silva-024b70356/"
             },
             {
               "name": "João Gonçalves",
@@ -1229,7 +1229,20 @@
               "degree_en": "Master's",
               "degree_pt": "Mestrado",
               "year": "2",
-              "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
+              "linkedin": "https://www.linkedin.com/in/joao-gonçalves-1b530726a"
+            },
+            {
+              "name": "Rita Leitão",
+              "image": "/images/team/RitaLeitão.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "course_en": "Engineering Physics",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/ritamrleitao"
             },
             {
               "name": "Teresa Correia",
@@ -1243,19 +1256,6 @@
               "degree_pt": "Profissional",
               "year": "",
               "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
-            },
-            {
-              "name": "Rita Leitão",
-              "image": "/images/team/RitaLeitão.JPG",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "FCUL",
-              "course_en": "Engineering Physics",
-              "course_pt": "Engenharia Física",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
-              "year": "1",
-              "linkedin": "www.linkedin.com/in/ritamrleitao"
             }
           ]
         },
@@ -1278,19 +1278,6 @@
               "linkedin": "https://www.linkedin.com/in/carlofantoni/"
             },
             {
-              "name": "Filipa Cheng",
-              "image": "/images/team/FilipaCheng.JPG",
-              "role_en": "Member",
-              "role_pt": "Membro",
-              "university": "IST",
-              "course_en": "Mechanical Engineering",
-              "course_pt": "Engenharia Mecânica",
-              "degree_en": "Undergraduate",
-              "degree_pt": "Licenciatura",
-              "year": "2",
-              "linkedin": "http://www.linkedin.com/in/filipacheng"
-            },
-            {
               "name": "Filipa Cabrita",
               "image": "/images/team/FilipaCabrita.JPG",
               "role_en": "Member",
@@ -1302,6 +1289,19 @@
               "degree_pt": "Licenciatura",
               "year": "3",
               "linkedin": "www.linkedin.com/in/filipa-mota-cabrita"
+            },
+            {
+              "name": "Filipa Cheng",
+              "image": "/images/team/FilipaCheng.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Mechanical Engineering",
+              "course_pt": "Engenharia Mecânica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2",
+              "linkedin": "http://www.linkedin.com/in/filipacheng"
             },
             {
               "name": "Júlia Diamantino",
