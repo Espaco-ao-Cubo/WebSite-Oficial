@@ -7,7 +7,7 @@ registrationOpen: false
 registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdbO4wq7sw83fngF_BXQCZmvXLArwco37ee4G9tgQ85tkWvAw/viewform?usp=dialog'
 title: NewSpace Winter School
 date: 2026-02-10T00:00:00.000Z
-image: /images/projects/EscolaDeInverno.jpeg
+image: /images/projects/winter-school.jpg
 description: Programa intensivo de uma semana sobre desenvolvimento de satélites e tecnologias espaciais
 ---
 
