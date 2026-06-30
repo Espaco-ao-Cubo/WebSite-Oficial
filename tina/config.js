@@ -33,10 +33,7 @@ const teamMemberFields = [
   { type: "string", name: "linkedin", label: "LinkedIn URL" },
 ];
 
-const branch =
-  process.env.TINA_BRANCH ||
-  process.env.NEXT_PUBLIC_TINA_BRANCH ||
-  "prod";
+const branch = "prod";
 
 export default defineConfig({
   branch,
