@@ -14,13 +14,13 @@ excerpt: 'A primeira edição da Escola de Inverno NewSpace reuniu 50 estudantes
 
 # Escola de Inverno *NewSpace* 2026: Cinco dias de Aprendizagem, Inovação e Colaboração
 
-Entre os dias 10 e 14 de fevereiro realizou-se a primeira edição da Escola de Inverno *NewSpace*, um evento académico e científico desenvolvido no âmbito da iniciativa nacional das Escolas de Inverno sobre o Espaço para o Ensino Superior, promovida pela **Agência Espacial Portuguesa**.
+Entre os dias 10 e 14 de fevereiro realizou-se a primeira edição da **Escola de Inverno *NewSpace***, organizada pela Espaço ao Cubo, um evento académico e científico desenvolvido no âmbito da iniciativa nacional das Escolas de Inverno sobre o Espaço para o Ensino Superior, promovida pela **Agência Espacial Portuguesa**.
 
 Durante cinco dias, estudantes de várias áreas científicas reuniram-se para explorar diferentes vertentes do setor espacial, aprofundar conhecimentos e desenvolver soluções inovadoras num ambiente colaborativo e multidisciplinar.
 
 ## Uma Experiência Formativa Intensiva
 
-A **Escola de Inverno *NewSpace***\* \*foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
+A **Escola de Inverno *NewSpace ***foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
 
 Para além da vertente científica e tecnológica, a **Escola de Inverno *NewSpace*** procurou também promover competências transversais fundamentais, como o trabalho em equipa, a criatividade e a capacidade de resolução de problemas.
 
@@ -30,7 +30,7 @@ A edição de 2026 decorreu em formato presencial e teve lugar em dois espaços 
 
 O programa foi estruturado em dois momentos principais: os **três primeiros dias**, os participantes assistiram a palestras e participaram em workshops dedicados a diferentes áreas do setor espacial, estas sessões combinaram conteúdos teóricos e atividades práticas, permitindo aos estudantes explorar conceitos fundamentais e conhecer aplicações reais da tecnologia espacial.
 
-Nos **dois últimos dias**, o foco passou para a componente prática do evento: um \*\**Hackathon de 24 horas*, no qual os participantes foram desafiados a desenvolver soluções inovadoras relacionadas com o setor espacial.
+Nos **dois últimos dias**, o foco passou para a componente prática do evento: um ***Hackathon de 24 horas***, no qual os participantes foram desafiados a desenvolver soluções inovadoras relacionadas com o setor espacial.
 
 ### Cinco Temas para Explorar o Setor Espacial
 
@@ -44,7 +44,7 @@ Por fim, o bloco **Para além da Engenharia** trouxe uma perspetiva interdiscipl
 
 ### O Desafio do *Hackathon*
 
-Um dos momentos centrais da Escola de Inverno foi o \*\*\*Hackathon \*\*\*de 24 horas, no qual os participantes foram organizados em equipas de cinco elementos e desafiados a desenvolver soluções inovadoras para um problema atual do setor espacial.
+Um dos momentos centrais da Escola de Inverno foi o ***Hackathon*** de 24 horas, no qual os participantes foram organizados em equipas de cinco elementos e desafiados a desenvolver soluções inovadoras para um problema atual do setor espacial.
 
 O desafio desta edição centrou-se na **sustentabilidade das operações espaciais**. À medida que o número de satélites e lançamentos aumenta, o espaço em órbita terrestre torna-se cada vez mais congestionado, aumentando também a quantidade de detritos espaciais e o risco de colisões. Neste contexto, garantir que as futuras operações espaciais sejam **seguras, eficientes e sustentáveis** constitui um dos grandes desafios da indústria espacial.
 
