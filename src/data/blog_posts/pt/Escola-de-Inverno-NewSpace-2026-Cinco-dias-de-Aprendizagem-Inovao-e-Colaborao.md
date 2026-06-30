@@ -20,7 +20,7 @@ Durante cinco dias, estudantes de várias áreas científicas reuniram-se para e
 
 ## Uma Experiência Formativa Intensiva
 
-A **Escola de Inverno *NewSpace ***foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
+A \*\*Escola de Inverno \*NewSpace \*\*\*foi concebida como uma experiência formativa intensiva, com o objetivo de proporcionar aos participantes uma visão abrangente do setor espacial. Ao longo do evento, os participantes tiveram a oportunidade de adquirir conhecimentos sobre diferentes áreas do setor espacial, desenvolver competências práticas e contactar diretamente com investigadores, profissionais da indústria e especialistas de diversas organizações.
 
 Para além da vertente científica e tecnológica, a **Escola de Inverno *NewSpace*** procurou também promover competências transversais fundamentais, como o trabalho em equipa, a criatividade e a capacidade de resolução de problemas.
 
@@ -69,6 +69,10 @@ Para além dos oradores e mentores, a realização do evento contou ainda com o 
 A primeira edição da **Escola de Inverno *NewSpace*** recebeu uma **avaliação global muito positiva por parte dos participantes**, que destacaram a qualidade das palestras, dos workshops e da experiência proporcionada ao longo da semana.
 
 Para além da componente formativa, destacou-se também o ambiente colaborativo criado entre participantes, oradores e organizadores. A combinação entre momentos de aprendizagem, atividades práticas e interação com profissionais do setor contribuiu para tornar esta experiência particularmente enriquecedora para todos os envolvidos.
+
+###### *“Irrepreensível. Foi um prazer enorme assistir a uma dinâmica tão bem oleada por parte de uma associação 100% estudantil. Continuem assim!”*
+
+###### *“ Muito bem organizado, gostei especialmente do ambiente do Hackathon, tudo muito bem pensado de modo a termos todo o necessário para trabalharmos bem.”*
 
 ### Um Olhar para o Futuro
 
