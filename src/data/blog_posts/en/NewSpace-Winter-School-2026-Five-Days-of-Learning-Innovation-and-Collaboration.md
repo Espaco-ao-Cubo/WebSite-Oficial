@@ -14,7 +14,7 @@ excerpt: 'The first edition of the NewSpace Winter School brought together 50 st
 
 # NewSpace Winter School 2026: Five Days of Learning, Innovation and Collaboration
 
-Between 10 and 14 February, the first edition of the NewSpace Winter School took place, an academic and scientific event developed within the framework of the national initiative Winter Schools on Space for Higher Education, promoted by the **Portuguese Space Agency**.
+Between 10 and 14 February, the first edition of the **NewSpace Winter School**, organised by Espaço ao Cubo, took place as an academic and scientific event developed within the framework of the national initiative Winter Schools on Space for Higher Education, promoted by the **Portuguese Space Agency**.
 
 Over five days, students from several scientific fields came together to explore different areas of the space sector, deepen their knowledge and develop innovative solutions in a collaborative and multidisciplinary environment.
 
@@ -30,7 +30,7 @@ The 2026 edition took place in person and was held across two different venues: 
 
 The programme was structured around two main moments: during the **first three days**, participants attended lectures and took part in workshops dedicated to different areas of the space sector. These sessions combined theoretical content with practical activities, allowing students to explore fundamental concepts and learn about real-world applications of space technology.
 
-During the **final two days**, the focus shifted to the practical component of the event: a 24-hour Hackathon, in which participants were challenged to develop innovative solutions related to the space sector.
+During the **final two days**, the focus shifted to the practical component of the event: a 24-hour **Hackathon**, in which participants were challenged to develop innovative solutions related to the space sector.
 
 ### Five themes to explore the space sector
 
