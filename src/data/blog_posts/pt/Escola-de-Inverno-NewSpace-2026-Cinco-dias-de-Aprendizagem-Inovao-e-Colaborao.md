@@ -2,6 +2,7 @@
 draft: false
 title: 'Escola de Inverno NewSpace 2026: Cinco dias de Aprendizagem, Inovação e Colaboração'
 category: Events
+date: 2026-07-01T20:08:13.487Z
 author: Equipa Espaço ao Cubo
 authorRole: Escola de Inverno
 image: /images/blog/capa_fotos-03.png
