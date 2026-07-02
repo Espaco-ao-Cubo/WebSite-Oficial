@@ -2,6 +2,7 @@
 draft: false
 title: 'NewSpace Winter School 2026: Five Days of Learning, Innovation and Collaboration'
 category: Events
+date: 2026-07-01T20:06:18.064Z
 author: Espaço ao Cubo Team
 authorRole: Winter School
 image: /images/blog/capa_fotos-03.png
