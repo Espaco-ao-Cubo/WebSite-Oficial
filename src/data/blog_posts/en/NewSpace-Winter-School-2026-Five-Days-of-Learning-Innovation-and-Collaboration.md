@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 'NewSpace Winter School 2026: Five Days of Learning, Innovation and Collaboration'
 category: Events
 author: Espaço ao Cubo Team
