@@ -73,6 +73,8 @@ Beyond the training component, the collaborative environment created among parti
 
 ###### *“Impeccable. It was a great pleasure to witness such a well-oiled dynamic from a 100% student-led association. Keep it up!”*
 
+          
+
 ###### *“Very well organised. I especially enjoyed the Hackathon atmosphere; everything was very well thought out so that we had everything we needed to work effectively.”*
 
 ## Looking to the Future
