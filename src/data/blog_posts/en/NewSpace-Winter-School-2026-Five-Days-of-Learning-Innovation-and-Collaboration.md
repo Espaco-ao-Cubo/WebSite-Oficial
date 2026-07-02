@@ -71,11 +71,9 @@ The first edition of the **NewSpace Winter School** received a **very positive o
 
 Beyond the training component, the collaborative environment created among participants, speakers and organisers also stood out. The combination of learning moments, practical activities and interaction with professionals from the sector contributed to making this experience particularly enriching for everyone involved.
 
-###### *“Impeccable. It was a great pleasure to witness such a well-oiled dynamic from a 100% student-led association. Keep it up!”*
+> *“Impeccable. It was a great pleasure to witness such a well-oiled dynamic from a 100% student-led association. Keep it up!”*
 
-          
-
-###### *“Very well organised. I especially enjoyed the Hackathon atmosphere; everything was very well thought out so that we had everything we needed to work effectively.”*
+> *“Very well organised. I especially enjoyed the Hackathon atmosphere; everything was very well thought out so that we had everything we needed to work effectively.”*
 
 ## Looking to the Future
 
