@@ -73,6 +73,8 @@ Para além da componente formativa, destacou-se também o ambiente colaborativo 
 
 ###### *“Irrepreensível. Foi um prazer enorme assistir a uma dinâmica tão bem oleada por parte de uma associação 100% estudantil. Continuem assim!”*
 
+              
+
 ###### *“ Muito bem organizado, gostei especialmente do ambiente do Hackathon, tudo muito bem pensado de modo a termos todo o necessário para trabalharmos bem.”*
 
 ### Um Olhar para o Futuro
