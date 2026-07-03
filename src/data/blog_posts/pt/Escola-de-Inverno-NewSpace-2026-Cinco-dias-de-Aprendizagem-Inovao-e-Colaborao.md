@@ -71,7 +71,7 @@ A primeira edição da **Escola de Inverno *NewSpace*** recebeu uma **avaliaçã
 
 Para além da componente formativa, destacou-se também o ambiente colaborativo criado entre participantes, oradores e organizadores. A combinação entre momentos de aprendizagem, atividades práticas e interação com profissionais do setor contribuiu para tornar esta experiência particularmente enriquecedora para todos os envolvidos.
 
-> *“Irrepreensível. Foi um prazer enorme assistir a uma dinâmica tão bem oleada por parte de uma associação 100% estudantil. Continuem assim!” *
+> *“Irrepreensível. Foi um prazer enorme assistir a uma dinâmica tão bem oleada por parte de uma associação 100% estudantil. Continuem assim!”*
 
 > *“Muito bem organizado, gostei especialmente do ambiente do Hackathon, tudo muito bem pensado de modo a termos todo o necessário para trabalharmos bem.”*
 
