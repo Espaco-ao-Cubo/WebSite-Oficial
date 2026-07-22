@@ -1,10 +1,10 @@
 ---
-subtitle: Ensino Básico
-icon: BookOpen
-featured: true
 title: Um dia Espacial
+subtitle: Ensino Básico
 date: 2024-02-10T00:00:00.000Z
 image: /images/projects/spacial-day.jpg
+icon: BookOpen
+featured: true
 description: 'Um dia repleto de atividades interativas, divertidas e educativas sobre o espaço!'
 ---
 
@@ -23,13 +23,13 @@ Crianças dos 5 aos 13 anos com curiosidade pelo espaço e vontade de aprender d
 ### Dia Completo
 
 * **Duração:** 10h-18h (dia inteiro)
-* **Investimento:** 1.300€
+* **Investimento:** 1.500€
 * Inclui todas as 8 atividades e materiais para os participantes
 
 ### Meio Dia
 
 * **Duração:** 4 horas (manhã ou tarde)
-* **Investimento:** 750€
+* **Investimento:** 900€
 * Versão condensada com atividades selecionadas
 
 ## O Que Está Incluído
