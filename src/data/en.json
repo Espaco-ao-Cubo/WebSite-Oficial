@@ -240,9 +240,9 @@
         },
         "launch": {
           "title": "Launch",
-          "date": "2026 Q4+",
+          "date": "2027 Q4+",
           "description": "Launch to low Earth orbit",
-          "completed": false
+          "completed": true
         },
         "operations": {
           "title": "Orbital Operations",
