@@ -228,9 +228,9 @@
         },
         "integration": {
           "title": "Integration and Testing",
-          "date": "2025 Q4 - 2026 Q2",
-          "description": "Satellite assembly and environmental testing",
-          "completed": false
+          "date": "2025 Q4 - 2026 Q3",
+          "description": "Satellite assembly and functional testing",
+          "completed": true
         },
         "campaign": {
           "title": "Launch Campaign",
