@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import { translationFields } from "./i18nFields.js";
 
 // ---------------------------------------------------------
 // REUSABLE FIELDS: Keeps your config DRY (Don't Repeat Yourself)
@@ -95,9 +96,94 @@ export default defineConfig({
         match: { include: "**/*" },
         fields: [
           { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "string", name: "subtitle", label: "Subtitle" },
           { type: "datetime", name: "date", label: "Date" },
+          { type: "string", name: "dateRange", label: "Date Range (display text)" },
           { type: "image", name: "image", label: "Cover Image" },
+          { type: "string", name: "icon", label: "Icon (lucide name)" },
+          { type: "boolean", name: "featured", label: "Featured" },
+          { type: "boolean", name: "registrationOpen", label: "Registration Open" },
+          { type: "string", name: "registrationLink", label: "Registration Link (URL)" },
           { type: "string", name: "description", label: "Description", ui: { component: "textarea" } },
+          // Support / partner logos shown at the bottom of the project page.
+          // Replaces the old hand-written HTML logo grid so editors can manage
+          // logos (and upload new ones) directly in TinaCMS.
+          {
+            type: "object",
+            name: "apoios",
+            label: "Apoios & Patrocínios (logos)",
+            description: "Support/partner logos shown at the bottom of the project page.",
+            list: true,
+            ui: { itemProps: (item) => ({ label: item?.name || "Novo Apoio" }) },
+            fields: [
+              { type: "string", name: "name", label: "Name" },
+              { type: "image", name: "logo", label: "Logo" },
+              { type: "string", name: "website", label: "Website URL" },
+            ],
+          },
+          // ---- Winter School structured sections (edited as forms, no HTML) ----
+          {
+            type: "object",
+            name: "blocosTematicos",
+            label: "Blocos Temáticos / Thematic Blocks",
+            list: true,
+            ui: { itemProps: (item) => ({ label: item?.title || "Bloco" }) },
+            fields: [
+              { type: "string", name: "icon", label: "Icon (emoji)" },
+              { type: "string", name: "title", label: "Title" },
+              { type: "string", name: "description", label: "Description", ui: { component: "textarea" } },
+            ],
+          },
+          {
+            type: "object",
+            name: "horario",
+            label: "Horário / Schedule (images)",
+            list: true,
+            ui: { itemProps: (item) => ({ label: item?.caption || "Dia / Day" }) },
+            fields: [
+              { type: "image", name: "image", label: "Image" },
+              { type: "string", name: "caption", label: "Caption / Day" },
+            ],
+          },
+          {
+            type: "object",
+            name: "oradores",
+            label: "Oradores / Speakers",
+            list: true,
+            ui: { itemProps: (item) => ({ label: item?.name || item?.slot || "Sessão / Session" }) },
+            fields: [
+              {
+                type: "string", name: "theme", label: "Theme / Bloco",
+                options: ["Telescópios", "Telescopes", "Satélites", "Satellites", "Downstream", "Sistemas de Lançamento", "Launch Systems", "Beyond Engineering", "Hackathon"],
+              },
+              { type: "string", name: "slot", label: "Date / Time / Type (e.g. 10 FEV - 15:00 - Palestra)" },
+              { type: "string", name: "name", label: "Name (leave empty for a non-speaker event)" },
+              { type: "string", name: "role", label: "Role" },
+              { type: "image", name: "photo", label: "Photo" },
+              {
+                type: "object", name: "logos", label: "Organisation Logos", list: true,
+                ui: { itemProps: (item) => ({ label: item?.alt || "Logo" }) },
+                fields: [
+                  { type: "image", name: "image", label: "Logo" },
+                  { type: "string", name: "alt", label: "Organisation name (alt)" },
+                ],
+              },
+              { type: "string", name: "talkTitle", label: "Talk / Workshop Title" },
+              { type: "string", name: "summary", label: "Summary", ui: { component: "textarea" } },
+              { type: "string", name: "bio", label: "Biography", ui: { component: "textarea" } },
+              { type: "string", name: "location", label: "Location (for events without a speaker)" },
+            ],
+          },
+          {
+            type: "object",
+            name: "contacto",
+            label: "Contacto / Contact",
+            fields: [
+              { type: "string", name: "email", label: "Email" },
+              { type: "string", name: "instagram", label: "Instagram handle (e.g. @espacoaocubo)" },
+              { type: "string", name: "instagramUrl", label: "Instagram URL" },
+            ],
+          },
           { type: "rich-text", name: "body", label: "Body", isBody: true },
         ],
       },
@@ -233,6 +319,22 @@ export default defineConfig({
             ],
           }
         ],
+      },
+      // ----------------------------------------------------
+      // WEBSITE TEXT (i18n) — Homepage, TejoOne page, and every
+      // other translated string. One document per language.
+      // The schema (tina/i18nFields.js) is auto-generated to cover
+      // the COMPLETE file, so saving never drops untouched sections.
+      // ----------------------------------------------------
+      {
+        name: "translations",
+        label: "Overall Website Text",
+        path: "src/data",
+        format: "json",
+        // Matches src/data/en.json and src/data/pt.json only.
+        match: { include: "{en,pt}" },
+        ui: { allowedActions: { create: false, delete: false } },
+        fields: translationFields,
       },
     ],
   },

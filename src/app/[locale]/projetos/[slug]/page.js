@@ -6,6 +6,7 @@ import Link from 'next/link'
 import rehypeRaw from 'rehype-raw'
 import { ArrowLeft, Calendar, ExternalLink } from 'lucide-react'
 import { getTranslations } from 'next-intl/server'
+import ProjectSections from './ProjectSections'
 
 export async function generateStaticParams() {
   const locales = ['pt', 'en']
@@ -221,6 +222,10 @@ export default async function ProjectDetailPage({ params }) {
             {project.content}
           </ReactMarkdown>
         </article>
+
+        {/* Structured sections (Thematic blocks, Schedule, Speakers, Apoios,
+            Contact) — all editable in TinaCMS as forms, no raw HTML. */}
+        <ProjectSections project={project} locale={locale} />
       </div>
     </main>
   )
