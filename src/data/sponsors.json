@@ -13,12 +13,6 @@
       "description": "O Centro Tecnológico e de Inovação Aeroespacial deu um apoio financeiro muito significativo para o desenvolvimento do satélite TejoOne e da sua estação terrestre dedicada."
     },
     {
-      "name": "VORAGO Technologies",
-      "logo": "/images/sponsors/vorago.png",
-      "website": "https://voragotech.com",
-      "description": "A VORAGO Technologies é líder mundial em microprocessadores radiation-hardened para aplicações espaciais. O seu apoio permite-nos aceder a tecnologia de ponta e desenvolver sistemas de processamento robustos para ambientes espaciais extremos."
-    },
-    {
       "name": "IST - Instituto Superior Técnico",
       "logo": "/images/sponsors/IST.png",
       "website": "https://tecnico.ulisboa.pt",
@@ -51,12 +45,6 @@
       "description": "O Departamento de Engenharia Eletrotécnica e de Computadores do IST fornece apoio técnico e recursos no desenvolvimento de subsistemas eletrónicos, nomeadamente em ADCS."
     },
     {
-      "name": "Critical Software",
-      "logo": "/images/sponsors/Critical.png",
-      "website": "https://criticalsoftware.com",
-      "description": "A Critical Software apoia o desenvolvimento dos nossos sistemas de software críticos, providenciando mentoria técnica e acesso aos seus produtos de última geração para garantir a qualidade do nosso código."
-    },
-    {
       "name": "Space Manic",
       "logo": "/images/sponsors/spacemanic.png",
       "website": "https://spacemanic.com",
@@ -73,23 +61,28 @@
       "logo": "/images/sponsors/Exatronic.webp",
       "website": "https://exatronic.pt",
       "description": "Patrocinador chave no desenvolvimento da eletrónica de controlo do satélite através de mentoria e apoios à produção."
-    }
-  ],
-  "apoios": [
+    },
     {
       "name": "IA - Instituto de Astrofísica e Ciências do Espaço",
       "logo": "/images/sponsors/IA.png",
-      "website": "https://www.iastro.pt"
+      "website": "https://www.iastro.pt/"
     },
     {
       "name": "IT - Instituto de Telecomunicações",
       "logo": "/images/sponsors/IT.png",
-      "website": "https://www.it.pt"
+      "website": "https://www.it.pt/"
     },
     {
       "name": "ISR - Instituto de Sistemas e Robótica | Lisboa",
       "logo": "/images/sponsors/ISR.png",
-      "website": "https://isr.tecnico.ulisboa.pt"
+      "website": "https://isr.tecnico.ulisboa.pt/"
+    }
+  ],
+  "apoios": [
+    {
+      "name": "GMV",
+      "logo": "/images/sponsors/gmv_rgbredblack.png",
+      "website": "https://www.gmv.com/en"
     },
     {
       "name": "Cubotonic",
@@ -112,9 +105,24 @@
       "website": "https://tudelft.nl"
     },
     {
+      "name": "VORAGO Technologies",
+      "logo": "/images/sponsors/vorago.png",
+      "website": "https://voragotech.com"
+    },
+    {
       "name": "Vyoma",
       "logo": "/images/sponsors/Vyoma.svg",
       "website": "https://vyoma.space"
+    },
+    {
+      "name": "IPDJ",
+      "logo": "/images/projects/winter-school/Logos/Apoios-Parcerias/AppTIVAAssets.Logo_IPDJ_Cor_Horizontal__Qh9BnJKBgXd3gsYvEANg.png",
+      "website": "https://ipdj.gov.pt/"
+    },
+    {
+      "name": "Critical Software",
+      "logo": "/images/sponsors/Critical.png",
+      "website": "https://criticalsoftware.com"
     },
     {
       "name": "UNITE!",
