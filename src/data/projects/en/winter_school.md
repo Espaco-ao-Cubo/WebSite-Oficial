@@ -18,7 +18,7 @@ apoios:
     logo: /images/projects/winter-school/Logos/Apoios-Parcerias/Critical.png
   - name: IPDJ
     logo: /images/projects/winter-school/Logos/Apoios-Parcerias/AppTIVAAssets.Logo_IPDJ_Cor_Horizontal__Qh9BnJKBgXd3gsYvEANg.png
-    website: 'https://ipdj.gov.pt/'
+    website: ''
   - name: Communications Museum
     logo: /images/projects/winter-school/Logos/Apoios-Parcerias/Museu.png
   - name: Ciência Viva
