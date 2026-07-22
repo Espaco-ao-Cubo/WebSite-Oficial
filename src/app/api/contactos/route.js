@@ -3,9 +3,6 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-//const resend = new Resend('API_KEY');
-
 export async function POST(request) {
   try {
     const { name, email, message } = await request.json();
@@ -17,6 +14,17 @@ export async function POST(request) {
         { status: 400 }
       );
     }
+
+    // Instanciado dentro do handler (não no topo do módulo) para que a
+    // ausência de RESEND_API_KEY não parta o build — só falha num pedido real.
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY em falta');
+      return NextResponse.json(
+        { error: 'Serviço de email não configurado.' },
+        { status: 500 }
+      );
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // Enviar email usando Resend
     const data = await resend.emails.send({
