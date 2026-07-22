@@ -181,6 +181,28 @@
     }
   },
   "tejoone_page": {
+    "missionObjectives": {
+      "title": "Mission Objectives",
+      "subtitle": "A mission with multiple scientific and educational goals",
+      "objectives": {
+        "techValidation": {
+          "title": "Technological Validation",
+          "description": "Validate internally developed (in-house) components and the integration of COTS (Commercial Off-The-Shelf) components into a 1U CubeSat, meeting all design, structural, and operational requirements."
+        },
+        "debrisDetection": {
+          "title": "Debris Detection",
+          "description": "Prove the feasibility of detecting space debris equal to or greater than 3 cm using a 1U CubeSat and a custom optical 'star tracker' system. Preliminary orbital parameters of the detected debris will be derived and made available on a public website."
+        },
+        "research": {
+          "title": "Research",
+          "description": "Study the behavior and validate the integration of COTS components in the space environment, and acquire the essential technical skills for the development of space systems (learn how to build a satellite)."
+        },
+        "education": {
+          "title": "Education and Open Source",
+          "description": "Train and inspire future generations of space engineers, and create a repository (with reports, studies, and simulations) to continue space education, including the creation of an open source catalogue of detected debris."
+        }
+      }
+    },
     "timeline": {
       "title": "From Idea to Orbit",
       "subtitle": "Follow TejoOne's journey from concept to launch",
@@ -251,28 +273,6 @@
       },
       "cta": "Explore the Timeline"
     },
-    "missionObjectives": {
-      "title": "Mission Objectives",
-      "subtitle": "A mission with multiple scientific and educational goals",
-      "objectives": {
-        "techValidation": {
-          "title": "Technological Validation",
-          "description": "Validate internally developed (in-house) components and the integration of COTS (Commercial Off-The-Shelf) components into a 1U CubeSat, meeting all design, structural, and operational requirements."
-        },
-        "debrisDetection": {
-          "title": "Debris Detection",
-          "description": "Prove the feasibility of detecting space debris equal to or greater than 3 cm using a 1U CubeSat and a custom optical 'star tracker' system. Preliminary orbital parameters of the detected debris will be derived and made available on a public website."
-        },
-        "research": {
-          "title": "Research",
-          "description": "Study the behavior and validate the integration of COTS components in the space environment, and acquire the essential technical skills for the development of space systems (learn how to build a satellite)."
-        },
-        "education": {
-          "title": "Education and Open Source",
-          "description": "Train and inspire future generations of space engineers, and create a repository (with reports, studies, and simulations) to continue space education, including the creation of an open source catalogue of detected debris."
-        }
-      }
-    },
     "subsystems": {
       "title": "Subsystems",
       "subtitle": "TejoOne is composed of several subsystems that work together to ensure mission success",
@@ -281,28 +281,28 @@
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "details": "TejoOne uses a distributed OBDH architecture designed to eliminate single points of failure. The system connects all subsystems via a **CSP CAN bus** (with I2C redundancy), allowing the ADCS to assume critical functions if the primary On-Board Computer (OBC) fails. It leverages radiation-hardened components and multiple memory types to ensure data integrity in the LEO environment.",
+          "details": "TejoOne uses a distributed OBDH architecture designed to eliminate single points of failure. The system connects all subsystems via a CSP CAN bus (with I2C redundancy), allowing the ADCS to assume critical functions if the primary On-Board Computer (OBC) fails. It leverages radiation-hardened components and multiple memory types to ensure data integrity in the LEO environment.",
           "description": "On-board computer with a distributed architecture, responsible for data processing and general satellite control.",
           "specs": "Architecture: Distributed (SPoF Elimination), Bus: CAN (Primary), I2C (Secondary), Storage: 1 Gb Flash (Telemetry), MRAM/FRAM (Critical Data)"
         },
         "obsw": {
           "name": "OBSW",
           "fullName": "On-Board Software",
-          "details": "The software stack is built on the **FreeRTOS real-time operating system**, chosen for its efficiency and modularity. It implements a layered architecture that separates vital from non-vital modules, ensuring the satellite can always boot into a 'Minimal State' for recovery. The software supports remote firmware updates and utilizes the fail-safe **Reliance Edge** filesystem to prevent data corruption during power cycles.",
+          "details": "The software stack is built on the FreeRTOS real-time operating system, chosen for its efficiency and modularity. It implements a layered architecture that separates vital from non-vital modules, ensuring the satellite can always boot into a 'Minimal State' for recovery. The software supports remote firmware updates and utilizes the fail-safe Reliance Edge filesystem to prevent data corruption during power cycles.",
           "description": "On-board software based on FreeRTOS that ensures satellite control, state management, and recovery capability.",
           "specs": "Operating System: FreeRTOS, File System: Reliance Edge, Architecture: Layered (Vital/Non-Vital Modules), Functionality: Remote Firmware Updates"
         },
         "comms": {
           "name": "COMMS (TT&C)",
           "fullName": "Communications (Telemetry, Tracking & Control)",
-          "details": "TejoOne utilizes a robust **half-duplex** communication architecture operating in the **UHF band**. The system integrates a COTS Murgas transceiver with a custom-built (SRAD - Student Researched and Developed) canted turnstile antenna to ensure quasi-omnidirectional coverage. The system is designed for high reliability, employing **GFSK** modulation and supporting protocols like **CSP and AX.25** to manage telemetry downlink and command uplink.",
+          "details": "TejoOne utilizes a robust half-duplex communication architecture operating in the UHF band. The system integrates a COTS Murgas transceiver with a custom-built (SRAD - Student Researched and Developed) canted turnstile antenna to ensure quasi-omnidirectional coverage. The system is designed for high reliability, employing GFSK modulation and supporting protocols like CSP and AX.25 to manage telemetry downlink and command uplink.",
           "description": "Half-duplex radio communication system for data transmission and reception, ensuring high reliability and coverage.",
           "specs": "Band: UHF, Frequency: 437 MHz (UHF), Data Rate: 19.20 kbps, Modulation: Gaussian Frequency Shift Keying (GFSK)"
         },
         "eps": {
           "name": "EPS",
           "fullName": "Electrical Power Subsystem",
-          "details": "The EPS is powered by high-efficiency solar panels mounted on **four faces** of the CubeSat, managed by a **SpaceManic AMUN** Power Supply Unit (PSU). The system uses **Maximum Power Point Tracking (MPPT)** to optimize energy harvesting and stores energy in **dual Li-Ion cells**. It provides regulated 3.3V and 5V lines to all subsystems, with active protection against overcurrent and latch-ups.",
+          "details": "The EPS is powered by high-efficiency solar panels mounted on four faces of the CubeSat, managed by a SpaceManic AMUN Power Supply Unit (PSU). The system uses Maximum Power Point Tracking (MPPT) to optimize energy harvesting and stores energy in dual Li-Ion cells. It provides regulated 3.3V and 5V lines to all subsystems, with active protection against overcurrent and latch-ups.",
           "description": "Power system with solar panels and batteries for satellite power supply, optimized by MPPT and AMUN PSU.",
           "specs": "Solar Panels: 4x side panels (2S1P config.), Peak Power: ~2.48 W per panel, Battery: 2x Li-Ion Cells (approx. 24 Wh), Distribution: 6 controllable power lines (3.3V & 5V regulated)"
         },
