@@ -1206,17 +1206,30 @@
               "linkedin": "https://www.linkedin.com/in/alice-silva-024b70356/"
             },
             {
-              "name": "João Gonçalves",
-              "image": "/images/team/profile_placeholder.jpg",
+              "name": "André Santos",
+              "image": "/images/team/AndreSantos.jpg",
               "role_en": "Member",
               "role_pt": "Membro",
-              "university": "FCUL",
-              "course_en": "Physics and Astrophysics",
-              "course_pt": "Física e Astrofísica",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
+              "university": "IST",
+              "course_en": "Electrical and Computer Engineering",
+              "course_pt": "Engenharia Eletrotécnica e de Computadores",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/andrerfpsantos"
+            },
+            {
+              "name": "Martim Caetano",
+              "image": "/images/team/FotoAssocia%C3%A7%C3%A3o.png",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Mechanical Engineering",
+              "course_pt": "Engenharia Mecânica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
               "year": "2",
-              "linkedin": "https://www.linkedin.com/in/joao-gonçalves-1b530726a"
+              "linkedin": "https://www.linkedin.com/in/martim-alves-caetano"
             },
             {
               "name": "Rita Leitão",
@@ -1252,6 +1265,31 @@
           "name_pt": "Formadores",
           "members": [
             {
+              "name": "Alice Silva",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Biomedical Engineering",
+              "course_pt": "Engenharia Biomédica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2",
+              "linkedin": "https://www.linkedin.com/in/alice-silva-024b70356/"
+            },
+            {
+              "name": "André Santos",
+              "image": "/images/team/AndreSantos.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Electrical and Computer Engineering",
+              "course_pt": "Engenharia Eletrotécnica e de Computadores",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/andrerfpsantos"
+            },
+            {
               "name": "Carlo Fantoni",
               "image": "/images/team/CarloFantoni.JPG",
               "role_en": "Member",
@@ -1263,6 +1301,31 @@
               "degree_pt": "Licenciatura",
               "year": "3",
               "linkedin": "https://www.linkedin.com/in/carlofantoni/"
+            },
+            {
+              "name": "Cláudio Moreira",
+              "image": "/images/team/Cl%C3%A1udioMoreira.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCT",
+              "course_en": "Aerospace Engineering",
+              "course_pt": "Engenharia Aeroespacial",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/claudiomvmoreira"
+            },
+            {
+              "name": "Francisco Caleiro",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "Nova FCT",
+              "course_en": "Aerospace Engineering",
+              "course_pt": "Engenharia Aeroespacial",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/franciscocaleiro/"
             },
             {
               "name": "Filipa Cabrita",
@@ -1278,6 +1341,17 @@
               "linkedin": "https://www.linkedin.com/in/filipa-mota-cabrita "
             },
             {
+              "name": "Filipa Canarias",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "course_en": "Engineering Physics",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2"
+            },
+            {
               "name": "Filipa Cheng",
               "image": "/images/team/FilipaCheng.JPG",
               "role_en": "Member",
@@ -1291,17 +1365,17 @@
               "linkedin": "http://www.linkedin.com/in/filipacheng"
             },
             {
-              "name": "Júlia Diamantino",
-              "image": "/images/team/JúliaDiamantino.JPG",
+              "name": "Filipa Lopes",
+              "image": "/images/team/FilipaLopes.jpg",
               "role_en": "Member",
               "role_pt": "Membro",
               "university": "IST",
-              "course_en": "Engineering Physics and Technology",
-              "course_pt": "Engenharia Física e Tecnológica",
-              "degree_en": "Master's",
-              "degree_pt": "Mestrado",
-              "year": "1",
-              "linkedin": "https://www.linkedin.com/in/júlia-diamantino-07460b2b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              "course_en": "Electrical and Computer Engineering",
+              "course_pt": "Engenharia Eletrotécnica e de Computadores",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/filipa-vidigal-lopes-6119693b5/"
             },
             {
               "name": "Lucas Silva",
@@ -1317,6 +1391,32 @@
               "linkedin": "https://www.linkedin.com/in/eduardo-barata/"
             },
             {
+              "name": "Martim Alves Caetano",
+              "image": "/images/team/FotoAssocia%C3%A7%C3%A3o.png",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Mechanical Engineering",
+              "course_pt": "Engenharia Mecânica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2",
+              "linkedin": "ttps://www.linkedin.com/in/martim-alves-caetano"
+            },
+            {
+              "name": "Maria Grilo",
+              "image": "/images/team/MariaGrilo.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "course_en": "Engineering Physics",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/maria-grilo-2b0a52398"
+            },
+            {
               "name": "Miguel Fialho",
               "image": "/images/team/MiguelFialho.JPG",
               "role_en": "Member",
@@ -1328,6 +1428,16 @@
               "degree_pt": "Mestrado",
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
+            },
+            {
+              "name": "Teresa Correia",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "degree_en": "Professional",
+              "degree_pt": "Profissional",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
             },
             {
               "name": "Tiago Costa",
@@ -1343,6 +1453,11 @@
               "linkedin": "https://www.linkedin.com/in/tiago-costa-53511435b"
             }
           ]
+        },
+        {
+          "id": "desenvolvimento",
+          "name_en": " Development",
+          "name_pt": "Desenvolvimento"
         }
       ]
     },
