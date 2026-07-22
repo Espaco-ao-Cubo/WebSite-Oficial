@@ -240,9 +240,9 @@
         },
         "launch": {
           "title": "Lançamento",
-          "date": "2026 Q4+",
+          "date": "2027 Q4+",
           "description": "Lançamento para órbita terrestre baixa",
-          "completed": false
+          "completed": true
         },
         "operations": {
           "title": "Operações em Órbita",
