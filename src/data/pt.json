@@ -108,7 +108,7 @@
         "button": "Contactar"
       }
     }
-  },  
+  },
   "contact": {
     "title": "Entre em Contacto",
     "subtitle": "Adoraríamos ouvir de si! Envie-nos uma mensagem e responderemos em breve.",
@@ -281,28 +281,28 @@
         "obdh": {
           "name": "OBDH",
           "fullName": "On-Board Data Handling",
-          "details": "O TejoOne utiliza uma arquitetura OBDH distribuída para eliminar pontos únicos de falha. O sistema liga todos os subsistemas através de um **barramento CAN CSP** (com redundância I2C), permitindo que o ADCS assuma funções críticas se o computador de bordo principal (OBC) falhar. Alavanca componentes resistentes à radiação e múltiplos tipos de memória para garantir a integridade dos dados na órbita LEO.",
+          "details": "O TejoOne utiliza uma arquitetura OBDH distribuída para eliminar pontos únicos de falha. O sistema liga todos os subsistemas através de um barramento CAN CSP (com redundância I2C), permitindo que o ADCS assuma funções críticas se o computador de bordo principal (OBC) falhar. Alavanca componentes resistentes à radiação e múltiplos tipos de memória para garantir a integridade dos dados na órbita LEO.",
           "description": "Computador de bordo com arquitetura distribuída, responsável pelo processamento de dados e controlo geral do satélite.",
           "specs": "Arquitetura: Distribuída (Eliminação de SPoF), Barramento: CAN (Primário), I2C (Secundário), Armazenamento: 1 Gb Flash (Telemetria), MRAM/FRAM (Dados Críticos)"
         },
         "obsw": {
           "name": "OBSW",
           "fullName": "On-Board Software",
-          "details": "A pilha de software é construída sobre o **sistema operativo de tempo real FreeRTOS**, escolhido pela sua eficiência e modularidade. Implementa uma arquitetura em camadas que separa módulos vitais dos não vitais, garantindo que o satélite possa sempre arrancar num 'Estado Mínimo' para recuperação. O software suporta atualizações remotas de firmware e utiliza o sistema de arquivos **Reliance Edge** à prova de falhas para evitar a corrupção de dados durante ciclos de energia.",
+          "details": "A pilha de software é construída sobre o sistema operativo de tempo real FreeRTOS, escolhido pela sua eficiência e modularidade. Implementa uma arquitetura em camadas que separa módulos vitais dos não vitais, garantindo que o satélite possa sempre arrancar num 'Estado Mínimo' para recuperação. O software suporta atualizações remotas de firmware e utiliza o sistema de arquivos Reliance Edge à prova de falhas para evitar a corrupção de dados durante ciclos de energia.",
           "description": "Software de bordo baseado em FreeRTOS que garante o controlo, a gestão de estado e a capacidade de recuperação do satélite.",
           "specs": "Sistema Operativo: FreeRTOS, Sistema de Ficheiros: Reliance Edge, Arquitetura: Camadas (Módulos Vitais/Não Vitais), Funcionalidade: Atualizações Remotas de Firmware"
         },
         "comms": {
           "name": "COMMS (TT&C)",
           "fullName": "Comunicações (Telemetry, Tracking & Control)",
-          "details": "O TejoOne utiliza uma robusta arquitetura de comunicação **half-duplex** operando na **banda UHF**. O sistema integra um transceptor COTS Murgas com uma antena 'canted turnstile' (SRAD - Student Researched and Developed) para garantir uma cobertura quase omnidirecional. O sistema é concebido para alta fiabilidade, empregando modulação **GFSK** e suportando protocolos como **CSP e AX.25** para gerir o downlink de telemetria e o uplink de comandos.",
+          "details": "O TejoOne utiliza uma robusta arquitetura de comunicação half-duplex operando na banda UHF. O sistema integra um transceptor COTS Murgas com uma antena 'canted turnstile' (SRAD - Student Researched and Developed) para garantir uma cobertura quase omnidirecional. O sistema é concebido para alta fiabilidade, empregando modulação **GFSK** e suportando protocolos como CSP e AX.25 para gerir o downlink de telemetria e o uplink de comandos.",
           "description": "Sistema de comunicações por rádio half-duplex para envio e receção de dados, garantindo alta fiabilidade e cobertura.",
           "specs": "Banda: UHF, Frequência: 437 MHz (UHF), Data Rate: 19.20 kbps, Modulação: Gaussian Frequency Shift Keying (GFSK)"
         },
         "eps": {
           "name": "EPS",
           "fullName": "Electrical Power Subsystem",
-          "details": "O EPS é alimentado por painéis solares de alta eficiência montados em **quatro faces** do CubeSat, geridos por uma Unidade de Alimentação (PSU) **SpaceManic AMUN**. O sistema utiliza **Maximum Power Point Tracking (MPPT)** para otimizar a colheita de energia e armazena energia em **duas células Li-Ion**. Fornece linhas reguladas de 3.3V e 5V a todos os subsistemas, com proteção ativa contra sobrecorrente e 'latch-ups'.",
+          "details": "O EPS é alimentado por painéis solares de alta eficiência montados em quatro faces do CubeSat, geridos por uma Unidade de Alimentação (PSU) SpaceManic AMUN. O sistema utiliza Maximum Power Point Tracking (MPPT) para otimizar a colheita de energia e armazena energia em duas células Li-Ion. Fornece linhas reguladas de 3.3V e 5V a todos os subsistemas, com proteção ativa contra sobrecorrente e 'latch-ups'.",
           "description": "Sistema de energia com painéis solares e baterias para alimentação do satélite, otimizado por MPPT e PSU AMUN.",
           "specs": "Painéis Solares: 4x laterais (config. 2S1P), Potência de Pico: ~2.48 W por painel, Bateria: 2x Células Li-Ion (aprox. 24 Wh), Distribuição: 6 linhas de potência controláveis (3.3V & 5V reguladas)"
         },
