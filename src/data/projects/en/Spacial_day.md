@@ -1,10 +1,10 @@
 ---
-subtitle: Primary School
-icon: BookOpen
-featured: true
 title: A Spacial Day
+subtitle: Primary School
 date: 2024-02-10T00:00:00.000Z
 image: /images/projects/spacial-day.jpg
+icon: BookOpen
+featured: true
 description: 'A day full of interactive, fun, and educational activities about space!'
 ---
 
@@ -23,13 +23,13 @@ Children aged 5 to 13 with curiosity about space and a desire to learn in a fun 
 ### Full Day
 
 * **Duration:** 10am-6pm (full day)
-* **Investment:** €1,300
+* **Investment:** €1,500
 * Includes all 8 activities and materials for participants
 
 ### Half Day
 
 * **Duration:** 4 hours (morning or afternoon)
-* **Investment:** €750
+* **Investment:** €900
 * Condensed version with selected activities
 
 ## What's Included
