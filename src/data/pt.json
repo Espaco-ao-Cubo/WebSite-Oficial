@@ -234,9 +234,9 @@
         },
         "campaign": {
           "title": "Campanha de Lançamento",
-          "date": "2026 Q3",
-          "description": "Preparação final e integração no lançador",
-          "completed": false
+          "date": "2027 Q1 - 2027 Q3",
+          "description": "Preparação final, testes ambientais e integração no lançador",
+          "completed": true
         },
         "launch": {
           "title": "Lançamento",
