@@ -230,19 +230,19 @@
           "title": "Manufatura, Integração e Testes",
           "date": "2025 Q4 - 2026 Q4",
           "description": "Montagem do satélite e testes funcionais",
-          "completed": true
+          "completed": false
         },
         "campaign": {
           "title": "Campanha de Lançamento",
           "date": "2027 Q1 - 2027 Q3",
           "description": "Preparação final, testes ambientais e integração no lançador",
-          "completed": true
+          "completed": false
         },
         "launch": {
           "title": "Lançamento",
           "date": "2027 Q4+",
           "description": "Lançamento para órbita terrestre baixa",
-          "completed": true
+          "completed": false
         },
         "operations": {
           "title": "Operações em Órbita",
