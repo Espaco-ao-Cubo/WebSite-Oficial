@@ -230,7 +230,7 @@
           "title": "Integration and Testing",
           "date": "2025 Q4 - 2026 Q4",
           "description": "Satellite assembly and functional testing",
-          "completed": true
+          "completed": false
         },
         "campaign": {
           "title": "Launch Campaign",
