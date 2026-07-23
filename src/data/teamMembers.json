@@ -1260,6 +1260,86 @@
           ]
         },
         {
+          "id": "desenvolvimento",
+          "name_en": " Development",
+          "name_pt": "Desenvolvimento",
+          "members": [
+            {
+              "name": "Alice Silva",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Biomedical Engineering",
+              "course_pt": "Engenharia Biomédica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2",
+              "linkedin": "https://www.linkedin.com/in/alice-silva-024b70356/"
+            },
+            {
+              "name": "André Santos",
+              "image": "/images/team/AndreSantos.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Electrical and Computer Engineering",
+              "course_pt": "Engenharia Eletrotécnica e de Computadores",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/andrerfpsantos"
+            },
+            {
+              "name": "Francisco Caleiro",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCT",
+              "course_en": "Aerospace Engineering",
+              "course_pt": "Engenharia Aeroespacial",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/franciscocaleiro/"
+            },
+            {
+              "name": "Martim Caetano",
+              "image": "/images/team/FotoAssocia%C3%A7%C3%A3o.png",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "IST",
+              "course_en": "Mechanical Engineering",
+              "course_pt": "Engenharia Mecânica",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "2",
+              "linkedin": "https://www.linkedin.com/in/martim-alves-caetano"
+            },
+            {
+              "name": "Rita Leitão",
+              "image": "/images/team/RitaLeit%C3%A3o.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "course_en": "Engineering Physics",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "1",
+              "linkedin": "https://www.linkedin.com/in/ritamrleitao"
+            },
+            {
+              "name": "Teresa Correia",
+              "image": "/images/team/TeresaCorreia.JPG",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL",
+              "degree_en": "Professional",
+              "degree_pt": "Profissional",
+              "linkedin": "https://www.linkedin.com/in/teresasilvacorreia/"
+            }
+          ]
+        },
+        {
           "id": "formadores",
           "name_en": "Trainers",
           "name_pt": "Formadores",
@@ -1319,7 +1399,7 @@
               "name": "Francisco Caleiro",
               "role_en": "Member",
               "role_pt": "Membro",
-              "university": "FCT",
+              "university": "Nova FCT",
               "course_en": "Aerospace Engineering",
               "course_pt": "Engenharia Aeroespacial",
               "degree_en": "Master's",
@@ -1453,11 +1533,6 @@
               "linkedin": "https://www.linkedin.com/in/tiago-costa-53511435b"
             }
           ]
-        },
-        {
-          "id": "desenvolvimento",
-          "name_en": " Development",
-          "name_pt": "Desenvolvimento"
         }
       ]
     },
