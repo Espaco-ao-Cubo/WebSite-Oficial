@@ -544,9 +544,9 @@
           ]
         },
         {
-          "id": "systems-engineering",
-          "name_en": "Systems Engineering",
-          "name_pt": "Engenharia de Sistemas",
+          "id": "operações",
+          "name_en": "Operations",
+          "name_pt": "Operações",
           "members": [
             {
               "name": "André Santos",
