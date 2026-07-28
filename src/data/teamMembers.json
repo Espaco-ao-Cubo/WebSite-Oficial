@@ -1164,6 +1164,27 @@
               "linkedin": "https://www.linkedin.com/in/tiago-costa-53511435b"
             }
           ]
+        },
+        {
+          "id": "maiv",
+          "name_en": "Test, Integration & Validation",
+          "name_pt": "Teste, Integração e Validação",
+          "members": [
+            {
+              "name": "Carlo Fantoni",
+              "role_en": "Coordinator",
+              "role_pt": "Coordenador",
+              "university": "FCUL",
+              "course_en": "Physics Engineering",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Undergraduate",
+              "degree_pt": "Licenciatura",
+              "year": "3",
+              "linkedin": "https://www.linkedin.com/in/carlofantoni/"
+            },
+            {},
+            {}
+          ]
         }
       ]
     },
