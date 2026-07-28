@@ -1196,7 +1196,19 @@
               "year": "2",
               "linkedin": "https://www.linkedin.com/in/miguelcfialho/"
             },
-            {},
+            {
+              "name": "Tiago Costa",
+              "image": "/images/team/TiagoCosta.jpg",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "FCUL / Synopsis Planet",
+              "course_en": "Physics Engineering",
+              "course_pt": "Engenharia Física",
+              "degree_en": "Master's",
+              "degree_pt": "Profissional",
+              "year": "Alumni",
+              "linkedin": "https://www.linkedin.com/in/tiago-costa-53511435b"
+            },
             {},
             {}
           ]
