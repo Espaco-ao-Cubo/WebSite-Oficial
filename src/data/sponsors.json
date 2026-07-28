@@ -71,7 +71,8 @@
     {
       "name": "IT - Instituto de Telecomunicações",
       "logo": "/images/sponsors/IT.png",
-      "website": "https://www.it.pt/"
+      "website": "https://www.it.pt/",
+      "description": "O IT foi parceiro-chave no desenvolvimento e fabrico dos sistemas de telecomunicações do satélite e da sua Ground Station."
     },
     {
       "name": "ISR - Instituto de Sistemas e Robótica | Lisboa",
