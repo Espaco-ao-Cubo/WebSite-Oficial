@@ -1222,7 +1222,18 @@
               "year": "5",
               "linkedin": "https://www.linkedin.com/in/catarinafernandes1"
             },
-            {}
+            {
+              "name": "Francisco Caleiro",
+              "role_en": "Member",
+              "role_pt": "Membro",
+              "university": "NOVA FCT",
+              "course_en": "Aerospace Engineering",
+              "course_pt": "Engenharia Aeroespacial",
+              "degree_en": "Master's",
+              "degree_pt": "Mestrado",
+              "year": "2",
+              "linkedin": "https://www.linkedin.com/in/claudiomvmoreira"
+            }
           ]
         }
       ]
