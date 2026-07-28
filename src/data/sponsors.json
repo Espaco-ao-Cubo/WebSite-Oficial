@@ -77,7 +77,8 @@
     {
       "name": "ISR - Instituto de Sistemas e Robótica | Lisboa",
       "logo": "/images/sponsors/ISR.png",
-      "website": "https://isr.tecnico.ulisboa.pt/"
+      "website": "https://isr.tecnico.ulisboa.pt/",
+      "description": "O Instituto de Sistemas e Robótica (ISR) apoia o projeto na compra de equipamento, mentoria técnica e ligação a outros centros de investigação, como o Nanossatlab."
     }
   ],
   "apoios": [
