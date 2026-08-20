@@ -22,22 +22,21 @@ Middle and High School students interested in exploring the fascinating world of
 
 ## Available Workshops
 
-### Workshop 1: The Business of Space
+### Workshop 1: Space in Debate: Economics, Law and Society
 
-**Duration:** 2h | **Cost:** 4€/student
+**Duration:** 2-3h | **Cost:** 4€/student
 
-Space is no longer just for astronauts! This interactive *workshop* explores how the space economy is growing and opening opportunities for innovative companies – from satellites to space tourism. With dynamic activities, students will create their own space business ideas and discover how to transform technology into profitable opportunities. The future of space could be your **next big investment!**
+Exploring Space is not just a matter of science and engineering! This interactive workshop challenges students to discover how economics, law, politics and society influence decisions about the future of space exploration. Who should invest? Who should make the rules? And who should benefit from activities carried out beyond Earth? Through debate, negotiation and decision-making, participants will analyse different interests and understand that, in Space, **every decision involves choices, consequences and compromises!**
 
 **Program:**
 
 1. Welcome and Introduction
-2. Space Economy Overview
-3. How Space Companies Make Money
-4. Interactive Activity
-5. The Role of CubeSats in Space Economy
-6. Space Entrepreneurship and Funding
-7. Interactive Activity - Pitch
-8. Q\&A
+2. Why Do We Invest in Space?
+3. Interactive Activity – Preparation and Debate: Should We Continue to Invest in Space?
+4. Countries, Companies and Space Law
+5. Interactive Activity – Preparation and Debate: Who Should Lead Space Exploration?
+6. Presentation and Final Decision
+7. Reflection and Q\&A
 
 ***
 
