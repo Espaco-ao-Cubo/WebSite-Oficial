@@ -1,5 +1,5 @@
 ---
-title: NewSpace Winter School
+title: Escola de Inverno NewSpace
 subtitle: Ensino Superior
 date: 2026-02-10T00:00:00.000Z
 dateRange: 10-14 de Fevereiro de 2026
