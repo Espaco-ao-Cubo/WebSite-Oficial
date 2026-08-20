@@ -22,22 +22,21 @@ Alunos do 3º Ciclo e Ensino Secundário interessados em explorar o fascinante m
 
 ## Workshops Disponíveis
 
-### Workshop 1: A Economia do Espaço (The Business of Space)
+### Workshop 1: O Espaço em Debate: Economia, Direito e Sociedade
 
-**Duração:** 2h | **Custo:** 4€/aluno
+**Duração:** 2-3h | **Custo:** 4€/aluno
 
-O espaço já não é só para astronautas! Este *workshop* interativo explora como a economia espacial está a crescer e a abrir oportunidades para empresas inovadoras – desde satélites a turismo espacial. Com atividades dinâmicas, os alunos vão criar as suas próprias ideias de negócios espaciais e descobrir como transformar tecnologia em oportunidades lucrativas. O futuro do espaço pode ser o seu **próximo grande investimento!**
+Explorar o Espaço não é só uma questão de ciência e engenharia! Este workshop interativo desafia os alunos a descobrir como a economia, o Direito, a política e a sociedade influenciam as decisões sobre o futuro da exploração espacial. Quem deve investir? Quem deve criar as regras? E quem deve beneficiar das atividades realizadas fora da Terra? Através de debate, negociação e tomada de decisão, os participantes vão analisar diferentes interesses e perceber que, no Espaço, **cada decisão envolve escolhas, consequências e compromissos!**
 
 **Programa:**
 
-1. Welcome and Introduction
-2. Space Economy Overview
-3. How Space Companies Make Money
-4. Interactive Activity
-5. The Role of CubeSats in Space Economy
-6. Space Entrepreneurship and Funding
-7. Interactive Activity - Pitch
-8. Q\&A
+1. Boas-Vindas e Introdução
+2. Por que Investimos no Espaço?
+3. Atividade Interativa – Preparação e Debate sobre se Devemos Continuar a Investir no Espaço
+4. Países, Empresas e Direito Espacial
+5. Atividade Interativa – Preparação e Debate sobre Quem Deve Conduzir a Exploração Espacial?
+6. Apresentação e Decisão Final
+7. Reflexão e Perguntas & Respostas
 
 ***
 
@@ -49,12 +48,12 @@ Os satélites são sistemas complexos, compostos por diversos subsistemas que ex
 
 **Programa:**
 
-1. Welcome and Introduction
-2. Spacecraft Overview
-3. Interactive Activity - Brainstorming sat systems
-4. Guide through the different systems
-5. Challenge: Project a CubeSat!
-6. Q\&A
+1. Boas-Vindas e Introdução
+2. Spacecraft: Visão Geral
+3. Atividade Interativa – Brainstorming sobre os Subsistemas de um Satélite
+4. Apresentação dos Diferentes Subsistemas
+5. Desafio: Conceber um CubeSat!
+6. Perguntas e Respostas
 
 ***
 
@@ -66,23 +65,23 @@ Neste workshop prático, os alunos vão **construir um *CubeSat* do zero**, expl
 
 **Programa:**
 
-1. Welcome and Introduction
-2. CubeSat Overview
-3. Subsystems Introduction
-4. Hands-On!
-   * a. Payload Camera
-   * b. Power Management
-   * c. Attitude Control
-   * d. Antenna
-   * e. Structure (CAD)
-5. Sharing the Results
-6. Q\&A
+1. Boas-Vindas e Introdução
+2. CubeSat: Visão Geral
+3. Introdução aos Subsistemas
+4. Atividade Prática!
+   * a. Câmara da Carga Útil
+   * b. Gestão de Energia
+   * c. Controlo de Atitude
+   * d. Antena
+   * e. Estrutura (CAD)
+5. Apresentação dos Resultados
+6. Perguntas e Respostas
 
 ## Objetivos
 
 * Introduzir conceitos de engenharia espacial e economia do setor
 * Proporcionar experiências práticas e interativas
-* Fomentar o interesse em STEM (Science, Technology, Engineering, Mathematics)
+* Fomentar o interesse em STEM (Ciência, Tecnologia, Engenharia e Matemática)
 * Criar uma comunidade de estudantes apaixonados por espaço
 * Contribuir para o desenvolvimento de um CubeSat português
 
